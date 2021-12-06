@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Transcrobes</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Transcrobes</title>
+      <link>/page/about/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/about/</guid>
+      <description>For language learners What is it? Transcrobes is a set of applications that evolve with you as you learn a language and enable you to watch, listen and read the content that you want to, rather than the insanely boring and limited &amp;ldquo;normal&amp;rdquo; language learning content. If you can access the content in digital form, basically you can use it with Transcrobes*.
+How does it work? The system knows what you know, so can give you just the right amount of help to be able to understand the words you don&amp;rsquo;t know but gets out of the way for the stuff you do know.</description>
+    </item>
+    
+    <item>
+      <title>Brocrobes Privacy Information</title>
+      <link>/page/install/clients/brocrobes-chrome-privacy/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/install/clients/brocrobes-chrome-privacy/</guid>
+      <description>Preambule Brocrobes is intended to allow you to read any text in the foreign language you are learning, no matter what your level in that language is. That is a quite revolutionary idea compared with most previous language learning, which has tried to find or create texts with certain types of words and grammatical structures that are supposed to be appropriate for learners at a particular level. Learners are all supposed to magically be interested in the same stuff, and the same stuff is supposed to be at the right level, no matter what the learning background of the learner is.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/page/contact/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/contact/</guid>
+      <description>The project currently uses Github project issues and Github project discussions as the main forms of communication.
+Inappropriate behaviour If you feel you have been the victim inappropriate behaviour or have noticed it somewhere, then please get in touch with the project team via the email: not.ok at transcrob.es.
+Maintainers You can also contact the maintainers directly if you really need to.
+   Name Project role Contact email     Anton Melser Maintainer anton at transcrob.</description>
+    </item>
+    
+    <item>
+      <title>Contribute</title>
+      <link>/page/contribute/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/contribute/</guid>
+      <description>For Everyone Learning a language is an amazing journey of discovery, that can and should be one of the most enriching, pleasurable and exciting experiences anyone ever has. The Transcrobes project wants to be a part of that and is dedicated to keeping a postive atmosphere and being fully inclusive. The project and all sub-projects adhere strictly to the Contributor Covenant, to make sure that everyone feels welcome and safe at all times.</description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/page/development/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/development/</guid>
+      <description>Basics After spending quite a bit of time setting up properly on Gitlab, it was decided to move to Github. Most issues have not been migrated or updated for quite a while. Basically get in touch with the maintainer if you are at all interested.
+There is a backlog of stuff needing to be developed, from unit testing to trying out the latest recurrent neural networks on the video OCR system (Tesseract OCR via CCExtractor).</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/page/faq/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/faq/</guid>
+      <description>For Everyone Current Status Transcrobes currently only fully supports learning Chinese for English speakers. If your English is very good then you should be Ok, but otherwise you&amp;rsquo;re better to wait until your preferred language has been implemented. Partial support was developed for Chinese learners of English but has since been put on stand-by. It will be brought back when Chinese for English speakers support is first-class.
+How do I install Transcrobes?</description>
+    </item>
+    
+    <item>
+      <title>Privacy centre</title>
+      <link>/page/privacy/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/privacy/</guid>
+      <description>Privacy pages The Transcrobes project contains several sub-projects. Some of these sub-projects have distinct privacy implications and issues, so require specific information. This page provides links to each of the separate privacy pages to allow users/learners to quickly get answers to their privacy-related questions.
+Application-specific privacy pages  Brocrobes Transcrobes server  </description>
+    </item>
+    
+    <item>
+      <title>Supported Languages</title>
+      <link>/page/supported-languages/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/supported-languages/</guid>
+      <description>Prerequisites In order for a language pair to be properly supported by the system, two things (currently) need to be accessible and integrated:
+  A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/page/code_of_conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/code_of_conduct/</guid>
+      <description>Contributor Covenant Code of Conduct Our Pledge In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Our Standards Examples of behavior that contributes to creating a positive environment include:</description>
+    </item>
+    
+  </channel>
+</rss>

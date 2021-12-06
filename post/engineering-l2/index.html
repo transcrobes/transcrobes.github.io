@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Engineering L2 - Transcrobes</title>
+  <meta name="description" content="Design principles for reality">
+  <meta name="author" content="Anton Melser"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Transcrobes",
+    
+    "url": "\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/post\/engineering-l2\/",
+          "name": "Engineering l2"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Anton Melser"
+  },
+  "headline": "Engineering L2",
+  "description" : "This post is in a series of posts discussing issues of a \u0026ldquo;new\u0026rdquo; theory of SLA - Meaningful IO.\nTheorising vs Doing One of the things that you learn \u0026ldquo;down in the trenches\u0026rdquo;, doing actual software engineering on real world problems, is that theories about the world almost always can\u0026rsquo;t just be implemented as-is in software and solve a problem in an optimal way. Theorising of any kind necessarily needs to to abstract away some of the details and will focus on a particular aspect or set of aspects.",
+  "inLanguage" : "en",
+  "wordCount":  3854 ,
+  "datePublished" : "2020-02-29T00:00:00",
+  "dateModified" : "2020-02-29T00:00:00",
+  "image" : "\/img\/tc128.png",
+  "keywords" : [ "engineering, language learning, autonomy, applied linguistics" ],
+  "mainEntityOfPage" : "\/post\/engineering-l2\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/img\/tc128.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Engineering L2" />
+<meta property="og:description" content="Design principles for reality">
+<meta property="og:image" content="/img/tc128.png" />
+<meta property="og:url" content="/post/engineering-l2/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Transcrobes" />
+
+  <meta name="twitter:title" content="Engineering L2" />
+  <meta name="twitter:description" content="Design principles for reality">
+  <meta name="twitter:image" content="/img/tc128.png" />
+  <meta name="twitter:card" content="summary" />
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.89.4" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Transcrobes"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="/css/syntax.css" /><link rel="stylesheet" href="/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Transcrobes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/post/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Software</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/software/install/home">Install</a>
+                
+                  <a href="/page/software/configure/home">Configure</a>
+                
+                  <a href="/page/software/learn/home">Learn</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Meaningful IO</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/meaningful-io/intro">Theory</a>
+                
+                  <a href="/page/meaningful-io/experiment">Experiment server</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Contribute</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/contribute">Contribute</a>
+                
+                  <a href="/page/development">Development</a>
+                
+                  <a href="/page/code_of_conduct">Code of Conduct</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">FAQ</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/about">About</a>
+                
+                  <a href="/page/faq">FAQ</a>
+                
+                  <a href="/page/privacy">Privacy Centre</a>
+                
+                  <a href="/page/supported-languages">Supported Languages</a>
+                
+                  <a href="/page/contact">Contact</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Transcrobes" href="/">
+            <img class="avatar-img" src="/img/tc128.png" alt="Transcrobes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Engineering L2</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">Design principles for reality</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2020-02-29
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;19&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;3854&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>This post is in a series of posts discussing issues of a &ldquo;new&rdquo; theory of SLA - <a href="/page/meaningful-io/intro/">Meaningful IO</a>.</p>
+<h2 id="theorising-vs-doing">Theorising vs Doing</h2>
+<p>One of the things that you learn &ldquo;down in the trenches&rdquo;, doing actual software engineering on real world problems, is that theories about the world almost always can&rsquo;t just be implemented as-is in software and solve a problem in an optimal way. Theorising of <em>any</em> kind necessarily needs to to abstract away some of the details and will focus on a particular aspect or set of aspects. Sometimes a problem that seems insignificant to all the engineers (and project managers) turns out to be a deal breaker when a new product or feature goes live. Experienced engineers have all been there. That is also probably the main benefit of experience - that passionate young buck, fresh from a top engineering school, has all the right algorithms and data structures, but if left unchecked, will often come up with a wonderfully elegant and well-designed piece of software that is very beautiful, but completely useless.</p>
+<p>So particularly when you really start working with clients and project designers and developing domain knowledge of the sector you work in, you learn to start stepping back from the original problem and start asking the &ldquo;big questions&rdquo; - what problem are we actually trying to solve? Is it worth solving in software? Can we cheat and solve the problem without writing new software? What is the minimal change we can make that will have the maximum effect? What are the side-effects of the new software and business processes that will result? Will these new processes be acceptable to users? What are the &ldquo;cultural&rdquo; implications of the new ensemble for users and other stakeholders? How does it fit into the overall picture of development priorities of the business? How does it relate to the other things that are going on in the industry or wider society?</p>
+<p>As an engineer, when you step back from the problem you need to cast your net as wide as possible, and significant insights will come around the coffee machine or on a Sunday morning bikeride, when you suddenly realise some property of the real world that was not included in the original model might have a large effect on the outcome when a project is implemented.</p>
+<h2 id="stepping-back-from-the-l2-problem">Stepping back from the &ldquo;L2 problem&rdquo;</h2>
+<p>When you step back from the &ldquo;L2 problem&rdquo; - how can you make learning an L2 as cheap, quick and fun as possible, you need to take into account the major physical, psychological, cultural, educational and societal influences and think of solutions that will take you as close to the desired result as possible, without &ldquo;breaking anything&rdquo;. How can we cheat, and use properties of the wider context to reach a significantly better state of affairs for our desired goal, without creating problems that mean the project will be rejected?</p>
+<p>In the context of L2, what that means is stepping back and looking at the wider state of affairs in education and the daily lives of learners. What are the (sometimes competing) goals of the existing systems that the new project has to integrate into? How will software for L2 be integrated into the dynamic that extends over formal instruction and autonomous learning, individual, family, community and societal goals?</p>
+<h2 id="the-limits-of-formal-instruction">The limits of formal instruction</h2>
+<p>Formal instruction is <em>never</em> just about pure learning. As such, we definitely need to consider the various conflicting and competing political and social tendencies and influencing factors that operate around formal instruction. Education, and particularly formal, government-mandated instruction has larger societal goals as their foremost priority, and we need to understand how they support and conflict with L2 development. Commercial language instruction has the ever-present profit motive that may come into conflict with an optimal technology-enabled solution. Non-profit languange and culture organisations will often have other drivers (religion, funding sources, etc.) that mean the particular learning environment can&rsquo;t be pushed to optimality if doing so means it detracts (or is perceived to) from their overall goals.</p>
+<h3 id="government-mandated-instruction-aka-school">Government-mandated instruction (AKA &ldquo;School&rdquo;)</h3>
+<p>So what are some of the realities present in government-funded formal instruction that affect L2?</p>
+<h4 id="l2-and-nation">L2 and nation</h4>
+<p>The first and most prominent will likely be the dominant narrative around nation-building. Schooling has long been used by governments to reinforce citizens' implicit and explicit membership of &ldquo;the nation&rdquo;. Whether it be standing to sing the national anthem at weekly assembly or a particular focus on history (politics, geography, etc., basically everywhere), developing a keen sense of learner-as-X (American, Argentinian, Brazilian, Chinese, etc.) and that Xs speak X-language (English, Spanish, Portuguese, Mandarin Chinese, etc.) is an important part of the (overtly stated or not) mission of government-mandated education, particularly at the primary and secondary levels. A <em>huge</em> amount of formal L2 instruction is administered at this level.</p>
+<p>Why this is important to note is because research has shown the vital importance of integrative motivation and L2 identity in L2 learning. Being able to project an imagined/idealised &ldquo;L2 self&rdquo;, with learner-as-Y is a key predictor of success for L2 in general. Particularly if the L2 is not one of those spoken within national borders (so not an officially sanctioned language), this may be in direct conflict with the ever-present learner-as-X narrative being developed inside the wider educational environment of the learner.</p>
+<h4 id="l2-and-dominant-societal-narratives">L2 and dominant societal narratives</h4>
+<p>Another goal of education is typically to foster a set of &ldquo;acceptable behaviours&rdquo; and &ldquo;acceptable attitudes&rdquo;, largely those of the dominant majority, or at least the dominant majority in power in the educational sphere (Education Department staff, elected officials, ruling party members, etc.). While these are obviously culture and community specific, generally what they are is irrelevant in the details. What is relevant is that they are the &ldquo;acceptable behaviours&rdquo; and &ldquo;acceptable attitudes&rdquo; of a dominant majority, and <em>not</em> the behaviours and attitudes of all the learners. For many reasons, historical, religious, political, racial, and many more, an L2 learner may come from a background that rejects the narrative being pushed by the dominant ideological force in a given formal instructional context. Some examples might be respect for non-traditional gender roles, economic structure, religious (in)tolerance, overtly intimate acts, violence, and many more. Because a significant goal of education is to push a particular view on these (whether implicitly or explicitly) and the view might not be the dominant view in the family group of the learner, or the view of the learner at that particular point in time (learners, particularly young ones, change their viewpoints, rebel, adopt extreme positions, and are in reality in constant flux). So the learner may feel alienated by the realities of a particular formal instructional context and find it a significant challenge to fashion themselves an idealised L2 identity that works for them given the set of material and activities that are acceptable within the context at that particular point in time (because the dominant narrative is also in constant flux).</p>
+<p>A further complication is that the dominant narratives found in L2 instructional programmes will often not be those of the instructional context directly but a hybrid of the dominant narratives of the instructional context (e.g., in the host country) and one or more of the dominant narratives in the L2 countries/cultures. A typical example might be the narratives around gender identity. The current dominant narrative in one formal instructional context (e.g, in country X) might be very different to that of the dominant narrative in the L2 communities (e.g, in countries Y and Z). In many cases, these issues will simply be ignored voluntarily in formal contexts to avoid political or cultural problems. These issues might be key for a learner at a given point in time in the ongoing (re)construction of both their L1 and L2 identities, and not allowing for a means to explore them could lead to sub-optimal learning outcomes.</p>
+<h4 id="l2-and-change">L2 and change</h4>
+<p>Another useful observation is that any change to large-scale instruction programmes, L2 or otherwise, are usually <em>painfully</em> slow. And this is usually a good thing - stakeholders need to be included and consulted in the process of change and in any real society there are lots of stakeholders who will often have valid yet competing views of the desirability of a change in a mandated course of instruction. The issues mentioned previously in this section being key drivers. So changes may be very slow, and may not follow either best practices or the latest technological realities. New situations (particularly technological) may be very difficult to integrate, particularly if they require significant training on behalf of teachers. Teacher and learner buy-in is required, and this can take a particularly long time to achieve, especially if a teacher has a negative opinion of the changes/innovations proposed. As recent history has shown us, the situation can evolve very rapidly. A teacher who had started teaching in the early 90s without any widespread use of computers went through a profound transformation with the advent of widespread fixed computer availability, to networked computers, to mobile computers, to mobile networked computers, to mobile networked computers in every single student&rsquo;s pockets (and their own) - all in the space of less than 20 years, well within a typical professional career. These sorts of issues typically lead to a significant lag time between when a new reality emerges for learners (e.g, 4+ hours a day on social media on a smartphone) and when that becomes fully taken into account by formal instruction. As the rate of technological progress increases, it will make the situation even worse - instead of some learners not being able to benefit because of a lag, no one is able to benefit because by the time the new reality has been integrated, reality has already moved on.</p>
+<h4 id="instruction-and-literacy">Instruction and literacy</h4>
+<p>A further reality to consider is that the very great majority of formal L2 instruction is not about learners becoming L2 speakers, it is about learners becoming <em>literate L2 speaker/writers</em>. Literacy is a critical reality in the modern world and permeates all aspects of typical L2 instruction. Even when classes are separated out into the &ldquo;4 skills&rdquo;, oral classes still typically have textbooks, which would be surprising unless one fully appreciates the dominance of &ldquo;the written word&rdquo; in both education and modern society.</p>
+<p>But it is a mistake to simply assume that all learners are equally literate. Research has shown clear correlations between L1 literacy (reading/writing ability) and not only L2 literacy but L2 success more generally. This is hardly surprising, given the fundamental role of the written text in formal instruction.</p>
+<p>What this means is that some learners will feel much more comfortable than others in a classroom when they have to deal with written texts. This is obviously not to say that learners who are less comfortable with written texts can&rsquo;t or shouldn&rsquo;t be doing the same things, but that they may need extra time outside normal contact hours, and for them to be willing to spend that time, great care needs to be taken in order to make sure they will be motivated to do so.</p>
+<h2 id="learner-autonomy-and-hacking-around-and-into-formal-instruction">Learner Autonomy and hacking around and into formal instruction</h2>
+<p>Now before beginning to think how we might design L2 technology one must be absolutely clear on one thing - I am not saying formal instruction is broken, and I am not saying there is anything wrong with nation-building, dominant narratives, or a society having &ldquo;acceptable behaviours&rdquo;. For technology to be adopted/adoptable, it needs to be able to integrate into these realities, and so do so without fundamentally challenging them. Every software or process has implicit biases but no matter how good they are for achieving a given goal, if they have side-effects that challenge the dominant narrative then they will fail.</p>
+<h3 id="control-and-the-l2-narrative">Control and the L2 narrative</h3>
+<p>A key feature of all the above issues is that of the position of the nexus of control. For social, political and religious reasons, formal instruction needs to control the narrative, the materials and the activities that are available to instructors and learners in those environments. In a given L2 learner&rsquo;s journey, formal instruction environments may turn out to be decidedly sub-optimal if they are the only contact a learner has with the L2. L2 activities outside the classroom are often encouraged by many programmes and instructors, so this is hardly news to many, though it will often be for reasons that don&rsquo;t tell the full story - &ldquo;people have different interests, so we can&rsquo;t study everything in class&rdquo;. A distinction, possibly particularly for teenagers, must be made between things that <em>could</em> be done in class and those that simply cannot. For example, certain students might be somewhat interested in recycling but the syllabus and teacher don&rsquo;t have time to deal with them. One common approach might be to have a personal research assignment that gets presented to the class on a topic of choice. However, what if the most effective material for a given learner weren&rsquo;t recycling but something else that wasn&rsquo;t acceptable in class? If we take a rather extreme example, a teacher could show an excerpt from the TV series &ldquo;Friends&rdquo; to illustrate the past perfect in English. However, it would be totally unacceptable for the teacher to show an excerpt containing the same construction from a pornographic movie, <em>even if it were far more effective for a majority of the class</em>. Likewise, an explicit rap battle between students would not be an acceptable replacement in most cases for learners talking about what they did on the weekend. The list is virtually endless.</p>
+<p>Particularly when considering through the lense of L2 identity construction, these issues are deeply relevant. It is <em>not</em> to say that formal instructional contexts should have an &ldquo;anything goes&rdquo; philosophy, they clearly shouldn&rsquo;t - this would be deeply offensive and damaging to many learners. Given the political, social and religious realities of the societies we live in, the material and activities dealt with in formal instructional environments must be strictly controlled. Given the way we have structured our societies, learners also have to learn how to behave appropriately in the appropriate circumstances. This is also perfectly true of the L2 - a learner needs to know they cannot say the same things they hear in the target culture&rsquo;s taverns at a job interview in an L2-speaking bank. Some learners will never be able to get maximal value in these contexts though, and probably most learners will at least have periods where these content and activity restrictions limit the progress they can make.</p>
+<h3 id="autonomy-and-formal-instruction">Autonomy and formal instruction</h3>
+<p>The field of L2 Autonomy has long researched and advocated for integrating autonomy into the learning journeys of L2 learners, and technology has been seen as making a significant enabler since the beginning. What has arguably been lacking is a full appreciation of not simply how technology <em>is</em> used for autonomous language learning but how technology <em>could</em> be used to foster and optimise it. It could be argued that that is not the role of L2 Autonomy research, it is the role of industry, or possibly education departments. Unfortunately, industry rarely cares about L2 being cheaper and more effective, and if certain necessary features will impact profitability, then they will be hobbled or simply absent. Education departments are often lacking in brilliant engineering minds, have powerful pressures around the dominant narrative and may not have the freedom to act in bringing technologies into reality, even if they could. Education departments also have to consider the powerful stakeholders who may feel threatened by new technologies, and are resistant to allocating resources to their development. These are obviously not hard and fast rules, but may explain why more innovative technologies have not been forthcoming.</p>
+<h3 id="the-ideal-features-of-technology-for-l2">The ideal features of technology for L2</h3>
+<p>So we have seen that forces seek to control the narratives that guide formal L2 instruction, and that changing this neither likely nor necessarily desirable for a majority. Undoutedly, however, formal L2 instruction can and should continue to play a important part of the learning journeys of many learners. Formal instruction can play a significant role in structuring learning, and if it doesn&rsquo;t seek to control all aspects of learning, particularly that outside the classroom, the integration of formal and autonomous learning could be greatly enhanced with technology.</p>
+<p>So what would it look like? Technology needs to be able to let learners explore and construct their own L2 identities own their own terms. Content they consume and interactions they have outside the classroom - in their own private time and private spaces - can be harnessed to build a better picture of the learner&rsquo;s needs, that can then be addressed in the formal context. A learner who pauses and rewinds a scene in a Harry Potter movie may well have problems with how a gerund functions in a particular context, and a learner who looks up a word when reading an online description of a pharmaceutical product may need some vocabulary work. Far more importantly, if teachers could have access to analysed data over entire classes, it could provide them with a means to maximise their teaching benefit for learners' <em>actual</em> L2 learning needs when interacting with <em>real</em> language. The reality is the a significant majority of the world is now spending a significant proportion of their days on digital devices, and existing applications are collecting vast troves of data on them every step of the way.</p>
+<h4 id="leveraging-existing-tech">Leveraging existing tech</h4>
+<p>What may not be immediately obvious to either teachers or L2 researchers, is that the collection and processing of these sorts of data is actually now very easy. Instrumenting existing applications (via modules or plugins) or making use of data already being collected could mean all that information could be collected and processed. Many companies today (Google, Facebook, etc.) collect far more data than this, and the engineering considerations are well known. Open source software and other technologies allow this at the cost of putting it together and then running it on servers somewhere. Thousands of companies around the world are doing this sort of collection and processing every day on billions of users. If a detailed picture of an individual&rsquo;s L2 comprehension and production levels can be modelled, then this data can be used not only analysed over groups of learners but also for helping individual learners with personalised comprehension and production aids in <em>any</em> digital environment, in real time as they are interacting. If the comprehension aids are well designed enough, then that will mean that learners can access virtually any content - content that is comprehensible <em>and</em> is meaningful to them in the construction of their L2 identities.</p>
+<h4 id="big-data">Big data</h4>
+<p>It is a fairly stable rule in today&rsquo;s technological environment that more data is almost always better. Often you can&rsquo;t be completely accurate but if you have enough data then you can usually do a good enough job to provide significant value. If a platform gets enough data from its users then it can usually provide powerful insights about how humans behave in a particular context. When a given user spends enough time in an app, then the system can build a highly sophisticated model of the user, and in the context of L2, provide deeply personalised comprehension aids and learning devices, either directly when participating in a language exchange (reading, writing, listening, etc.).</p>
+<h4 id="private">Private</h4>
+<p>Importantly, if engineered properly, this doesn&rsquo;t have to mean that private data about a learner&rsquo;s personal exploration leaks out to the world. Data privacy and ownership is a key concern in the modern world and is not only being engineered into today&rsquo;s software products and systems, it is being mandated by governments. Research paradigms (PUMLs, Open Learner Models, etc.) exist to inform us how to also allow learners to use this kind of aggregated and processed information to become masters of their own learning destinies, not only chosing their content and activities but also relating that to formal learning goals. A system could report that the learner has learnt 60% of the vocabulary on next month&rsquo;s test, and by reading items 2 and 7 on their &ldquo;want to read&rdquo; list on their favourite e-reading platform, they will take that up to 95%. But these technologies don&rsquo;t have to stop working when a learner steps into a classroom, and indeed they shouldn&rsquo;t. Google doesn&rsquo;t stop working when a learner enters a classroom, and L2 tech shouldn&rsquo;t either - it should be ubiquitous, like the technologies that learners interact with outside of L2 learning are.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Engineering needs to take into account a wide range of potential factors and influences when deciding on a particular solution, including many cultural, social, political and psychological factors.</li>
+<li>Effective L2 technologies cannot be properly designed unless they understand how solutions can fit into today&rsquo;s existing realities.</li>
+<li>Novel uses of existing technologies can go a long way to solving many issues faced by learners today.</li>
+<li>Technological tools for L2 need to allow learners to consume any L2 content they can get their hands on, including that which they get in class, and data collected from all the learner&rsquo;s digital interactions should be analysed and presented to the learner to allow them to take control over the own learning, now and for the future.</li>
+<li>Technology should be personalised for a given learners personal situation both at the macro level (formal instructional environments, available devices, political/social environment around data collection, etc.) and the micro level (known words, grammatical constructions, needed words for a particular book, grammatical constructions in an upcoming test, etc.) to allow them to develop an L2 identity on their own terms.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Understanding the various factors influencing L2 learning/acquisition is a complex endeavour. Engineers must make sure that they aren&rsquo;t engineering for situations that don&rsquo;t exist in the real world, and can accomodate a wide range of different social, political and psychological landscapes. In the case of L2 learning, that means making sure that learners can use the tools to interact with the L2 across a wide range of formal and informal contexts, integrating into existing activities and practices, preferably in a seamless and natural way.</p>
+<p>At the end of the day, the goal of formal L2 learning is not (or at least shouldn&rsquo;t be, in my humble opinion) for learners to be able to pass a language exam, it is to help learners become competent participants of real language communities. We hope to measure this competence by administering exams, but exams are very imperfect instruments for doing this. The goal for learners should always be to be able to <em>do useful things</em> in a language, not to get a particular score on an exam.</p>
+<p>In order to do this, learners have many tools available to them but to date none that provide them with an ability to take control of their learning both in terms of the content and the meta-information about their interactions with content and with others. Technology can help them do this and as SLA tech engineers, we can make sure that they have the right tech.</p>
+<p>The <a href="/">Transcrobes</a> platform and the supporting <a href="/page/meaningful-io/intro/">Meaningful IO Hypothesis</a> are an attempt to do just that.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="//tags/engineering/">engineering</a>&nbsp;
+            
+              <a href="//tags/language-learning/">language learning</a>&nbsp;
+            
+              <a href="//tags/autonomy/">autonomy</a>&nbsp;
+            
+              <a href="//tags/applied-linguistics/">applied linguistics</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/phd/">Anton&#39;s PhD thesis</a></li>
+                
+                    <li><a href="/post/english-support/">English support</a></li>
+                
+                    <li><a href="/post/2018-11-26-hello-world/">Hello, World!</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="/post/phd/" data-toggle="tooltip" data-placement="top" title="Anton&#39;s PhD thesis">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="/post/experiment/" data-toggle="tooltip" data-placement="top" title="Live Server Experiment">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:anton@transcrob.es" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/transcrobes" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCEXMQOmPKNM1wIWZb3ceG-A" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Anton Melser
+          &nbsp;&bull;&nbsp;
+          2021
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Transcrobes</a>
+          
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+

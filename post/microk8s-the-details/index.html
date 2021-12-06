@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>The Gory Details - Transcrobes</title>
+  <meta name="description" content="To microk8s, or not to microk8s">
+  <meta name="author" content="Anton Melser"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Transcrobes",
+    
+    "url": "\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/post\/microk8s-the-details\/",
+          "name": "The gory details"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Anton Melser"
+  },
+  "headline": "The Gory Details",
+  "description" : "This is Part 2 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.\nCheck out Part 1 here\nSome Detailed Gripes and Gotchas Building Snaps I had seen a couple of talks on service meshes at a conference a while back but hadn\u0026rsquo;t had a play yet - microk8s ships with istio, and istio is all the rage these days (apparently), so I definitely wanted to use that in the system.",
+  "inLanguage" : "en",
+  "wordCount":  1086 ,
+  "datePublished" : "2019-02-08T00:00:00",
+  "dateModified" : "2019-02-08T00:00:00",
+  "image" : "\/img\/tc128.png",
+  "keywords" : [ "technical, mickrok8s, Kubernetes, Alibaba Cloud" ],
+  "mainEntityOfPage" : "\/post\/microk8s-the-details\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/img\/tc128.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="The Gory Details" />
+<meta property="og:description" content="To microk8s, or not to microk8s">
+<meta property="og:image" content="/img/tc128.png" />
+<meta property="og:url" content="/post/microk8s-the-details/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Transcrobes" />
+
+  <meta name="twitter:title" content="The Gory Details" />
+  <meta name="twitter:description" content="To microk8s, or not to microk8s">
+  <meta name="twitter:image" content="/img/tc128.png" />
+  <meta name="twitter:card" content="summary" />
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.89.4" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Transcrobes"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="/css/syntax.css" /><link rel="stylesheet" href="/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Transcrobes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/post/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Software</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/software/install/home">Install</a>
+                
+                  <a href="/page/software/configure/home">Configure</a>
+                
+                  <a href="/page/software/learn/home">Learn</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Meaningful IO</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/meaningful-io/intro">Theory</a>
+                
+                  <a href="/page/meaningful-io/experiment">Experiment server</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Contribute</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/contribute">Contribute</a>
+                
+                  <a href="/page/development">Development</a>
+                
+                  <a href="/page/code_of_conduct">Code of Conduct</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">FAQ</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/about">About</a>
+                
+                  <a href="/page/faq">FAQ</a>
+                
+                  <a href="/page/privacy">Privacy Centre</a>
+                
+                  <a href="/page/supported-languages">Supported Languages</a>
+                
+                  <a href="/page/contact">Contact</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Transcrobes" href="/">
+            <img class="avatar-img" src="/img/tc128.png" alt="Transcrobes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>The Gory Details</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">To microk8s, or not to microk8s</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2019-02-08
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;6&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1086&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>This is Part 2 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.</p>
+<p>Check out <a href="/post/single-user-prod-microk8s">Part 1 here</a></p>
+<h1 id="some-detailed-gripes-and-gotchas">Some Detailed Gripes and Gotchas</h1>
+<h2 id="building-snaps">Building Snaps</h2>
+<p>I had seen a couple of talks on service meshes at a conference a while back but hadn&rsquo;t had a play yet - microk8s ships with <a href="https://istio.io">istio</a>, and istio is all the rage these days (apparently), so I definitely wanted to use that in the system. It would also get me detailed metrics via Prometheus integration for free - I definitely wanted me some o' dat. Unfortunately, the version of istio that (still) ships with microk8s is broken. The <a href="https://github.com/istio/istio/issues/6962">actual bug</a> was fixed long ago but microk8s hasn&rsquo;t updated - I spent many hours trying to rebuild the snap before deciding to give up and <a href="https://github.com/ubuntu/microk8s/issues/230">create an issue</a> (with no associated PR :-( ). One of the major issues was bandwidth - back in France I had unlimited 1Gb fibre, here I have 40GB of 4G, then 60GB of 3G before it drops down to 2G. Building snaps means you download everything. Then when it doesn&rsquo;t work you download it again, and again, and again&hellip; There <a href="https://bugs.launchpad.net/snapcraft/+bug/1582469">is a bug</a> for that&hellip; When you are downloading over wireless, on a VPN that regularly broke in the middle of big files, the language can get colourful :-).</p>
+<p>The other issue is that the Ubuntu folks only seem to test stuff on 16.04, and I was using 18.04. I couldn&rsquo;t get the snap to build on 18.04, either directly on my laptop or in a VM. After several VM installs and reinstalls (with a 16.04), including with and without <code>cleanbuild</code>. <code>cleanbuild</code> does it&rsquo;s stuff in an <code>lxd</code> container&hellip; which also adds networking complexity to the mix&hellip;</p>
+<p>The Ubuntu folks, and particularly <a href="https://github.com/ktsakalozos">ktsakalozos</a>, were helpful but I ended up abandoning trying to build it myself. <a href="https://github.com/ubuntu/microk8s/pull/239">ktsakalozos' PR</a> hasn&rsquo;t passed Travis yet either though, so maybe it was for the better.</p>
+<p>I have since decided that I&rsquo;ll have to leave istio till later. In addition to the added complexity, particularly for stuff like automated SSL provisioning with <a href="https://github.com/jetstack/cert-manager">cert-manager</a>, it adds a ton of extra (side-car) containers and I was already approaching the hard 4GB-limit on RAM that I have with the Alibaba VM, not to mention the laptop.</p>
+<h2 id="bloat">Bloat</h2>
+<p>That gets me to one of the question marks I have about microk8s - there is a lot of stuff in there that doesn&rsquo;t really need to be there. It <em>sounds</em> good, until you actually start developing stuff. If you are going to actually use istio, then you are definitely capable of installing it into a cluster. When you have old, broken versions included and it is just as easy to install either from source or via Helm, the value add looks a little light. One additional issue is that microk8s basically just does a grep for the name for the service management, and even if you aren&rsquo;t using the bundled istio, a <code>microk8s.disable istio</code> is still going to to kill your manually installed istio. I think there is an argument for having kube-dns - though that&rsquo;s now deprecated in favour of coredns - but I would get rid of most of the other bundled apps. They add complexity and when you want to push a bit, they end up just getting in the way. I am a huge fan of Helm - but I wouldn&rsquo;t even include that. If you are going to actually use microk8s, even just for playing around, then you are installing stuff the same way you can install the included stuff.</p>
+<h2 id="sudo-iptables--p-forward-accept"><code>sudo iptables -P FORWARD ACCEPT</code></h2>
+<p>As mentioned above, microk8s does some serious stuff to the networking. While there are <a href="https://github.com/ubuntu/microk8s/search?q=forward&amp;type=Issues">plenty of bug reports</a> on the issue that have been there for months, there is still no solution for the dreaded &ldquo;FORWARD ACCEPT&rdquo; bug. Basically, you need iptables to forward packets for anything relating to DNS to work (and plenty of other stuff too). Ever had weird, hard-to-diagnose stuff that &ldquo;can&rsquo;t possibly be DNS&rdquo;? After much frustration you then find out it is, indeed, DNS and then you spend even more time before realising that you haven&rsquo;t executed <code>sudo iptables -P FORWARD ACCEPT</code> since your last reboot. It&rsquo;s mentioned in various places in the docs but when you regularly have to reboot then not having it happen automatically is a royal PITA.</p>
+<p>The issue about fixing it myself with a temp hack is that microk8s does lots of complicated stuff with the networking, and there is a decidedly non-negligible chance that my hack will get broken with the next microk8s update. It really needs to get fixed upstream, and apparently that is complicated. I did a bit of iptables stuff back in the day, but that back in the day is almost 8 years ago now and the reason I am developing this system at all is because my memory is not what it used to be! When the rest of the project gets a bit more mature then I&rsquo;ll definitely try and get this fixed upstream (if it&rsquo;s not already fixed by then).</p>
+<h2 id="kube-proxy"><code>kube-proxy</code></h2>
+<p>microk8s uses <code>userspace</code> kube-proxy mode by default. Basically you just have an additional (Go) layer inserted into the proxy stack that allows for better debugging and some other stuff. This was added mainly due to a bug that doesn&rsquo;t appear unless you&rsquo;re on Azure. The issue? For low-volume testing, performace is virtually indistinguishable from the default (iptables) mode but once you up the QPS then performance degrades <em>BY AT LEAST 4x</em>. It is easy enough to turn off, if you know what you are looking for, but when everything is new, finding out what to look for can take a <em>significant</em> amount of time!</p>
+<p>There is currently a <a href="https://github.com/ubuntu/microk8s/pull/145"><code>WIP</code> PR</a> on Github that will detect the platform and only use <code>userspace</code> on Azure. I think this is a good example of where there is no really good default though - for laptop testing <code>userspace</code> is probably the best default - for anything else it is unnecessary and a pain. microk8s is first and foremost for testing on your laptop though&hellip;</p>
+<h2 id="coming-up">Coming up</h2>
+<p>In spite of a few bugs and a number of gotchas, I still think microk8s is great and will definitely continue using it. In the next installment I review the problematic aspects of migrating apps not intended for the cloud to Kubernetes.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="//tags/technical/">technical</a>&nbsp;
+            
+              <a href="//tags/mickrok8s/">mickrok8s</a>&nbsp;
+            
+              <a href="//tags/kubernetes/">Kubernetes</a>&nbsp;
+            
+              <a href="//tags/alibaba-cloud/">Alibaba Cloud</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/gitlab-all-the-things/">Gitlab All The Things</a></li>
+                
+                    <li><a href="/post/migrating-to-kube/">Migrating to Kubernetes</a></li>
+                
+                    <li><a href="/post/single-user-prod-microk8s/">Single-User Production on Microk8s</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="/post/single-user-prod-microk8s/" data-toggle="tooltip" data-placement="top" title="Single-User Production on Microk8s">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="/post/migrating-to-kube/" data-toggle="tooltip" data-placement="top" title="Migrating to Kubernetes">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:anton@transcrob.es" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/transcrobes" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCEXMQOmPKNM1wIWZb3ceG-A" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Anton Melser
+          &nbsp;&bull;&nbsp;
+          2021
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Transcrobes</a>
+          
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+

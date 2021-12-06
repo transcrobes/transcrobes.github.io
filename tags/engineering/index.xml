@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>engineering on Transcrobes</title>
+    <link>/tags/engineering/</link>
+    <description>Recent content in engineering on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Engineering L2</title>
+      <link>/post/engineering-l2/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/engineering-l2/</guid>
+      <description>This post is in a series of posts discussing issues of a &amp;ldquo;new&amp;rdquo; theory of SLA - Meaningful IO.
+Theorising vs Doing One of the things that you learn &amp;ldquo;down in the trenches&amp;rdquo;, doing actual software engineering on real world problems, is that theories about the world almost always can&amp;rsquo;t just be implemented as-is in software and solve a problem in an optimal way. Theorising of any kind necessarily needs to to abstract away some of the details and will focus on a particular aspect or set of aspects.</description>
+    </item>
+    
+  </channel>
+</rss>

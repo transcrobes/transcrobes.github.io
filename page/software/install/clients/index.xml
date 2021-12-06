@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clients on Transcrobes</title>
+    <link>/page/software/install/clients/</link>
+    <description>Recent content in Clients on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/page/software/install/clients/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brocrobes Privacy Information</title>
+      <link>/page/software/install/clients/brocrobes-chrome-privacy/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/brocrobes-chrome-privacy/</guid>
+      <description>Preambule Brocrobes is intended to allow you to read any text in the foreign language you are learning, no matter what your level in that language is. That is a quite revolutionary idea compared with most previous language learning, which has tried to find or create texts with certain types of words and grammatical structures that are supposed to be appropriate for learners at a particular level. Learners are all supposed to magically be interested in the same stuff, and the same stuff is supposed to be at the right level, no matter what the learning background of the learner is.</description>
+    </item>
+    
+    <item>
+      <title>Browser extension</title>
+      <link>/page/software/install/clients/brocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/brocrobes/</guid>
+      <description>Transcrobes on the Web Transcrobes includes a Chrome browser extension brocrobes. You can install the extension from the Chrome Web Store
+Connecting to the Transcrobes Server You will need to connect the extension to the server with the server URL, your username and password. Get in touch with your server admin for information on getting those. If you are enrolled in the Meaningful IO Research project, please follow the specific instructions for that to sign up.</description>
+    </item>
+    
+    <item>
+      <title>Clients</title>
+      <link>/page/software/install/clients/home/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/home/</guid>
+      <description>There are now two main ways to interact with Transcrobes - the interactive website and the Chrome browser extension.
+Many more integrations are planned, such as for online video streaming platforms (Netflix, Youtube, etc.). Here you will find links to installation and configuration documentation for client applications, and up-to-date information on what applications we plan to support in the near future.
+Throughout the site, &amp;ldquo;Chrome (and compatible)&amp;rdquo; means Chromium-based browsers, such as Google Chrome, Microsoft Edge, Yandex Browser, vanilla Chromium, etc.</description>
+    </item>
+    
+    <item>
+      <title>Transcrobes website</title>
+      <link>/page/software/install/clients/transcrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/transcrobes/</guid>
+      <description>Before you begin The Transcrobes website (and Brocrobes) both use the latest web browser standard functionalities to provide for a rich, offline-capable learning and content experience. That means that even though it is entirely browser-based, you can still use most of the functionality offline, like reading ebooks, watching movies or practising vocabulary. In order to support that, Transcrobes needs to download and prepare quite a bit of data, so before you get started you will need to do that.</description>
+    </item>
+    
+  </channel>
+</rss>

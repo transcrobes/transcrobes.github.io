@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>k3s - Transcrobes</title>
+  <meta name="description" content="Who should install Transcrobes on k3s? k3s is a curl-to-Kubernetes install, intended to make setting up a Kubernetes cluster on a single physical machine or VM easy and relatively painless for development or non-critical CI tasks. It was not initially intended to be used for production but is very handy in edge scenarios, and turned out to be very stable.
+That said, if you don&rsquo;t have access to a Kubernetes cluster you can set up k3s on a single machine of a set of machines (with auto-failover multi-master), so it is a perfect way to get started with Transcrobes.">
+  <meta name="author" content="Anton Melser"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Transcrobes",
+    
+    "url": "\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/page\/software\/install\/server\/k3s\/",
+          "name": "K3s"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Anton Melser"
+  },
+  "headline": "k3s",
+  "description" : "Who should install Transcrobes on k3s? k3s is a curl-to-Kubernetes install, intended to make setting up a Kubernetes cluster on a single physical machine or VM easy and relatively painless for development or non-critical CI tasks. It was not initially intended to be used for production but is very handy in edge scenarios, and turned out to be very stable.\nThat said, if you don\u0026rsquo;t have access to a Kubernetes cluster you can set up k3s on a single machine of a set of machines (with auto-failover multi-master), so it is a perfect way to get started with Transcrobes.",
+  "inLanguage" : "en",
+  "wordCount":  2878 ,
+  "datePublished" : "0001-01-01T00:00:00",
+  "dateModified" : "0001-01-01T00:00:00",
+  "image" : "\/img\/tc128.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "\/page\/software\/install\/server\/k3s\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/img\/tc128.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="k3s" />
+<meta property="og:description" content="Who should install Transcrobes on k3s? k3s is a curl-to-Kubernetes install, intended to make setting up a Kubernetes cluster on a single physical machine or VM easy and relatively painless for development or non-critical CI tasks. It was not initially intended to be used for production but is very handy in edge scenarios, and turned out to be very stable.
+That said, if you don&rsquo;t have access to a Kubernetes cluster you can set up k3s on a single machine of a set of machines (with auto-failover multi-master), so it is a perfect way to get started with Transcrobes.">
+<meta property="og:image" content="/img/tc128.png" />
+<meta property="og:url" content="/page/software/install/server/k3s/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Transcrobes" />
+
+  <meta name="twitter:title" content="k3s" />
+  <meta name="twitter:description" content="Who should install Transcrobes on k3s? k3s is a curl-to-Kubernetes install, intended to make setting up a Kubernetes cluster on a single physical machine or VM easy and relatively painless for …">
+  <meta name="twitter:image" content="/img/tc128.png" />
+  <meta name="twitter:card" content="summary" />
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.89.4" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Transcrobes"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="/css/syntax.css" /><link rel="stylesheet" href="/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Transcrobes</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/post/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Software</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/software/install/home">Install</a>
+                
+                  <a href="/page/software/configure/home">Configure</a>
+                
+                  <a href="/page/software/learn/home">Learn</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Meaningful IO</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/meaningful-io/intro">Theory</a>
+                
+                  <a href="/page/meaningful-io/experiment">Experiment server</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Contribute</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/contribute">Contribute</a>
+                
+                  <a href="/page/development">Development</a>
+                
+                  <a href="/page/code_of_conduct">Code of Conduct</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">FAQ</a>
+              <div class="navlinks-children">
+                
+                  <a href="/page/about">About</a>
+                
+                  <a href="/page/faq">FAQ</a>
+                
+                  <a href="/page/privacy">Privacy Centre</a>
+                
+                  <a href="/page/supported-languages">Supported Languages</a>
+                
+                  <a href="/page/contact">Contact</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Transcrobes" href="/">
+            <img class="avatar-img" src="/img/tc128.png" alt="Transcrobes" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>k3s</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h1 id="who-should-install-transcrobes-on-k3s">Who should install Transcrobes on k3s?</h1>
+<p><a href="https://k3s.io"><code>k3s</code></a> is a curl-to-Kubernetes install, intended to make setting up a <a href="https://kubernetes.io">Kubernetes</a> cluster on a single physical machine or VM easy and relatively painless for development or non-critical CI tasks. It was not initially intended to be used for production but is very handy in edge scenarios, and turned out to be very stable.</p>
+<p>That said, if you don&rsquo;t have access to a Kubernetes cluster you can set up k3s on a single machine of a set of machines (with auto-failover multi-master), so it is a perfect way to get started with Transcrobes. The maintainer is using Transcrobes on k3s for his own language learning and for the primary project experiment, so at least it will always be well tested!</p>
+<h1 id="prerequisites">Prerequisites</h1>
+<ul>
+<li>
+<p>A recent Linux distribution on a virtual or physical machine</p>
+</li>
+<li>
+<p>A (free) Azure Cloud account with the <a href="https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/">Translator Text API</a> enabled. Transcrobes (currently) uses the Azure (Bing) translation API for machine translation. You do need a credit card for this but your credit card will <em>NOT</em> be charged unless you <em>EXPLICITLY</em> activate charging. You don&rsquo;t need to do this to benefit from the 2 million characters Azure allows you to lookup/translate/transliterate per month for free. It&rsquo;s a great service and worry-free - it will stop translating rather than start charging your card unless charging is activated. When did Microsoft go and get so awesome?!? :-). Set up a Translator Text API token and write that down somewhere.</p>
+</li>
+<li>
+<p>Familiarity with running commands on the Linux command line. Only very basic knowledge of Kubernetes is assumed or required.</p>
+</li>
+<li>
+<p>(Optional, sort of) A public IP pointing to the machine with ports 80 and 443 open. One publically resolvable domain pointing to this IP (CNAME or A records).</p>
+</li>
+</ul>
+<p>If you decide to run k3s on a machine that does other things, you should be aware that other sofware can interfere with it and can cause hard-to-diagnose issues, it is therefore strongly discouraged.</p>
+<p>If you don&rsquo;t have a public IP pointing to your machine, you will need to manually install SSL certificates into the browsers you will be using for testing (or use something like Let&rsquo;s Encrypt&rsquo;s DNS). Transcrobes is designed to be used everywhere (like on mobile devices on the metro on your way to work!), so for it to actually be useful you&rsquo;ll need a public IP. You can test without one but functionality will be limited and setup a pain.</p>
+<h1 id="installing-microk8s-for-transcrobes">Installing microk8s for Transcrobes</h1>
+<p>Transcrobes has been tested extensively on k3s 1.20.0+. Some earlier versions may work but no effort has been made to ensure it works properly on them.</p>
+<p>k3s has its own <code>ctr</code> (containerd) and <code>kubectl</code>, and this document assumes you do not have a separate ones installed. At the very least you should disable docker while you are using microk8s to avoid interaction issues. If you don&rsquo;t know how both these applications work under the hood, it is easiest to simply uninstall the non-microk8s versions, at least while you are testing Transcrobes. If you have a web server listening on port 80, you will also have extra steps to perform, and you will have to disable it when setting up Transcrobes.</p>
+<p>You need to have <code>snapd</code> installed on the machine. Full instructions for various distributions can be found <a href="https://docs.snapcraft.io/installing-snapd/6735">on the Snapcraft site</a>. On recent Ubuntu installations that is as simple as:</p>
+<pre tabindex="0"><code>sudo apt install snapd
+</code></pre><p>Once installed, you can install microk8s:</p>
+<pre tabindex="0"><code>sudo snap install microk8s --classic
+</code></pre><p>In order to allow for easier copy/pasting, you should add an alias for <code>kubectl</code></p>
+<pre tabindex="0"><code>sudo snap alias microk8s.kubectl kubectl
+</code></pre><p>Now enable the two microk8s-bundled services we&rsquo;ll be using</p>
+<pre tabindex="0"><code>sudo microk8s.enable storage dns
+</code></pre><h1 id="install-helm">Install Helm</h1>
+<p>Transcrobes is packaged as a <a href="https://helm.sh/">Kubernetes Helm</a> chart, so you need to install that into microk8s first. microk8s packages a whole lot of dross that it doesn&rsquo;t need to - this is a problem because they are <em>always</em> behind upstream when integrating updates, so use the snap version, not the microk8s packaged version! First install the command line client</p>
+<pre tabindex="0"><code>sudo snap install helm --classic
+</code></pre><p><code>helm</code> 2 required installing stuff into the cluster, <code>helm</code> 3 doesn&rsquo;t, so we&rsquo;re done setting up.</p>
+<h1 id="optional-sort-of-install-cert-manager">Optional, sort of, install <code>cert-manager</code></h1>
+<p>Transcrobes takes the pain out of provisioning and updating SSL certificates by leveraging the Kubernetes application <code>cert-manager</code>. If you really don&rsquo;t have a public IP or open ports then you will have several manual steps to set up a certificate. We&rsquo;ll update with instructions on that here soon. Otherwise</p>
+<pre tabindex="0"><code>kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v0.14.0/cert-manager.crds.yaml
+kubectl create namespace cert-manager
+helm install cert-manager jetstack/cert-manager --namespace cert-manager --version v0.14.0
+</code></pre><h1 id="install-transcrobes">Install Transcrobes</h1>
+<h2 id="sanity-check">Sanity check</h2>
+<p>Before installing Transcrobes, you should ensure all the prerequsite services are installed and running properly</p>
+<pre tabindex="0"><code>kubectl get pods --all-namespaces
+</code></pre><p>Should give you something very similar to</p>
+<pre tabindex="0"><code>NAMESPACE      NAME                                                READY   STATUS    RESTARTS   AGE
+cert-manager   cert-manager-75f6cdcb64-9fxwt                       1/1     Running   1          3h1m
+cert-manager   cert-manager-cainjector-79788689f9-qssdq            1/1     Running   6          3h1m
+cert-manager   cert-manager-webhook-5b6c798c9-rt7z4                1/1     Running   0          3h1m
+kube-system    coredns-588fd544bf-75rqt                            1/1     Running   0          3h3m
+kube-system    hostpath-provisioner-75fdc8fccd-hsrrp               1/1     Running   0          3h3m
+</code></pre><p>The GUIDs at the end of the application (pod) names will be different but you should definitely see <code>Running</code> in the <code>STATUS</code> column and <code>1/1</code> in the <code>READY</code> column for all 5 lines. You will not have a <code>cert-manager</code> line if you are not going to install cert-manager and let Transcrobes automatically manage SSL certificates.</p>
+<h2 id="install-the-chart-repository">Install the chart repository</h2>
+<p>Now you have the required services installed, we can finally install Transcrobes. First add the Transcrobes chart repository</p>
+<pre tabindex="0"><code>helm repo add transcrobes https://charts.transcrob.es
+</code></pre><h2 id="install-transcrobes-1">Install Transcrobes</h2>
+<p>Now actually install Transcrobes. Helm calls an installation into a cluster a &ldquo;release&rdquo;, and that term is used below to mean &ldquo;your installation of Transcrobes in microk8s&rdquo; - you are &ldquo;releasing&rdquo; a version of the application.</p>
+<pre tabindex="0"><code>helm install releaseName transcrobes/transcrobes
+</code></pre><p>Note: You can call your release anything - <code>releaseName</code> is used in the examples here.</p>
+<p>Helm will then take care of downloading and installing the various components into microk8s/Kubernetes. It could take a while, depending on your internet connection, as there are some large (docker) image files that need to be downloaded.</p>
+<p>Check the status with</p>
+<pre tabindex="0"><code>kubectl get pods
+</code></pre><p>You should eventually end up with something very similar (except GUIDs) to the following, so wait until you do. If you don&rsquo;t, then jump on one of the lists and ask for help:</p>
+<pre tabindex="0"><code>
+NAME                                                        READY   STATUS    RESTARTS   AGE
+releaseName-nginxingress-controller-df88695f8-vxktr         1/1     Running   0          134m
+releaseName-nginxingress-default-backend-75fc4c85c4-k9dvq   1/1     Running   0          134m
+releaseName-transcrobes-corenlp-zh-55f68b5f79-nzrk4         1/1     Running   0          134m
+releaseName-transcrobes-transcrobes-7d684cd8cd-4gb6q        1/1     Running   0          95m
+tcr-postgres-0                                              1/1     Running   0          134m
+</code></pre><p>Again, the important columns are <code>READY</code> and <code>STATUS</code>. <code>STATUS</code> should be <code>Running</code> and you should have the same number to the left of the slash (healthy containers) as to the right (total number of containers) for each pod in the <code>Ready</code> column.</p>
+<p>Notes</p>
+<p>If something goes wrong, then by far the easiest way to move forward is to completely purge the Helm release and start again.</p>
+<pre tabindex="0"><code>helm delete releaseName
+</code></pre><p>You can now try the release again with the install command. The (useful) data for Transcrobes is all in the database, and even a &ldquo;complete&rdquo; purge will NOT destroy the database permanent storage - you need to do that manually. There are sometimes issues with <code>postgresql</code> persisting a wonky postgres password, so in order to avoid hard-to-diagnose issues, you are better doing</p>
+<pre tabindex="0"><code>kubectl delete pvc data-tcr-postgres-0
+</code></pre><h2 id="sidebar---kubectl-aliases">Sidebar - kubectl aliases</h2>
+<p>kubectl is an awesome tool for managing Kubernetes clusters. It allows you to do pretty much everything. But you need to have some serious json-parsing-foo in order to do many things, and the commands can be very long and difficult to grasp. You can add aliases for pretty much everything though, and the following validation and activation sections assume the following aliases.</p>
+<pre tabindex="0"><code>alias tpn.tcr='kubectl get pod -l component=transcrobes -o jsonpath=&quot;{.items[0].metadata.name}&quot;'
+alias tpn.nlp='kubectl get pod -l component=corenlp -o jsonpath=&quot;{.items[0].metadata.name}&quot;'
+alias tpn.pgs='kubectl get pod -l app=postgresql -o jsonpath=&quot;{.items[0].metadata.name}&quot;'
+
+alias tip.tcr='kubectl get svc -l component=transcrobes -o jsonpath=&quot;{.items[0].spec.clusterIP}&quot;'
+alias tip.nlp='kubectl get svc -l component=corenlp -o jsonpath=&quot;{.items[0].spec.clusterIP}&quot;'
+alias tip.pgs='kubectl get svc -l app=postgresql -o jsonpath=&quot;{.items[0].spec.clusterIP}&quot;'
+</code></pre><p>These aliases consist of two parts - a prefix <code>tpn</code> for Transcrobes Pod Name or <code>tip</code> for Transcrobes (service) IP, and a suffix for each application - <code>tcr</code> for Transcrobes Core, <code>ank</code> for Ankrobes Server, <code>nlp</code> for Standford&rsquo;s CoreNLP and <code>pgs</code> for PostgreSQL.</p>
+<p>Put this in a file and source it manually</p>
+<pre tabindex="0"><code>source whereYouPutIt.sh
+</code></pre><p>Or simply add these to your <code>.bashrc</code>, <code>.bash_aliases</code>, or whatever is sourced when you log on to the machine you are installing on. Don&rsquo;t forget to manually <code>source</code> that file before proceeding!</p>
+<h2 id="setting-up-the-database-and-adding-a-user">Setting up the database and adding a user</h2>
+<p>Transcrobes Core is a Django application, which you need to initialise</p>
+<pre tabindex="0"><code>kubectl exec $(tpn.tcr) -- ./runmanage.sh migrate
+</code></pre><p>This should give you output similar to the following. There may be additional lines corresponding to updates if you execute this later but as long as it reports success, the process has finished correctly.</p>
+<pre tabindex="0"><code>Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, enrich, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying enrich.0001_initial... OK
+  Applying enrich.0002_auto_20180910_0724... OK
+  Applying enrich.0003_bingapitransliteration... OK
+  Applying enrich.0004_auto_20181008_0214... OK
+  Applying sessions.0001_initial... OK
+</code></pre><p>Each actual end-user of the application needs a user. A helper script for creating the user and initialising various database structures is available in the Transcrobes Core pod. Simply connect with the following</p>
+<pre tabindex="0"><code>kubectl exec -it $(tpn.tcr) -- sh
+</code></pre><p>And then</p>
+<pre tabindex="0"><code>./adduser.sh your-username
+</code></pre><p>You can add the user password directly on the command line via the <code>-p</code> or <code>--password</code> switches, or you will be prompted for a password if none is provided.</p>
+<h2 id="activating-the-release">Activating the release</h2>
+<p>The Transcrobes Helm chart has default values but they are obviously not usable out of the box, given you have an API token and two (sub-)domains that you need to configure to actually use Transcrobes.</p>
+<p>Helm has two ways of overriding the default values, either via command line parameters or in an overrides file. In order to keep the instructions simple, we will only use the overrides file here. Check out <a href="https://helm.sh/">the Helm docs</a> for more information.</p>
+<p>Download the sample file and modify it according to your actual values</p>
+<pre tabindex="0"><code>curl https://gitlab.com/transcrobes/charts/raw/master/sample-overrides.yaml &gt; overrides.yaml
+</code></pre><pre tabindex="0"><code>## Don't uncomment the ingress lines until AFTER you have validated
+## you can get certificates from letsencrypt-staging!
+transcrobes:
+  bingSubscriptionKey: yourAPIToken
+  hosts: ['transcrobes.example.com']
+  #ingress:
+  #  tls:
+  #    issuer: letsencrypt-prod
+
+## Only uncomment if you need to modify the incoming port
+#nginxingress:
+#  controller:
+#    service:
+#      nodePorts:
+#        https: yourPortNumber
+
+</code></pre><p>Do <em>NOT</em> uncomment the commented lines yet!</p>
+<p>This allows you to run the following, which you should do after replacing the values with your own</p>
+<pre tabindex="0"><code>helm upgrade releaseName transcrobes/transcrobes -f overrides.yaml
+</code></pre><p>NOTE:
+The following section contains over-simplifications so drastic they aren&rsquo;t strictly accurate - if you know better then you&rsquo;ll know what is intended!</p>
+<p>By default, the Transcrobes chart makes the applications available on port <code>32443</code> of the public (or NATed) IP of the machine because, by default, Kubernetes/microk8s only lets you use ports 30000-32767. It&rsquo;s possible to make the applications available on the standard ports (80 / 443) but it&rsquo;s a little dangerous, particularly if you are running other stuff on the machine. If you don&rsquo;t have control over which ports you get then this can be changed by uncommenting in the example file, after updating with the port you need</p>
+<pre tabindex="0"><code>#nginxingress:
+#  controller:
+#    service:
+#      nodePorts:
+#        https: yourPortNumber
+</code></pre><p>Your admin may be able to map the incoming port on the external firewal to a different port on your machine - just ask them to map to 32443, if they can, to avoid further work. Note that if the port is not in the 32000-32767 range, you will need to add the following</p>
+<pre tabindex="0"><code>--service-node-port-range=yourPortsStart-yourPortsFinish
+</code></pre><p>- where <code>yourPortsStart</code> and <code>yourPortsFinish</code> correspond to the range of ports you have pointing to your machine - to the end of the following file</p>
+<pre tabindex="0"><code>/var/snap/microk8s/current/args/kube-apiserver
+</code></pre><p>And restart microk8s</p>
+<pre tabindex="0"><code>sudo microk8s.stop
+sudo microk8s.start
+</code></pre><p>You can update the overrides file as often as you wish. Simply run</p>
+<pre tabindex="0"><code>helm upgrade releaseName transcrobes/transcrobes -f overrides.yaml
+</code></pre><p>To apply the changes. Helm is intelligent enough to only update what has changed so, for example, you won&rsquo;t be restarting any of the applications if you only make a change to one of the proxies.</p>
+<h3 id="validating-the-release">Validating the release</h3>
+<p>You should now be able to access the application on the port configured, execute:</p>
+<pre tabindex="0"><code>curl -k https://transcrobes.example.com:32443/hello
+</code></pre><p>Which should return</p>
+<pre tabindex="0"><code>Hello, World!
+</code></pre><p>To validate Transcrobes Core.</p>
+<p>If you are not going to set up proper SSL certificates then you are done. Follow up in the <a href="/page/install/clients/overview">installing clients</a> section to start using Transcrobes on actual devices.</p>
+<h3 id="setting-up-lets-encrypt-certificates">Setting up Let&rsquo;s Encrypt certificates</h3>
+<p>The Transcrobes helm chart provides automated <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> (free) certificate setup and renewal via <a href="https://docs.cert-manager.io/en/latest/">cert-manager</a>. Somewhat unfortunately for us, Let&rsquo;s Encrypt will only do automated HTTP validation on port 80, or 443 if you have an existing certificate (which we obviously don&rsquo;t).</p>
+<p>If any of the steps here seem too complicated, you also have the option of manually doing Let&rsquo;s Encrypt DNS validation and manually provisioning the certificate. You are also not obliged to use a Let&rsquo;s Encrypt certificate - any valid SSL certificate is Ok. We will update these instructions soon with help on setting up a certificate manually.</p>
+<p>cert-manager works by checking the validity of the certificates it manages every now and then and when it&rsquo;s time to renew, it will attempt to update.</p>
+<p>If your public IP can have port 80 open and pointing to your machine, then a script is available to temporarily redirect port 80 to the port that cert-manager is expecting the validation request to come to from. If you have a web server listening on port 80, you will need to deactivate that, or set up cert-manager to listen on specific ports and redirect requests to your Transcrobes domains to that port via the web server. The details of this are out of scope for this document but ask on one of the lists if you need help.</p>
+<p>Assuming your machine can be accessed on its public IP on port 80, download the script</p>
+<pre tabindex="0"><code>curl https://gitlab.com/transcrobes/charts/raw/master/microk8s-port80.sh &gt; microk8s-port80.sh
+</code></pre><p>And set it up to run every few (1-3 is probably a good value) minutes as a <code>root</code> cron job/systemd timer. The script requires <code>socat</code> and <code>jq</code>, which can be installed on Ubuntu with</p>
+<pre tabindex="0"><code>sudo apt install socat jq
+</code></pre><p>The script assumes that the public (or NATed) IP address is on the <code>eth0</code> device but you can override this by providing the device as a parameter to the script, for example</p>
+<pre tabindex="0"><code>bash microk8s-port80.sh enp0s3
+</code></pre><p>The script runs and queries Kubernetes to see whether cert-manager is waiting for a validation request. If it is, it will redirect port 80 to the port that cert-manager is listening on, and then stop redirecting when cert-manager has finished the provisioning or update. If cert-manager is not expecting a validation request, the script will exit (with success) immediately.</p>
+<p>Once the script is set up (or you are manually running it in a terminal in a loop), you can go ahead and activate the letsencrypt issuers</p>
+<pre tabindex="0"><code>kubectl apply -f https://gitlab.com/transcrobes/charts/raw/master/transcrobes/utils/letsencrypt-staging-cluster-issuer.yaml
+kubectl apply -f https://gitlab.com/transcrobes/charts/raw/master/transcrobes/utils/letsencrypt-prod-cluster-issuer.yaml
+</code></pre><p>After you execute this, at some point over the next few minutes cert-manager will wake up, realise there is a domain it needs to provision/update, and start working. If the port redirect script is running, then port 80 will get redirected until cert-manager has finished. You can check whether cert-manager issuer is running by executing</p>
+<pre tabindex="0"><code>kubectl get pods | grep issuer
+</code></pre><p>If that command returns something, then an issuer is working. You know that cert-manager has finished when the above command returns nothing. If it can&rsquo;t succeed for any reason, it will stay working until it does. Make sure it has actually appeared and then disappeared before assuming it&rsquo;s finished! The script has pretty detailed logging so check the output of the script to be sure.</p>
+<p>Assuming cert-manager finishes successfully, you can proceed to actually get a valid, production certificate. Let&rsquo;s Encrypt has rather strict limits on its production server, so make sure you have no working issuers for the staging server before proceeding. In order to get production certificates, simply uncomment the <code>ingress</code> section in the overrides.yaml file, like the following</p>
+<pre tabindex="0"><code>## Don't uncomment the ingress lines until AFTER you have validated you can get certificates from letsencrypt-staging
+transcrobes:
+  bingSubscriptionKey: yourAPIToken
+  hosts: ['transcrobes.example.com']
+  ingress:
+    tls:
+      issuer: letsencrypt-prod
+
+## Only uncomment if you need to modify the incoming port
+#nginxingress:
+#  controller:
+#    service:
+#      nodePorts:
+#        https: yourPortNumber
+</code></pre><p>And run as before</p>
+<pre tabindex="0"><code>helm upgrade releaseName transcrobes/transcrobes --install -f overrides.yaml
+</code></pre><p>When the issuer has finished you should check the certificates. Just open a browser and put in (with your domain and port) - <code>https://ankrobes.example.com:32443</code>. If you get <code>Anki Sync Server</code>, your Ankrobes Server is working. Transcrobes can be checked with <code>https://transcrobes.example.com:32443/hello</code>. It should return <code>Hello, World!</code> with no certificate error. If both those work, congratulations, you have finished!</p>
+<p>Now you too can follow up with the <a href="/page/install/clients/overview">installing clients</a> section to start using Transcrobes on actual devices. You will now be able to use the Transcrobes client applications on any internet-connected device.</p>
+<h2 id="problems">Problems</h2>
+<p>Let us know on the lists if you encounter any issues, or you think these instructions aren&rsquo;t clear or have an error.</p>
+
+      </article>
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:anton@transcrob.es" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/transcrobes" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCEXMQOmPKNM1wIWZb3ceG-A" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Anton Melser
+          &nbsp;&bull;&nbsp;
+          2021
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="/">Transcrobes</a>
+          
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+

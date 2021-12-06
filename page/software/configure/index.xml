@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configure on Transcrobes</title>
+    <link>/page/software/configure/</link>
+    <description>Recent content in Configure on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/software/configure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure</title>
+      <link>/page/software/configure/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/home/</guid>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability    glossing Content glossing available Supported types: None, segmented, known synonym, native language (more soon)    </description>
+    </item>
+    
+    <item>
+      <title>Glossing types</title>
+      <link>/page/software/configure/glossing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/glossing/</guid>
+      <description>Because all learners have different language backgrounds, glossing with another language may not be the best way for you to understand and learn, so a few other options are currently provided. This is one of the active research aspects of the platform - what are the best glossing techniques for learners, if they have a choice between several? How does it affect comprehension? How does it affect enjoyment? How does it affect learning?</description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>/page/software/configure/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/goals/</guid>
+      <description>One of the key philosophical drivers behind Transcrobes is learner freedom. Traditional approaches typically have a very rigid idea about what every learner is like and what they should learn, and they don&amp;rsquo;t particularly care that learners are actually people, rather than &amp;ldquo;scientific abstractions&amp;rdquo; or customers. Transcrobes puts each individual learner in the driver&amp;rsquo;s seat. The learner knows what their macro-level goals are, and Transcrobes is here to help the learner achieve those in a fun and highly efficient way.</description>
+    </item>
+    
+    <item>
+      <title>Importing lists and content</title>
+      <link>/page/software/configure/imports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/imports/</guid>
+      <description>Lists of vocabulary and content can be imported into Transcrobes.
+When files are imported, they are parsed and analysed, and important information is stored about them.
+These analyses can then be used for creating word lists. Word lists are the basis for several Transcrobes features, including vocabulary revision and setting goals, with more to come soon. Depending on the file type, imports of the appropriate type will appear as ebooks or media/video(for subtitles).</description>
+    </item>
+    
+    <item>
+      <title>Listrobes</title>
+      <link>/page/software/configure/listrobes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/listrobes/</guid>
+      <description>Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</description>
+    </item>
+    
+    <item>
+      <title>Word lists</title>
+      <link>/page/software/configure/wordlists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/wordlists/</guid>
+      <description>Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). The system stores information from the analysis and allows</description>
+    </item>
+    
+  </channel>
+</rss>

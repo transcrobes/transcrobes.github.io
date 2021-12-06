@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD on Transcrobes</title>
+    <link>/tags/phd/</link>
+    <description>Recent content in PhD on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/phd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Live Server Experiment</title>
+      <link>/post/experiment/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/experiment/</guid>
+      <description>After many months of intense focus on developing new features and making the system faster and more scalable, the system is now ready for real learners, adding real value for language learners who wish to super-charge their learning in a fun and efficient way.
+Experimental platform The Meaningful IO research project experimental server is now live, and accepting signups for learners of Mandarin Chinese who are willing to participate in the research project.</description>
+    </item>
+    
+    <item>
+      <title>Anton&#39;s PhD thesis</title>
+      <link>/post/phd/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/phd/</guid>
+      <description>I (Anton) have been accepted to develop the ideas in this project for a PhD thesis at the Linguistics and Translation department of the City University of Hong Kong from September 2019. While it is not certain that this particular code-base will be developed for the PhD, the PhD work will be open source, and there is no particular reason for it not to build on the existing code.
+This means I will be working on this (or an equivalent) project for the next four years!</description>
+    </item>
+    
+  </channel>
+</rss>

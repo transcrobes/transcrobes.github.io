@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alibaba Cloud on Transcrobes</title>
+    <link>/tags/alibaba-cloud/</link>
+    <description>Recent content in Alibaba Cloud on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/alibaba-cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating to Kubernetes</title>
+      <link>/post/migrating-to-kube/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/migrating-to-kube/</guid>
+      <description>This is Part 3 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Check out Part 1 here and Part 2 here.
+Kubernetes Migration Woes nginx-ingress I was coming from a setup where I knew the component parts (Apache + mod_wsgi) pretty well. I haven&amp;rsquo;t been working on high-load web stuff for over 8 years now, and always thought that nginx was a lot of hype for not much benefit.</description>
+    </item>
+    
+    <item>
+      <title>The Gory Details</title>
+      <link>/post/microk8s-the-details/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/microk8s-the-details/</guid>
+      <description>This is Part 2 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Check out Part 1 here
+Some Detailed Gripes and Gotchas Building Snaps I had seen a couple of talks on service meshes at a conference a while back but hadn&amp;rsquo;t had a play yet - microk8s ships with istio, and istio is all the rage these days (apparently), so I definitely wanted to use that in the system.</description>
+    </item>
+    
+    <item>
+      <title>Single-User Production on Microk8s</title>
+      <link>/post/single-user-prod-microk8s/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/single-user-prod-microk8s/</guid>
+      <description>This is Part 1 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Introduction Microk8s is a kube-in-a-box distribution sponsored by Ubuntu, and in this blog post I recount my experiences getting my own personal Transcrobes installation migrated to a Kubernetes Helm chart and running on it on a 4GB VM on Alibaba Cloud in China.</description>
+    </item>
+    
+  </channel>
+</rss>

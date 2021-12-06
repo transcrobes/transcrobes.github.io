@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chinese on Transcrobes</title>
+    <link>/tags/chinese/</link>
+    <description>Recent content in Chinese on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Wed, 27 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English support</title>
+      <link>/post/english-support/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/english-support/</guid>
+      <description>UPDATE: 2020-12-01 English support has been temporarily removed in order to focus fully on Chinese. If there is significant community interest, that could always change.
+Preliminary support for Chinese learners of English has been implemented and is now available for testing. As expected, integrating a second language pair required basically rewriting the entire system to be able to handle any input and output language.
+That said, the inflectional characteristics of English are a new challenge for the system and have not been fully integrated.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>/post/2018-11-26-hello-world/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/2018-11-26-hello-world/</guid>
+      <description>This blog post announces the official open-sourcing of the (brand new) Transcrobes project. Code is available for all components on Gitlab.
+Some ideas were originally posted to Blogger before the code was open-sourced. Future blogposts on the project by the maintainers should happen directly on https://transcrob.es.
+Transcrobes proposes a new paradigm for language learning, one that finally puts each individual language learner at the centre of everything. Content-based instruction, extensive reading and other modern approaches have been pushing in this direction for several decades, Transcrobes is an open source project that takes this approach to the logical conclusion.</description>
+    </item>
+    
+  </channel>
+</rss>

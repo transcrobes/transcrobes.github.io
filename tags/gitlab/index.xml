@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gitlab on Transcrobes</title>
+    <link>/tags/gitlab/</link>
+    <description>Recent content in Gitlab on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/gitlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gitlab All The Things</title>
+      <link>/post/gitlab-all-the-things/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/gitlab-all-the-things/</guid>
+      <description>This is Part 4 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Check out Part 1 here, Part 2 here and Part 3 here
+Gitlab all the Things Automating container builds In the middle of writing the server install documentation, I realised that I had just been manually building and pushing the images to Gitlab&amp;rsquo;s image registry.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meaningful IO Transcrobes on Transcrobes</title>
+    <link>/page/meaningful-io/</link>
+    <description>Recent content in Meaningful IO Transcrobes on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/meaningful-io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimental Server</title>
+      <link>/page/meaningful-io/experiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/meaningful-io/experiment/</guid>
+      <description>Scientific validation of Transcrobes and Meaningful IO Transcrobes is an open source project and is the main means of collecting data for the Meaningful IO academic (PhD) research project. The project is lead by PhD candidate Anton MELSER and supervised by Dr John LEE.
+In order to validate both the theory and implementation of it in code, an installation of the Transcrobes codebase is made available to experimental subjects to use without charge until at least the conclusion of the research in August 2023.</description>
+    </item>
+    
+    <item>
+      <title>Meaningful IO</title>
+      <link>/page/meaningful-io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/meaningful-io/home/</guid>
+      <description>Meaningful IO presents an empiracally testable model of second language learning. The theory draws together several strands of empiracally collected data and puts them under a &amp;ldquo;social&amp;rdquo; lense. The motivation for Meaningful IO is to provide a theoretical basis for the design and implementation of highly efficient and enjoyable digital technologies for language learning.
+An official statement of the hypothesis can be found here.
+Discussion of the many, many contributing factors to language learning performance will also be posted on the project blog.</description>
+    </item>
+    
+    <item>
+      <title>Meaningful IO Transcrobes</title>
+      <link>/page/meaningful-io/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/meaningful-io/intro/</guid>
+      <description>The Meaningful IO (Input/Output) Theory of L2 Acquisition  The necessary and sufficient condition for language acquisition is &amp;ldquo;Meaningful Input&amp;rdquo;. Given sufficient Meaningful Input and appropriate communicative contexts, a learner will start producing &amp;ldquo;Meaningful Output&amp;rdquo;, providing evidence that language acquisition has taken place.
+  Meaningful Input (MI) is defined as input that is comprehensible enough for the learner to partake in an activity that has real utility for the individual.</description>
+    </item>
+    
+  </channel>
+</rss>

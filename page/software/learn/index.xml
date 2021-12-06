@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install on Transcrobes</title>
+    <link>/page/software/learn/</link>
+    <description>Recent content in Install on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/page/software/learn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boocrobes</title>
+      <link>/page/software/learn/boocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/boocrobes/</guid>
+      <description>Boocrobes Boocrobes allows you to read ebooks in the EPUB format using personalised comprehension aids, including when you are offline. The module is a (very slightly) adapted version of the amazing open source javascript &amp;ldquo;Readium V2&amp;rdquo; R2D2BC reader developed by Aferdita Muriqi, with the addition of the special Transcrobes sauce that connects you to the model the system has of your language knowledge. The integration is not yet perfect, so you may need to refresh the page occasionally if the formatting does something strange.</description>
+    </item>
+    
+    <item>
+      <title>Brocrobes</title>
+      <link>/page/software/learn/brocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/brocrobes/</guid>
+      <description>Brocrobes is a browser extension that allows you to enrich any webpage with the your own, personalised help. When you click on the extension button, the extension will look for all text in the language you are learning on the page, and send that to the server. The server will then get context-based definitions for all the words, and translations for all the sentences, and send that back to the browser.</description>
+    </item>
+    
+    <item>
+      <title>Learn</title>
+      <link>/page/software/learn/home/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/home/</guid>
+      <description>See here for more details on the scientific theories behind the Transcrobes project.
+Supported Activities Meta-learning The development focus until now has been on making extensive content consumption tools (web, ebooks, video) available and starting to collect data. notrobes (also see below) already has some basic information on what the system knows about the learner&amp;rsquo;s vocabulary knowledge, including the number of times the word has been seen, definitions looked up, etc.</description>
+    </item>
+    
+    <item>
+      <title>Moocrobes</title>
+      <link>/page/software/learn/moocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/moocrobes/</guid>
+      <description>Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.
+Configuring Moocrobes Moocrobes can be configured to use different glossing types, and the player can also be configured with dark/light mode, font size, playback speed (in -/+5% increments), subtitle delay (-/+), volume and other common media player functions.</description>
+    </item>
+    
+    <item>
+      <title>Notrobes</title>
+      <link>/page/software/learn/notrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/notrobes/</guid>
+      <description>Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
+Using Notrobes     Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
+    </item>
+    
+    <item>
+      <title>Repetrobes</title>
+      <link>/page/software/learn/repetrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/repetrobes/</guid>
+      <description>Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
+Work has started on a very significantly optimised, personalised, behaviour-based, AI-powered version, which will be integrated soon. This new version will take into account all the information the system has on you, not just your responses in the tool, making it a LOT more accurate and powerful.</description>
+    </item>
+    
+  </channel>
+</rss>

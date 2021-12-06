@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transcrobes</title>
+    <link>/</link>
+    <description>Recent content on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
+    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Live Server Experiment</title>
+      <link>/post/experiment/</link>
+      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/experiment/</guid>
+      <description>After many months of intense focus on developing new features and making the system faster and more scalable, the system is now ready for real learners, adding real value for language learners who wish to super-charge their learning in a fun and efficient way.
+Experimental platform The Meaningful IO research project experimental server is now live, and accepting signups for learners of Mandarin Chinese who are willing to participate in the research project.</description>
+    </item>
+    
+    <item>
+      <title>About Transcrobes</title>
+      <link>/page/about/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/about/</guid>
+      <description>For language learners What is it? Transcrobes is a set of applications that evolve with you as you learn a language and enable you to watch, listen and read the content that you want to, rather than the insanely boring and limited &amp;ldquo;normal&amp;rdquo; language learning content. If you can access the content in digital form, basically you can use it with Transcrobes*.
+How does it work? The system knows what you know, so can give you just the right amount of help to be able to understand the words you don&amp;rsquo;t know but gets out of the way for the stuff you do know.</description>
+    </item>
+    
+    <item>
+      <title>Boocrobes</title>
+      <link>/page/software/learn/boocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/boocrobes/</guid>
+      <description>Boocrobes Boocrobes allows you to read ebooks in the EPUB format using personalised comprehension aids, including when you are offline. The module is a (very slightly) adapted version of the amazing open source javascript &amp;ldquo;Readium V2&amp;rdquo; R2D2BC reader developed by Aferdita Muriqi, with the addition of the special Transcrobes sauce that connects you to the model the system has of your language knowledge. The integration is not yet perfect, so you may need to refresh the page occasionally if the formatting does something strange.</description>
+    </item>
+    
+    <item>
+      <title>Brocrobes</title>
+      <link>/page/software/learn/brocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/brocrobes/</guid>
+      <description>Brocrobes is a browser extension that allows you to enrich any webpage with the your own, personalised help. When you click on the extension button, the extension will look for all text in the language you are learning on the page, and send that to the server. The server will then get context-based definitions for all the words, and translations for all the sentences, and send that back to the browser.</description>
+    </item>
+    
+    <item>
+      <title>Brocrobes Privacy Information</title>
+      <link>/page/install/clients/brocrobes-chrome-privacy/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/install/clients/brocrobes-chrome-privacy/</guid>
+      <description>Preambule Brocrobes is intended to allow you to read any text in the foreign language you are learning, no matter what your level in that language is. That is a quite revolutionary idea compared with most previous language learning, which has tried to find or create texts with certain types of words and grammatical structures that are supposed to be appropriate for learners at a particular level. Learners are all supposed to magically be interested in the same stuff, and the same stuff is supposed to be at the right level, no matter what the learning background of the learner is.</description>
+    </item>
+    
+    <item>
+      <title>Brocrobes Privacy Information</title>
+      <link>/page/software/install/clients/brocrobes-chrome-privacy/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/brocrobes-chrome-privacy/</guid>
+      <description>Preambule Brocrobes is intended to allow you to read any text in the foreign language you are learning, no matter what your level in that language is. That is a quite revolutionary idea compared with most previous language learning, which has tried to find or create texts with certain types of words and grammatical structures that are supposed to be appropriate for learners at a particular level. Learners are all supposed to magically be interested in the same stuff, and the same stuff is supposed to be at the right level, no matter what the learning background of the learner is.</description>
+    </item>
+    
+    <item>
+      <title>Browser extension</title>
+      <link>/page/software/install/clients/brocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/brocrobes/</guid>
+      <description>Transcrobes on the Web Transcrobes includes a Chrome browser extension brocrobes. You can install the extension from the Chrome Web Store
+Connecting to the Transcrobes Server You will need to connect the extension to the server with the server URL, your username and password. Get in touch with your server admin for information on getting those. If you are enrolled in the Meaningful IO Research project, please follow the specific instructions for that to sign up.</description>
+    </item>
+    
+    <item>
+      <title>Clients</title>
+      <link>/page/software/install/clients/home/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/home/</guid>
+      <description>There are now two main ways to interact with Transcrobes - the interactive website and the Chrome browser extension.
+Many more integrations are planned, such as for online video streaming platforms (Netflix, Youtube, etc.). Here you will find links to installation and configuration documentation for client applications, and up-to-date information on what applications we plan to support in the near future.
+Throughout the site, &amp;ldquo;Chrome (and compatible)&amp;rdquo; means Chromium-based browsers, such as Google Chrome, Microsoft Edge, Yandex Browser, vanilla Chromium, etc.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/page/contact/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/contact/</guid>
+      <description>The project currently uses Github project issues and Github project discussions as the main forms of communication.
+Inappropriate behaviour If you feel you have been the victim inappropriate behaviour or have noticed it somewhere, then please get in touch with the project team via the email: not.ok at transcrob.es.
+Maintainers You can also contact the maintainers directly if you really need to.
+   Name Project role Contact email     Anton Melser Maintainer anton at transcrob.</description>
+    </item>
+    
+    <item>
+      <title>Contribute</title>
+      <link>/page/contribute/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/contribute/</guid>
+      <description>For Everyone Learning a language is an amazing journey of discovery, that can and should be one of the most enriching, pleasurable and exciting experiences anyone ever has. The Transcrobes project wants to be a part of that and is dedicated to keeping a postive atmosphere and being fully inclusive. The project and all sub-projects adhere strictly to the Contributor Covenant, to make sure that everyone feels welcome and safe at all times.</description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>/page/development/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/development/</guid>
+      <description>Basics After spending quite a bit of time setting up properly on Gitlab, it was decided to move to Github. Most issues have not been migrated or updated for quite a while. Basically get in touch with the maintainer if you are at all interested.
+There is a backlog of stuff needing to be developed, from unit testing to trying out the latest recurrent neural networks on the video OCR system (Tesseract OCR via CCExtractor).</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/page/faq/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/faq/</guid>
+      <description>For Everyone Current Status Transcrobes currently only fully supports learning Chinese for English speakers. If your English is very good then you should be Ok, but otherwise you&amp;rsquo;re better to wait until your preferred language has been implemented. Partial support was developed for Chinese learners of English but has since been put on stand-by. It will be brought back when Chinese for English speakers support is first-class.
+How do I install Transcrobes?</description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>/page/software/install/home/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/home/</guid>
+      <description>Transcrobes has both server components and client components. As the audiences for each family of components is different, documentation has been separated into two sections:
+Client installation documentation
+Server installation documentation</description>
+    </item>
+    
+    <item>
+      <title>Learn</title>
+      <link>/page/software/learn/home/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/home/</guid>
+      <description>See here for more details on the scientific theories behind the Transcrobes project.
+Supported Activities Meta-learning The development focus until now has been on making extensive content consumption tools (web, ebooks, video) available and starting to collect data. notrobes (also see below) already has some basic information on what the system knows about the learner&amp;rsquo;s vocabulary knowledge, including the number of times the word has been seen, definitions looked up, etc.</description>
+    </item>
+    
+    <item>
+      <title>Moocrobes</title>
+      <link>/page/software/learn/moocrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/moocrobes/</guid>
+      <description>Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.
+Configuring Moocrobes Moocrobes can be configured to use different glossing types, and the player can also be configured with dark/light mode, font size, playback speed (in -/+5% increments), subtitle delay (-/+), volume and other common media player functions.</description>
+    </item>
+    
+    <item>
+      <title>Notrobes</title>
+      <link>/page/software/learn/notrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/notrobes/</guid>
+      <description>Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
+Using Notrobes     Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
+    </item>
+    
+    <item>
+      <title>Privacy centre</title>
+      <link>/page/privacy/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/privacy/</guid>
+      <description>Privacy pages The Transcrobes project contains several sub-projects. Some of these sub-projects have distinct privacy implications and issues, so require specific information. This page provides links to each of the separate privacy pages to allow users/learners to quickly get answers to their privacy-related questions.
+Application-specific privacy pages  Brocrobes Transcrobes server  </description>
+    </item>
+    
+    <item>
+      <title>Repetrobes</title>
+      <link>/page/software/learn/repetrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/repetrobes/</guid>
+      <description>Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
+Work has started on a very significantly optimised, personalised, behaviour-based, AI-powered version, which will be integrated soon. This new version will take into account all the information the system has on you, not just your responses in the tool, making it a LOT more accurate and powerful.</description>
+    </item>
+    
+    <item>
+      <title>Supported Languages</title>
+      <link>/page/supported-languages/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/supported-languages/</guid>
+      <description>Prerequisites In order for a language pair to be properly supported by the system, two things (currently) need to be accessible and integrated:
+  A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
+    </item>
+    
+    <item>
+      <title>Transcrobes website</title>
+      <link>/page/software/install/clients/transcrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/clients/transcrobes/</guid>
+      <description>Before you begin The Transcrobes website (and Brocrobes) both use the latest web browser standard functionalities to provide for a rich, offline-capable learning and content experience. That means that even though it is entirely browser-based, you can still use most of the functionality offline, like reading ebooks, watching movies or practising vocabulary. In order to support that, Transcrobes needs to download and prepare quite a bit of data, so before you get started you will need to do that.</description>
+    </item>
+    
+    <item>
+      <title>Engineering L2</title>
+      <link>/post/engineering-l2/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/engineering-l2/</guid>
+      <description>This post is in a series of posts discussing issues of a &amp;ldquo;new&amp;rdquo; theory of SLA - Meaningful IO.
+Theorising vs Doing One of the things that you learn &amp;ldquo;down in the trenches&amp;rdquo;, doing actual software engineering on real world problems, is that theories about the world almost always can&amp;rsquo;t just be implemented as-is in software and solve a problem in an optimal way. Theorising of any kind necessarily needs to to abstract away some of the details and will focus on a particular aspect or set of aspects.</description>
+    </item>
+    
+    <item>
+      <title>Anton&#39;s PhD thesis</title>
+      <link>/post/phd/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/phd/</guid>
+      <description>I (Anton) have been accepted to develop the ideas in this project for a PhD thesis at the Linguistics and Translation department of the City University of Hong Kong from September 2019. While it is not certain that this particular code-base will be developed for the PhD, the PhD work will be open source, and there is no particular reason for it not to build on the existing code.
+This means I will be working on this (or an equivalent) project for the next four years!</description>
+    </item>
+    
+    <item>
+      <title>English support</title>
+      <link>/post/english-support/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/english-support/</guid>
+      <description>UPDATE: 2020-12-01 English support has been temporarily removed in order to focus fully on Chinese. If there is significant community interest, that could always change.
+Preliminary support for Chinese learners of English has been implemented and is now available for testing. As expected, integrating a second language pair required basically rewriting the entire system to be able to handle any input and output language.
+That said, the inflectional characteristics of English are a new challenge for the system and have not been fully integrated.</description>
+    </item>
+    
+    <item>
+      <title>Gitlab All The Things</title>
+      <link>/post/gitlab-all-the-things/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/gitlab-all-the-things/</guid>
+      <description>This is Part 4 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Check out Part 1 here, Part 2 here and Part 3 here
+Gitlab all the Things Automating container builds In the middle of writing the server install documentation, I realised that I had just been manually building and pushing the images to Gitlab&amp;rsquo;s image registry.</description>
+    </item>
+    
+    <item>
+      <title>Migrating to Kubernetes</title>
+      <link>/post/migrating-to-kube/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/migrating-to-kube/</guid>
+      <description>This is Part 3 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Check out Part 1 here and Part 2 here.
+Kubernetes Migration Woes nginx-ingress I was coming from a setup where I knew the component parts (Apache + mod_wsgi) pretty well. I haven&amp;rsquo;t been working on high-load web stuff for over 8 years now, and always thought that nginx was a lot of hype for not much benefit.</description>
+    </item>
+    
+    <item>
+      <title>The Gory Details</title>
+      <link>/post/microk8s-the-details/</link>
+      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/microk8s-the-details/</guid>
+      <description>This is Part 2 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Check out Part 1 here
+Some Detailed Gripes and Gotchas Building Snaps I had seen a couple of talks on service meshes at a conference a while back but hadn&amp;rsquo;t had a play yet - microk8s ships with istio, and istio is all the rage these days (apparently), so I definitely wanted to use that in the system.</description>
+    </item>
+    
+    <item>
+      <title>Single-User Production on Microk8s</title>
+      <link>/post/single-user-prod-microk8s/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/single-user-prod-microk8s/</guid>
+      <description>This is Part 1 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
+Introduction Microk8s is a kube-in-a-box distribution sponsored by Ubuntu, and in this blog post I recount my experiences getting my own personal Transcrobes installation migrated to a Kubernetes Helm chart and running on it on a 4GB VM on Alibaba Cloud in China.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>/post/2018-11-26-hello-world/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/2018-11-26-hello-world/</guid>
+      <description>This blog post announces the official open-sourcing of the (brand new) Transcrobes project. Code is available for all components on Gitlab.
+Some ideas were originally posted to Blogger before the code was open-sourced. Future blogposts on the project by the maintainers should happen directly on https://transcrob.es.
+Transcrobes proposes a new paradigm for language learning, one that finally puts each individual language learner at the centre of everything. Content-based instruction, extensive reading and other modern approaches have been pushing in this direction for several decades, Transcrobes is an open source project that takes this approach to the logical conclusion.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/page/code_of_conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/code_of_conduct/</guid>
+      <description>Contributor Covenant Code of Conduct Our Pledge In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Our Standards Examples of behavior that contributes to creating a positive environment include:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/page/software/install/server/server-privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/server-privacy/</guid>
+      <description>Transcrobes Server Privacy Information Preambule Transcrobes is a new, radically personalised way of learning language. Transcrobes does that by collecting lots of information about your activities when you are interacting with material in the language you are learning. With this information it creates and maintains an accurate model of your knowledge - a digital representation of your linguistic self - and uses that model to predict what help to give you in order to let you interact with any real material you want to.</description>
+    </item>
+    
+    <item>
+      <title>Configure</title>
+      <link>/page/software/configure/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/home/</guid>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability    glossing Content glossing available Supported types: None, segmented, known synonym, native language (more soon)    </description>
+    </item>
+    
+    <item>
+      <title>Experimental Server</title>
+      <link>/page/meaningful-io/experiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/meaningful-io/experiment/</guid>
+      <description>Scientific validation of Transcrobes and Meaningful IO Transcrobes is an open source project and is the main means of collecting data for the Meaningful IO academic (PhD) research project. The project is lead by PhD candidate Anton MELSER and supervised by Dr John LEE.
+In order to validate both the theory and implementation of it in code, an installation of the Transcrobes codebase is made available to experimental subjects to use without charge until at least the conclusion of the research in August 2023.</description>
+    </item>
+    
+    <item>
+      <title>Glossing types</title>
+      <link>/page/software/configure/glossing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/glossing/</guid>
+      <description>Because all learners have different language backgrounds, glossing with another language may not be the best way for you to understand and learn, so a few other options are currently provided. This is one of the active research aspects of the platform - what are the best glossing techniques for learners, if they have a choice between several? How does it affect comprehension? How does it affect enjoyment? How does it affect learning?</description>
+    </item>
+    
+    <item>
+      <title>Goals</title>
+      <link>/page/software/configure/goals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/goals/</guid>
+      <description>One of the key philosophical drivers behind Transcrobes is learner freedom. Traditional approaches typically have a very rigid idea about what every learner is like and what they should learn, and they don&amp;rsquo;t particularly care that learners are actually people, rather than &amp;ldquo;scientific abstractions&amp;rdquo; or customers. Transcrobes puts each individual learner in the driver&amp;rsquo;s seat. The learner knows what their macro-level goals are, and Transcrobes is here to help the learner achieve those in a fun and highly efficient way.</description>
+    </item>
+    
+    <item>
+      <title>Importing lists and content</title>
+      <link>/page/software/configure/imports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/imports/</guid>
+      <description>Lists of vocabulary and content can be imported into Transcrobes.
+When files are imported, they are parsed and analysed, and important information is stored about them.
+These analyses can then be used for creating word lists. Word lists are the basis for several Transcrobes features, including vocabulary revision and setting goals, with more to come soon. Depending on the file type, imports of the appropriate type will appear as ebooks or media/video(for subtitles).</description>
+    </item>
+    
+    <item>
+      <title>k3s</title>
+      <link>/page/software/install/server/k3s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/k3s/</guid>
+      <description>Who should install Transcrobes on k3s? k3s is a curl-to-Kubernetes install, intended to make setting up a Kubernetes cluster on a single physical machine or VM easy and relatively painless for development or non-critical CI tasks. It was not initially intended to be used for production but is very handy in edge scenarios, and turned out to be very stable.
+That said, if you don&amp;rsquo;t have access to a Kubernetes cluster you can set up k3s on a single machine of a set of machines (with auto-failover multi-master), so it is a perfect way to get started with Transcrobes.</description>
+    </item>
+    
+    <item>
+      <title>Listrobes</title>
+      <link>/page/software/configure/listrobes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/listrobes/</guid>
+      <description>Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</description>
+    </item>
+    
+    <item>
+      <title>Meaningful IO</title>
+      <link>/page/meaningful-io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/meaningful-io/home/</guid>
+      <description>Meaningful IO presents an empiracally testable model of second language learning. The theory draws together several strands of empiracally collected data and puts them under a &amp;ldquo;social&amp;rdquo; lense. The motivation for Meaningful IO is to provide a theoretical basis for the design and implementation of highly efficient and enjoyable digital technologies for language learning.
+An official statement of the hypothesis can be found here.
+Discussion of the many, many contributing factors to language learning performance will also be posted on the project blog.</description>
+    </item>
+    
+    <item>
+      <title>Meaningful IO Transcrobes</title>
+      <link>/page/meaningful-io/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/meaningful-io/intro/</guid>
+      <description>The Meaningful IO (Input/Output) Theory of L2 Acquisition  The necessary and sufficient condition for language acquisition is &amp;ldquo;Meaningful Input&amp;rdquo;. Given sufficient Meaningful Input and appropriate communicative contexts, a learner will start producing &amp;ldquo;Meaningful Output&amp;rdquo;, providing evidence that language acquisition has taken place.
+  Meaningful Input (MI) is defined as input that is comprehensible enough for the learner to partake in an activity that has real utility for the individual.</description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>/page/software/install/server/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/home/</guid>
+      <description>The server part of Transcrobes runs on Kubernetes. In order to use Transcrobes properly, you will need to have a Kubernetes cluster that is accessible from the internet (or can at least access your DNS provider). For development and small-scale testing, Transcrobes can be run on k3s, which allows you to run a full cluster on a single machine, or scale up with more nodes as needed.
+Supported Platforms The following table gives an indication of the level of testing and support of Transcrobes on various common Kubernetes platforms, with links to detailed setup and configuration information, where it exists:</description>
+    </item>
+    
+    <item>
+      <title>User Setup</title>
+      <link>/page/software/install/server/user-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/user-setup/</guid>
+      <description>For Users Currently, Transcrobes system administrators can chose whether to activate signup through the project website or not. They will either just give you the signup URL, or provide you with all the details you need.
+If you would like to take part in the Meaningful IO Research project, please follow the instructions here to see whether spaces are still available.
+Please refer to the setup documentation for each client application for details on setting up each individual application, available here</description>
+    </item>
+    
+    <item>
+      <title>Word lists</title>
+      <link>/page/software/configure/wordlists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/wordlists/</guid>
+      <description>Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). The system stores information from the analysis and allows</description>
+    </item>
+    
+  </channel>
+</rss>

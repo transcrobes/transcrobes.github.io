@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on Transcrobes</title>
+    <link>/page/software/install/server/</link>
+    <description>Recent content in Server on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/software/install/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/page/software/install/server/server-privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/server-privacy/</guid>
+      <description>Transcrobes Server Privacy Information Preambule Transcrobes is a new, radically personalised way of learning language. Transcrobes does that by collecting lots of information about your activities when you are interacting with material in the language you are learning. With this information it creates and maintains an accurate model of your knowledge - a digital representation of your linguistic self - and uses that model to predict what help to give you in order to let you interact with any real material you want to.</description>
+    </item>
+    
+    <item>
+      <title>k3s</title>
+      <link>/page/software/install/server/k3s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/k3s/</guid>
+      <description>Who should install Transcrobes on k3s? k3s is a curl-to-Kubernetes install, intended to make setting up a Kubernetes cluster on a single physical machine or VM easy and relatively painless for development or non-critical CI tasks. It was not initially intended to be used for production but is very handy in edge scenarios, and turned out to be very stable.
+That said, if you don&amp;rsquo;t have access to a Kubernetes cluster you can set up k3s on a single machine of a set of machines (with auto-failover multi-master), so it is a perfect way to get started with Transcrobes.</description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>/page/software/install/server/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/home/</guid>
+      <description>The server part of Transcrobes runs on Kubernetes. In order to use Transcrobes properly, you will need to have a Kubernetes cluster that is accessible from the internet (or can at least access your DNS provider). For development and small-scale testing, Transcrobes can be run on k3s, which allows you to run a full cluster on a single machine, or scale up with more nodes as needed.
+Supported Platforms The following table gives an indication of the level of testing and support of Transcrobes on various common Kubernetes platforms, with links to detailed setup and configuration information, where it exists:</description>
+    </item>
+    
+    <item>
+      <title>User Setup</title>
+      <link>/page/software/install/server/user-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/user-setup/</guid>
+      <description>For Users Currently, Transcrobes system administrators can chose whether to activate signup through the project website or not. They will either just give you the signup URL, or provide you with all the details you need.
+If you would like to take part in the Meaningful IO Research project, please follow the instructions here to see whether spaces are still available.
+Please refer to the setup documentation for each client application for details on setting up each individual application, available here</description>
+    </item>
+    
+  </channel>
+</rss>
