@@ -8,15 +8,6 @@
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/software/install/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/page/software/install/server/server-privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/page/software/install/server/server-privacy/</guid>
-      <description>Transcrobes Server Privacy Information Preambule Transcrobes is a new, radically personalised way of learning language. Transcrobes does that by collecting lots of information about your activities when you are interacting with material in the language you are learning. With this information it creates and maintains an accurate model of your knowledge - a digital representation of your linguistic self - and uses that model to predict what help to give you in order to let you interact with any real material you want to.</description>
-    </item>
-    
-    <item>
       <title>k3s</title>
       <link>/page/software/install/server/k3s/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,6 +25,15 @@ That said, if you don&amp;rsquo;t have access to a Kubernetes cluster you can se
       <guid>/page/software/install/server/home/</guid>
       <description>The server part of Transcrobes runs on Kubernetes. In order to use Transcrobes properly, you will need to have a Kubernetes cluster that is accessible from the internet (or can at least access your DNS provider). For development and small-scale testing, Transcrobes can be run on k3s, which allows you to run a full cluster on a single machine, or scale up with more nodes as needed.
 Supported Platforms The following table gives an indication of the level of testing and support of Transcrobes on various common Kubernetes platforms, with links to detailed setup and configuration information, where it exists:</description>
+    </item>
+    
+    <item>
+      <title>Server Privacy</title>
+      <link>/page/software/install/server/server-privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/server-privacy/</guid>
+      <description>Transcrobes Server Privacy Information Preambule Transcrobes is a new, radically personalised way of learning language. Transcrobes does that by collecting lots of information about your activities when you are interacting with material in the language you are learning. With this information it creates and maintains an accurate model of your knowledge - a digital representation of your linguistic self - and uses that model to predict what help to give you in order to let you interact with any real material you want to.</description>
     </item>
     
     <item>

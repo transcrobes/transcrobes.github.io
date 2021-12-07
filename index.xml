@@ -154,7 +154,7 @@ Supported Activities Meta-learning The development focus until now has been on m
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/moocrobes/</guid>
       <description>Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.
-Configuring Moocrobes Moocrobes can be configured to use different glossing types, and the player can also be configured with dark/light mode, font size, playback speed (in -/+5% increments), subtitle delay (-/+), volume and other common media player functions.</description>
+You can access the video content from the Contents menu</description>
     </item>
     
     <item>
@@ -311,15 +311,6 @@ Our Standards Examples of behavior that contributes to creating a positive envir
     </item>
     
     <item>
-      <title></title>
-      <link>/page/software/install/server/server-privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/page/software/install/server/server-privacy/</guid>
-      <description>Transcrobes Server Privacy Information Preambule Transcrobes is a new, radically personalised way of learning language. Transcrobes does that by collecting lots of information about your activities when you are interacting with material in the language you are learning. With this information it creates and maintains an accurate model of your knowledge - a digital representation of your linguistic self - and uses that model to predict what help to give you in order to let you interact with any real material you want to.</description>
-    </item>
-    
-    <item>
       <title>Configure</title>
       <link>/page/software/configure/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -334,8 +325,8 @@ Our Standards Examples of behavior that contributes to creating a positive envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/contents/</guid>
-      <description>Contents are created by first importing a supported file format, and then telling the system to enrich them.
-Active learning-focused activities    Name Activity Type Status Comments     repetrobes vocabulary memorisation available Some user interface usability issues on mobile are currently being improved   notrobes word lookup available many functions available, many more planned!    </description>
+      <description>Contents are created by first importing a supported file format, and then telling the system to enrich them. After enriching you can use boocrobes to read ebooks and moocrobes to watch videos.
+Enriching is a complex process that makes sure all of the content has been properly analysed and that you have all the data you need to get maximum value, including all the glosses, parts of speech and soon grammar.</description>
     </item>
     
     <item>
@@ -424,6 +415,15 @@ Discussion of the many, many contributing factors to language learning performan
       <guid>/page/software/install/server/home/</guid>
       <description>The server part of Transcrobes runs on Kubernetes. In order to use Transcrobes properly, you will need to have a Kubernetes cluster that is accessible from the internet (or can at least access your DNS provider). For development and small-scale testing, Transcrobes can be run on k3s, which allows you to run a full cluster on a single machine, or scale up with more nodes as needed.
 Supported Platforms The following table gives an indication of the level of testing and support of Transcrobes on various common Kubernetes platforms, with links to detailed setup and configuration information, where it exists:</description>
+    </item>
+    
+    <item>
+      <title>Server Privacy</title>
+      <link>/page/software/install/server/server-privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/install/server/server-privacy/</guid>
+      <description>Transcrobes Server Privacy Information Preambule Transcrobes is a new, radically personalised way of learning language. Transcrobes does that by collecting lots of information about your activities when you are interacting with material in the language you are learning. With this information it creates and maintains an accurate model of your knowledge - a digital representation of your linguistic self - and uses that model to predict what help to give you in order to let you interact with any real material you want to.</description>
     </item>
     
     <item>

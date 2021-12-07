@@ -166,8 +166,6 @@
   </url><url>
     <loc>/page/software/configure/enrich/</loc>
   </url><url>
-    <loc>/page/software/install/server/server-privacy/</loc>
-  </url><url>
     <loc>/categories/</loc>
   </url><url>
     <loc>/page/software/configure/</loc>
@@ -197,6 +195,8 @@
     <loc>/page/software/install/server/</loc>
   </url><url>
     <loc>/page/software/install/server/home/</loc>
+  </url><url>
+    <loc>/page/software/install/server/server-privacy/</loc>
   </url><url>
     <loc>/page/software/install/server/user-setup/</loc>
   </url><url>
