@@ -8,12 +8,31 @@
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/software/configure/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>/page/software/configure/enrich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/enrich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Configure</title>
       <link>/page/software/configure/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability    glossing Content glossing available Supported types: None, segmented, known synonym, native language (more soon)    </description>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available. Predictive algorithm (when the goal will be achieved based on recent progress) coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Contents</title>
+      <link>/page/software/configure/contents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/contents/</guid>
+      <description>Contents are created by first importing a supported file format, and then telling the system to enrich them.
+Active learning-focused activities    Name Activity Type Status Comments     repetrobes vocabulary memorisation available Some user interface usability issues on mobile are currently being improved   notrobes word lookup available many functions available, many more planned!    </description>
     </item>
     
     <item>
@@ -41,8 +60,7 @@
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/imports/</guid>
       <description>Lists of vocabulary and content can be imported into Transcrobes.
-When files are imported, they are parsed and analysed, and important information is stored about them.
-These analyses can then be used for creating word lists. Word lists are the basis for several Transcrobes features, including vocabulary revision and setting goals, with more to come soon. Depending on the file type, imports of the appropriate type will appear as ebooks or media/video(for subtitles).</description>
+When files are imported, they are parsed and analysed, and important information is stored about them. These analyses can then be used for creating word lists. Word lists are the basis for several Transcrobes features, including vocabulary revision and setting goals, with more to come soon. Depending on the file type, imports of the appropriate type will appear as ebooks or media/video (for subtitles).</description>
     </item>
     
     <item>
@@ -60,7 +78,7 @@ These analyses can then be used for creating word lists. Word lists are the basi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/wordlists/</guid>
-      <description>Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). The system stores information from the analysis and allows</description>
+      <description>Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.</description>
     </item>
     
   </channel>

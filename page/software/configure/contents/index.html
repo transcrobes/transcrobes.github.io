@@ -7,8 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Word lists - Transcrobes</title>
-  <meta name="description" content="Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.">
+  <title>Contents - Transcrobes</title>
+  <meta name="description" content="Contents are created by first importing a supported file format, and then telling the system to enrich them.
+Active learning-focused activities    Name Activity Type Status Comments     repetrobes vocabulary memorisation available Some user interface usability issues on mobile are currently being improved   notrobes word lookup available many functions available, many more planned!    ">
   <meta name="author" content="Anton Melser"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -44,8 +45,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "\/page\/software\/configure\/wordlists\/",
-          "name": "Word lists"
+          "@id": "\/page\/software\/configure\/contents\/",
+          "name": "Contents"
         }
     }]
 }
@@ -56,15 +57,15 @@
   "author": {
     "name" : "Anton Melser"
   },
-  "headline": "Word lists",
-  "description" : "Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT\/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.",
+  "headline": "Contents",
+  "description" : "Contents are created by first importing a supported file format, and then telling the system to enrich them.\nActive learning-focused activities    Name Activity Type Status Comments     repetrobes vocabulary memorisation available Some user interface usability issues on mobile are currently being improved   notrobes word lookup available many functions available, many more planned!    ",
   "inLanguage" : "en",
-  "wordCount":  576 ,
+  "wordCount":  51 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "\/img\/tc128.png",
   "keywords" : [ "" ],
-  "mainEntityOfPage" : "\/page\/software\/configure\/wordlists\/",
+  "mainEntityOfPage" : "\/page\/software\/configure\/contents\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "\/",
@@ -78,15 +79,17 @@
 }
 </script>
 
-<meta property="og:title" content="Word lists" />
-<meta property="og:description" content="Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.">
+<meta property="og:title" content="Contents" />
+<meta property="og:description" content="Contents are created by first importing a supported file format, and then telling the system to enrich them.
+Active learning-focused activities    Name Activity Type Status Comments     repetrobes vocabulary memorisation available Some user interface usability issues on mobile are currently being improved   notrobes word lookup available many functions available, many more planned!    ">
 <meta property="og:image" content="/img/tc128.png" />
-<meta property="og:url" content="/page/software/configure/wordlists/" />
+<meta property="og:url" content="/page/software/configure/contents/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Transcrobes" />
 
-  <meta name="twitter:title" content="Word lists" />
-  <meta name="twitter:description" content="Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more …">
+  <meta name="twitter:title" content="Contents" />
+  <meta name="twitter:description" content="Contents are created by first importing a supported file format, and then telling the system to enrich them.
+Active learning-focused activities    Name Activity Type Status Comments     repetrobes …">
   <meta name="twitter:image" content="/img/tc128.png" />
   <meta name="twitter:card" content="summary" />
   <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -274,7 +277,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="page-heading">
               
-                <h1>Word lists</h1>
+                <h1>Contents</h1>
               
               
                 <hr class="small">
@@ -294,23 +297,32 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Wordlists are created by <a href="/page/software/configure/imports">importing and analysing texts</a>, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content. You might really want to watch the latest blockbuster movie, and creating a list from the subtitles means you can spend some time going over the new vocabulary before you watch it (then afterwards also, which is a really great way to learn!).</p>
-<h2 id="wordlist-details">Wordlist Details</h2>
-<img src="/img/wordlists/wordlist-show1.png"/>
-<h4 id="title-and-description">Title and Description</h4>
-<p>Wordlists have a Title (which is required and is shown in lists) and a Description, that allows you to put in background information if you need to.</p>
-<h4 id="import">Import</h4>
-<p>Each wordlist originates from an Import and you can create as many wordlists as you like from a single Import.</p>
-<h4 id="processing-status">Processing status</h4>
-<p>When you create a wordlist, the system has to perform a number of calculations and updates to the database, so it can take a couple of minutes to finish. The Processing status tells you where the wordlist creation process is currently.</p>
-<h4 id="nb-to-take-minimum-abs-frequency-minimum-doc-frequency-and-order-by">Nb to take, Minimum abs frequency, Minimum doc frequency and Order by</h4>
-<p>&ldquo;Nb to take&rdquo;, &ldquo;Minimum abs frequency&rdquo;, &ldquo;Minimum doc frequency&rdquo; and &ldquo;Order by&rdquo; are all options that allow you to control the items that get put in the list from the import. Say you import an eBook. Any given novel will have many thousands of unique words (&ldquo;types&rdquo; as they are often called), including lots of very uncommon ones. You might like to only select a maximum number of items for the list, so &ldquo;Nb to take&rdquo; allows that. You may also not want to actively learn the &ldquo;uncommon&rdquo; words, as you won&rsquo;t be seeing them often (so you can learn them later!). However, &ldquo;common&rdquo; is relative! Transcrobes uses the <a href="https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch/overview.htm">spoken word frequencies</a> from the University of Gent (based on movie subtitle frequencies) to allow you to choose word frequencies. These are expressed in words-per-million. You can see the frequencies of any word in the <a href="/page/software/learn/notrobes">Notrobes</a> tool, to get an idea of what you might like to set that at. Setting it to -1 has no limit. But the overall frequencies might not mean much. For example, overall the word &ldquo;phoenix&rdquo; might be very uncommon but, as it happens, very common in the Harry Potter book you want to read right now. So you can also choose to set a minimum frequency in the document, so the number of times the word appears in the book = Minimum doc frequency. Again, setting it to -1 will include everything. Because you can choose to limit to a maximum number of items, it also matter how you order the items, so the &ldquo;Order by&rdquo; allows you to control that, according to the two same criteria as the &ldquo;minimum frequencies&rdquo;.</p>
-<h2 id="wordlist-progress">Wordlist Progress</h2>
-<img src="/img/wordlists/wordlist-show2.png"/>
-<p>The system also looks at how you have been learning over time, and gives you a view over how much you have learnt over the last two months. This gives you an idea of your rate of improvement, and allows you to have some idea when you might learn all the words.</p>
-<h2 id="list-view">List view</h2>
-<img src="/img/wordlists/wordlist-list.png"/>
-<p>The list view allows you to see the wordlists you already have, as well as giving you the Processing status.</p>
+        <p>Contents are created by first <a href="/page/software/configure/imports">importing a supported file format</a>, and then telling the system to <b>enrich</b> them.</p>
+<h2 id="active-learning-focused-activities">Active learning-focused activities</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Activity Type</th>
+<th>Status</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/page/software/learn/repetrobes">repetrobes</a></td>
+<td>vocabulary memorisation</td>
+<td>available</td>
+<td>Some user interface usability issues on mobile are currently being improved</td>
+</tr>
+<tr>
+<td><a href="/page/software/learn/notrobes">notrobes</a></td>
+<td>word lookup</td>
+<td>available</td>
+<td>many functions available, many more planned!</td>
+</tr>
+</tbody>
+</table>
 
       </article>
 

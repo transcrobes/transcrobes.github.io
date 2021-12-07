@@ -164,6 +164,8 @@
   </url><url>
     <loc>/page/code_of_conduct/</loc>
   </url><url>
+    <loc>/page/software/configure/enrich/</loc>
+  </url><url>
     <loc>/page/software/install/server/server-privacy/</loc>
   </url><url>
     <loc>/categories/</loc>
@@ -171,6 +173,8 @@
     <loc>/page/software/configure/</loc>
   </url><url>
     <loc>/page/software/configure/home/</loc>
+  </url><url>
+    <loc>/page/software/configure/contents/</loc>
   </url><url>
     <loc>/page/meaningful-io/experiment/</loc>
   </url><url>
