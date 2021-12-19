@@ -8,15 +8,6 @@
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/software/configure/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/page/software/configure/enrich/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/page/software/configure/enrich/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Configure</title>
       <link>/page/software/configure/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,6 +24,18 @@
       <guid>/page/software/configure/contents/</guid>
       <description>Contents are created by first importing a supported file format, and then telling the system to enrich them. After enriching you can use boocrobes to read ebooks and moocrobes to watch videos.
 Enriching is a complex process that makes sure all of the content has been properly analysed and that you have all the data you need to get maximum value, including all the glosses, parts of speech and soon grammar.</description>
+    </item>
+    
+    <item>
+      <title>Enrichment</title>
+      <link>/page/software/configure/enrichment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/enrichment/</guid>
+      <description>.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Tip
+The page has information on how the system works under the hood. It is not required if you just want to use the system.
+ The system is able to give detailed, personalised help for each word (and soon grammatical patterns too) because of two things.
+ It develops a learner model for each learner (&amp;ldquo;it knows what you know&amp;rdquo;).</description>
     </item>
     
     <item>
@@ -70,6 +73,26 @@ When files are imported, they are parsed and analysed, and important information
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/listrobes/</guid>
       <description>Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</description>
+    </item>
+    
+    <item>
+      <title>Preferences</title>
+      <link>/page/software/configure/preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/preferences/</guid>
+      <description>The preferences page allows you to configure the system with any system-wide preferences that aren&amp;rsquo;t directly related to a given tool (e.g, Repetrobes-specific preferences are configured directly in the tool).
+Dark mode A beta version of Dark Mode is currently available. It currently has some glitches but learners need to spend LOTS of time looking at screens (or paper, but we can&amp;rsquo;t help much with that!), so it is definitely a priority moving forward.</description>
+    </item>
+    
+    <item>
+      <title>System Actions</title>
+      <link>/page/software/configure/system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/system/</guid>
+      <description>.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Warning
+Whenever a new version is deployed you will need to first refresh the browser page (refresh button, F5, etc.) and then close the browser. Transcrobes makes heavy use of &amp;ldquo;service workers&amp;rdquo;, which need all browser tabs to be closed before taking effect. On Android, you may also need to clear the browser from memory, as Google is very aggressive in caching and this sometimes means it won&amp;rsquo;t perform the refresh.</description>
     </item>
     
     <item>

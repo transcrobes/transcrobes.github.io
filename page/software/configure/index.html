@@ -39,7 +39,7 @@
   <meta name="twitter:image" content="/img/tc128.png" />
   <meta name="twitter:card" content="summary" />
   <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.89.4" />
+  <meta name="generator" content="Hugo 0.91.0" />
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Transcrobes"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -246,46 +246,6 @@
         <div class="posts-list">
           
             <article class="post-preview">
-    <a href="/page/software/configure/enrich/">
-        <h2 class="post-title"></h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 0001-01-01
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;0&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;0&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
     <a href="/page/software/configure/home/">
         <h2 class="post-title">Configure</h2>
         
@@ -303,7 +263,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;85&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;153&nbsp;words
   
   
     
@@ -361,6 +321,50 @@
         Contents are created by first importing a supported file format, and then telling the system to enrich them. After enriching you can use boocrobes to read ebooks and moocrobes to watch videos.
 Enriching is a complex process that makes sure all of the content has been properly analysed and that you have all the data you need to get maximum value, including all the glosses, parts of speech and soon grammar.
         <a href="/page/software/configure/contents/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="/page/software/configure/enrichment/">
+        <h2 class="post-title">Enrichment</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 0001-01-01
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;142&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Tip
+The page has information on how the system works under the hood. It is not required if you just want to use the system.
+ The system is able to give detailed, personalised help for each word (and soon grammatical patterns too) because of two things.
+ It develops a learner model for each learner (&ldquo;it knows what you know&rdquo;).
+        <a href="/page/software/configure/enrichment/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -427,7 +431,7 @@ Enriching is a complex process that makes sure all of the content has been prope
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;236&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;313&nbsp;words
   
   
     
@@ -527,6 +531,90 @@ When files are imported, they are parsed and analysed, and important information
         <h1 id="listrobes">Listrobes</h1>
 <p>Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</p>
 
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="/page/software/configure/preferences/">
+        <h2 class="post-title">Preferences</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 0001-01-01
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;92&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        The preferences page allows you to configure the system with any system-wide preferences that aren&rsquo;t directly related to a given tool (e.g, Repetrobes-specific preferences are configured directly in the tool).
+Dark mode A beta version of Dark Mode is currently available. It currently has some glitches but learners need to spend LOTS of time looking at screens (or paper, but we can&rsquo;t help much with that!), so it is definitely a priority moving forward.
+        <a href="/page/software/configure/preferences/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="/page/software/configure/system/">
+        <h2 class="post-title">System Actions</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 0001-01-01
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;304&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Warning
+Whenever a new version is deployed you will need to first refresh the browser page (refresh button, F5, etc.) and then close the browser. Transcrobes makes heavy use of &ldquo;service workers&rdquo;, which need all browser tabs to be closed before taking effect. On Android, you may also need to clear the browser from memory, as Google is very aggressive in caching and this sometimes means it won&rsquo;t perform the refresh.
+        <a href="/page/software/configure/system/" class="post-read-more">[Read More]</a>
         
     </div>
 
