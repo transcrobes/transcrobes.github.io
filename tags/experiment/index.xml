@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Live Server Experiment</title>
       <link>/post/experiment/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/experiment/</guid>
       <description>After many months of intense focus on developing new features and making the system faster and more scalable, the system is now ready for real learners, adding real value for language learners who wish to super-charge their learning in a fun and efficient way.

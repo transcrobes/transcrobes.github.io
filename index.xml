@@ -7,11 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginners with Transcrobes</title>
+      <link>/page/software/learn/getting-started-beginner/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/getting-started-beginner/</guid>
+      <description>Transcrobes already has a lot of advanced functionality, so here is some introductory advice on how to start using it for beginners to Chinese. A lot of Transcrobes functionality is currently focussed on developing written skills (reading, writing, vocabularly), so if you are a heritage learner with a large spoken vocabulary but only recognise a few characters, you should also start here (but you&amp;rsquo;ll likely progress VERY fast!).
+If you already know around 1000+ words (700+ characters) or more (HSK 4 and above), then you should start here.</description>
+    </item>
+    
+    <item>
+      <title>Getting started as an intermediate learner</title>
+      <link>/page/software/learn/getting-started-intermediate/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/getting-started-intermediate/</guid>
+      <description>In addition to the vocabulary work that you started when you first started learning and should still be doing, at some point in your learning, some teacher, book, or site will no doubt tell you (probably already) to start trying to do some &amp;ldquo;extensive reading&amp;rdquo;, or possibly to watch movies, listen to music, etc. You may well have a dedicated &amp;ldquo;extensive reading&amp;rdquo; course if you are late intermediate or advanced. This gives you exposure to new vocabulary and grammar, and helps to cement the learning you have done in class with &amp;ldquo;real-life&amp;rdquo; usages of the words and grammar.</description>
+    </item>
+    
+    <item>
+      <title>Learning using Transcrobes</title>
+      <link>/post/learning/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/learning/</guid>
+      <description>As a teenager (and later), you aren&amp;rsquo;t the &amp;ldquo;blank slate&amp;rdquo; that you are when you learn your first language. You have a certain number of skills and learning habits that need to be taken advantage of if you want to learn a language most efficiently. Transcrobes has already implemented a number of functionalities that help you better manage the activities that are most valuable and useful for learning. Development of features is driven by science - unfortunately something that is often lacking in both mandatory schooling and software designed for language learning.</description>
+    </item>
+    
+    <item>
+      <title>Who is Transcrobes best for?</title>
+      <link>/post/audience/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/audience/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Live Server Experiment</title>
       <link>/post/experiment/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/experiment/</guid>
       <description>After many months of intense focus on developing new features and making the system faster and more scalable, the system is now ready for real learners, adding real value for language learners who wish to super-charge their learning in a fun and efficient way.
@@ -144,6 +181,8 @@ Server installation documentation</description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/home/</guid>
       <description>See here for more details on the scientific theories behind the Transcrobes project.
+Getting Started Beginners
+Advanced Beginners+
 Supported Activities Meta-learning The development focus until now has been on making extensive content consumption tools (web, ebooks, video) available and starting to collect data. notrobes (also see below) already has some basic information on what the system knows about the learner&amp;rsquo;s vocabulary knowledge, including the number of times the word has been seen, definitions looked up, etc.</description>
     </item>
     
@@ -326,10 +365,9 @@ Enriching is a complex process that makes sure all of the content has been prope
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/enrichment/</guid>
-      <description>.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Tip
-The page has information on how the system works under the hood. It is not required if you just want to use the system.
- The system is able to give detailed, personalised help for each word (and soon grammatical patterns too) because of two things.
- It develops a learner model for each learner (&amp;ldquo;it knows what you know&amp;rdquo;).</description>
+      <description>A primary goal of the system is to &amp;ldquo;increase the bandwidth to the brain&amp;rdquo; - giving you exactly the extra information you need to be able to understand and also to learn most efficiently.
+.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Tip
+The page has information on how the system works under the hood. It is not required if you just want to use the system.</description>
     </item>
     
     <item>

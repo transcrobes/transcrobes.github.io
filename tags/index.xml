@@ -7,29 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>experiment</title>
-      <link>/tags/experiment/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <title>language learning</title>
+      <link>/tags/language-learning/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/tags/experiment/</guid>
+      <guid>/tags/language-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>/tags/learning/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mandarin Chinese</title>
       <link>/tags/mandarin-chinese/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/tags/mandarin-chinese/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>experiment</title>
+      <link>/tags/experiment/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/tags/experiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>PhD</title>
       <link>/tags/phd/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/tags/phd/</guid>
       <description></description>
@@ -38,7 +56,7 @@
     <item>
       <title>research</title>
       <link>/tags/research/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/tags/research/</guid>
       <description></description>
@@ -68,15 +86,6 @@
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/tags/engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>language learning</title>
-      <link>/tags/language-learning/</link>
-      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/tags/language-learning/</guid>
       <description></description>
     </item>
     

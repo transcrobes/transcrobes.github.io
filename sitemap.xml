@@ -2,30 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/page/software/learn/getting-started-beginner/</loc>
+    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/page/software/learn/getting-started-intermediate/</loc>
+    <lastmod>2022-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>/tags/experiment/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <loc>/tags/language-learning/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/experiment/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <loc>/tags/learning/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/learning/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/mandarin-chinese/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/phd/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/research/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/audience/</loc>
+    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/experiment/</loc>
+    <lastmod>2021-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/experiment/</loc>
+    <lastmod>2021-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/phd/</loc>
+    <lastmod>2021-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/research/</loc>
+    <lastmod>2021-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/page/about/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
@@ -106,9 +124,6 @@
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/engineering-l2/</loc>
-    <lastmod>2020-02-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/language-learning/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/phd/</loc>

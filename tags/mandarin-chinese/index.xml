@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mandarin-chinese/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/mandarin-chinese/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning using Transcrobes</title>
+      <link>/post/learning/</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/learning/</guid>
+      <description>As a teenager (and later), you aren&amp;rsquo;t the &amp;ldquo;blank slate&amp;rdquo; that you are when you learn your first language. You have a certain number of skills and learning habits that need to be taken advantage of if you want to learn a language most efficiently. Transcrobes has already implemented a number of functionalities that help you better manage the activities that are most valuable and useful for learning. Development of features is driven by science - unfortunately something that is often lacking in both mandatory schooling and software designed for language learning.</description>
+    </item>
+    
     <item>
       <title>Live Server Experiment</title>
       <link>/post/experiment/</link>
-      <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/experiment/</guid>
       <description>After many months of intense focus on developing new features and making the system faster and more scalable, the system is now ready for real learners, adding real value for language learners who wish to super-charge their learning in a fun and efficient way.
