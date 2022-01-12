@@ -7,7 +7,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beijing University Chinese (Characters) for Beginners</title>
+      <link>/page/software/resources/beida/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/resources/beida/</guid>
+      <description>Resources for beginners Here are the lists of vocabulary, extracted into Transcrobes-compatible CSV import files for each course and lesson. After importing each file, you can create a list and then learn/revise in Repetrobes.
+The &amp;ldquo;Chinese Characters for Beginners&amp;rdquo; courses have a focus on getting you to understand better how Chinese characters are constructed, so you can better understand the logic behind them, and thus more easily learn. They have some vocabulary that you might not need right away but you can also usefully learn in Repetrobes.</description>
+    </item>
+    
+    <item>
+      <title>MandarinX Mandarin Chinese Levels 1-3</title>
+      <link>/page/software/resources/mandarinx/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/resources/mandarinx/</guid>
+      <description>Resources for beginners Here are the lists of vocabulary, extracted into Transcrobes-compatible CSV import files for each course and lesson. After importing each file, you can create a list and then learn/revise in Repetrobes.
+While the courses below are not &amp;ldquo;free&amp;rdquo;, in that in order to get a certificate and do all the quizzes you need to pay, you can audit them, watch all the videos and access some of the quizzes and resources.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/page/software/resources/home/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/resources/home/</guid>
+      <description>In this section of the website you can find resources that will help you connect your learning to other sources. You can obviously bring your own resources to Transcrobes, and for most things like content, you will need to.
+You can find getting started information for beginners, or for advanced Beginners+.
+Recommended courses and resources Disclaimer: the author/site is only affiliated with the City University of Hong Kong and has no connection to the following sites or resources at all (except thinking they are great!</description>
+    </item>
+    
+    <item>
+      <title>Shanghai Jiaotong University Chinese for Beginners</title>
+      <link>/page/software/resources/jiaoda/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/resources/jiaoda/</guid>
+      <description>Resources for beginners Here are the lists of vocabulary, extracted into Transcrobes-compatible CSV import files for each course and lesson. After importing each file, you can create a list and then learn/revise in Repetrobes. On occasion words that appear in the lesson but not in the &amp;ldquo;vocab lists&amp;rdquo; have been added to the lists here.
+Some of the resources provided by the course won&amp;rsquo;t be necessary for you with Transcrobes. For example, several of the lessons (particularly in the 3rd course) include SWF files that you can download to see the character strokes animated.</description>
+    </item>
+    
     <item>
       <title>About Transcrobes</title>
       <link>/page/about/</link>
