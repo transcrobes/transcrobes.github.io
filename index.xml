@@ -86,8 +86,7 @@ Some of the resources provided by the course won&amp;rsquo;t be necessary for yo
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/getting-started-beginner/</guid>
-      <description>Transcrobes already has a lot of advanced functionality, so here is some introductory advice on how to start using it for beginners to Chinese. A lot of Transcrobes functionality is currently focussed on developing written skills (reading, writing, vocabularly), so if you are a heritage learner with a large spoken vocabulary but only recognise a few characters, you should also start here (but you&amp;rsquo;ll likely progress VERY fast!).
-If you already know around 1000+ words (700+ characters) or more (HSK 4 and above), then you should start here.</description>
+      <description>tl;dr  Do an (online or offline) introductory course to get started with learning grammar and basic vocabulary. Use the Transcrobes vocabulary learning and revision tools to super-charge your learning, and then use it to start consuming real content as soon as you feel you can.  Introduction Transcrobes already has a lot of advanced functionality, but here is some introductory advice on how to start using it for beginners to Chinese.</description>
     </item>
     
     <item>
@@ -96,7 +95,7 @@ If you already know around 1000+ words (700+ characters) or more (HSK 4 and abov
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/getting-started-intermediate/</guid>
-      <description>In addition to the vocabulary work that you started when you first started learning and should still be doing, at some point in your learning, some teacher, book, or site will no doubt tell you (probably already) to start trying to do some &amp;ldquo;extensive reading&amp;rdquo;, or possibly to watch movies, listen to music, etc. You may well have a dedicated &amp;ldquo;extensive reading&amp;rdquo; course if you are late intermediate or advanced. This gives you exposure to new vocabulary and grammar, and helps to cement the learning you have done in class with &amp;ldquo;real-life&amp;rdquo; usages of the words and grammar.</description>
+      <description>tl;dr Bootstrap  If you already use an application, then export the vocab you already know and import that as a list to Transcrobes. Importing let&amp;rsquo;s you bootstrap your account so the system learns what you know. If your current/previous application doesn&amp;rsquo;t allow that, or you are just getting started learning with software, then head to the Listrobes input tool and spend as much time as you can be bothered telling the system what words you already know.</description>
     </item>
     
     <item>
@@ -212,8 +211,9 @@ Maintainers You can also contact the maintainers directly if you prefer email.
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/development/</guid>
-      <description>Basics After spending quite a bit of time setting up properly on Gitlab, it was decided to move to Github. Most issues have not been migrated or updated for quite a while. Basically get in touch with the maintainer if you are at all interested.
-There is a backlog of stuff needing to be developed, from unit testing to trying out the latest recurrent neural networks on the video OCR system (Tesseract OCR via CCExtractor).</description>
+      <description>Basics After spending quite a bit of time setting up properly on Gitlab, it was decided to move to Github. Basically get in touch with the maintainer if you are interested and have some development experience.
+There is an (incomplete) backlog of stuff needing to be developed.
+Communication The two main forms of communication are via issues on the Github issue tracker, or on the discussion list. If you are new, please make sure you have discussed with a regular committer/maintainer BEFORE you start working to avoid any time-wasting and frustration.</description>
     </item>
     
     <item>
@@ -395,7 +395,7 @@ Our Standards Examples of behavior that contributes to creating a positive envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
     </item>
     
     <item>
@@ -482,7 +482,8 @@ That said, if you don&amp;rsquo;t have access to a Kubernetes cluster you can se
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/listrobes/</guid>
-      <description>Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</description>
+      <description>Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
+By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &amp;ldquo;Open Subtitles ZH&amp;rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!</description>
     </item>
     
     <item>
@@ -497,7 +498,7 @@ Discussion of the many, many contributing factors to language learning performan
     </item>
     
     <item>
-      <title>Meaningful IO Transcrobes</title>
+      <title>Meaningful IO</title>
       <link>/page/meaningful-io/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>

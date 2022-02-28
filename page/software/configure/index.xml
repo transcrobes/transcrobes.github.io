@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
     </item>
     
     <item>
@@ -80,7 +80,8 @@ When files are imported, they are parsed and analysed, and important information
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/listrobes/</guid>
-      <description>Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</description>
+      <description>Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
+By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &amp;ldquo;Open Subtitles ZH&amp;rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!</description>
     </item>
     
     <item>

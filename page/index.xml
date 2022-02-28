@@ -94,8 +94,9 @@ Maintainers You can also contact the maintainers directly if you prefer email.
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/development/</guid>
-      <description>Basics After spending quite a bit of time setting up properly on Gitlab, it was decided to move to Github. Most issues have not been migrated or updated for quite a while. Basically get in touch with the maintainer if you are at all interested.
-There is a backlog of stuff needing to be developed, from unit testing to trying out the latest recurrent neural networks on the video OCR system (Tesseract OCR via CCExtractor).</description>
+      <description>Basics After spending quite a bit of time setting up properly on Gitlab, it was decided to move to Github. Basically get in touch with the maintainer if you are interested and have some development experience.
+There is an (incomplete) backlog of stuff needing to be developed.
+Communication The two main forms of communication are via issues on the Github issue tracker, or on the discussion list. If you are new, please make sure you have discussed with a regular committer/maintainer BEFORE you start working to avoid any time-wasting and frustration.</description>
     </item>
     
     <item>

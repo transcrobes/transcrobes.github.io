@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meaningful IO Transcrobes on Transcrobes</title>
+    <title>Meaningful IO on Transcrobes</title>
     <link>/page/meaningful-io/</link>
-    <description>Recent content in Meaningful IO Transcrobes on Transcrobes</description>
+    <description>Recent content in Meaningful IO on Transcrobes</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/page/meaningful-io/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +29,7 @@ Discussion of the many, many contributing factors to language learning performan
     </item>
     
     <item>
-      <title>Meaningful IO Transcrobes</title>
+      <title>Meaningful IO</title>
       <link>/page/meaningful-io/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>

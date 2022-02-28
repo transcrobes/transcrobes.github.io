@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Listrobes - Transcrobes</title>
-  <meta name="description" content="Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.">
+  <meta name="description" content="Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
+By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &ldquo;Open Subtitles ZH&rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!">
   <meta name="author" content="Anton Melser"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,9 +58,9 @@
     "name" : "Anton Melser"
   },
   "headline": "Listrobes",
-  "description" : "Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.",
+  "description" : "Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.\nBy default the system presents you with a list of the most common words, most common first, according to the University of Ghent \u0026ldquo;Open Subtitles ZH\u0026rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!",
   "inLanguage" : "en",
-  "wordCount":  52 ,
+  "wordCount":  296 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "\/img\/tc128.png",
@@ -79,14 +80,15 @@
 </script>
 
 <meta property="og:title" content="Listrobes" />
-<meta property="og:description" content="Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.">
+<meta property="og:description" content="Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
+By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &ldquo;Open Subtitles ZH&rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!">
 <meta property="og:image" content="/img/tc128.png" />
 <meta property="og:url" content="/page/software/configure/listrobes/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Transcrobes" />
 
   <meta name="twitter:title" content="Listrobes" />
-  <meta name="twitter:description" content="Listrobes Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, …">
+  <meta name="twitter:description" content="Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding …">
   <meta name="twitter:image" content="/img/tc128.png" />
   <meta name="twitter:card" content="summary" />
   <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -296,8 +298,13 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h1 id="listrobes">Listrobes</h1>
-<p>Listrobes is an input interface that allows learners to indicate how well they know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick, even without using error-prone guessing algorithms that are popular with computationally-oriented linguists.</p>
+        <p>Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.</p>
+<img style="max-width:100%" src="/img/listrobes/all.png"/>
+<p>By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &ldquo;Open Subtitles ZH&rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!). This list is just the default, and you can <a href="/page/software/configure/imports">import</a> any list you want to create a <a href="/page/software/configure/wordlists">word list</a>, which you can then use here. The system also already includes lists for all the HSK levels, so you might like to use those too.</p>
+<img style="max-width:70%" src="/img/listrobes/conf.png"/>
+<p>The configuration also allows you to set the list default. By default that is &ldquo;Known poorly&rdquo;, which means that the system won&rsquo;t show you glosses for that word and will set to active learning in the <a href="/page/software/learn/repetrobes">Repetrobes vocabulary revision tool</a>. What this means is that if you don&rsquo;t explicitly click/tap on a word, when you click the Validate button, you are telling the system that you &ldquo;know the word, but need to revise&rdquo;. The next is &ldquo;Unknown&rdquo;, meaning that if you tap once on a word, it will tell the system that you don&rsquo;t know this word, meaning it will still gloss it by default when you consume content. You can change the order by drag/dropping. You can also change the number of words you get per page.</p>
+<img style="max-width:70%" src="/img/listrobes/focus.png"/>
+<p>If you hover the mouse cursor over a word (long-press on mobile) it will give you a popup with a definition, so you can quickly check to make sure your intuition was right!</p>
 
       </article>
 
