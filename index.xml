@@ -67,8 +67,7 @@ While the courses below are not &amp;ldquo;free&amp;rdquo;, in that in order to 
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/resources/home/</guid>
       <description>In this section of the website you can find resources that will help you connect your learning to other sources. You can obviously bring your own resources to Transcrobes, and for most things like content, you will need to.
-You can find getting started information for beginners, or for advanced Beginners+.
-Recommended courses and resources Disclaimer: the author/site is only affiliated with the City University of Hong Kong and has no connection to the following sites or resources at all (except thinking they are great!</description>
+You can find detailed getting started information for beginners, or for advanced Beginners+. These pages give (quite long) introductions into many aspects of language learning that you might not think of but are important if you want to learn efficiently, so when you have some spare time, you should take a few moments to read through them.</description>
     </item>
     
     <item>
@@ -82,21 +81,21 @@ Some of the resources provided by the course won&amp;rsquo;t be necessary for yo
     </item>
     
     <item>
-      <title>Beginners with Transcrobes</title>
-      <link>/page/software/learn/getting-started-beginner/</link>
+      <title>Beginning with Transcrobes</title>
+      <link>/post/getting-started-beginner/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/page/software/learn/getting-started-beginner/</guid>
+      <guid>/post/getting-started-beginner/</guid>
       <description>Transcrobes already has a lot of advanced functionality, so here is some introductory advice on how to start using it for beginners to Chinese. A lot of Transcrobes functionality is currently focussed on developing written skills (reading, writing, vocabularly), so if you are a heritage learner with a large spoken vocabulary but only recognise a few characters, you should also start here (but you&amp;rsquo;ll likely progress VERY fast!).
 If you already know around 1000+ words (700+ characters) or more (HSK 4 and above), then you should start here.</description>
     </item>
     
     <item>
       <title>Getting started as an intermediate learner</title>
-      <link>/page/software/learn/getting-started-intermediate/</link>
+      <link>/post/getting-started-intermediate/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/page/software/learn/getting-started-intermediate/</guid>
+      <guid>/post/getting-started-intermediate/</guid>
       <description>In addition to the vocabulary work that you started when you first started learning and should still be doing, at some point in your learning, some teacher, book, or site will no doubt tell you (probably already) to start trying to do some &amp;ldquo;extensive reading&amp;rdquo;, or possibly to watch movies, listen to music, etc. You may well have a dedicated &amp;ldquo;extensive reading&amp;rdquo; course if you are late intermediate or advanced. This gives you exposure to new vocabulary and grammar, and helps to cement the learning you have done in class with &amp;ldquo;real-life&amp;rdquo; usages of the words and grammar.</description>
     </item>
     
@@ -107,15 +106,6 @@ If you already know around 1000+ words (700+ characters) or more (HSK 4 and abov
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/learning/</guid>
       <description>As a teenager (and later), you aren&amp;rsquo;t the &amp;ldquo;blank slate&amp;rdquo; that you are when you learn your first language. You have a certain number of skills and learning habits that need to be taken advantage of if you want to learn a language most efficiently. Transcrobes has already implemented a number of functionalities that help you better manage the activities that are most valuable and useful for learning. Development of features is driven by science - unfortunately something that is often lacking in both mandatory schooling and software designed for language learning.</description>
-    </item>
-    
-    <item>
-      <title>Who is Transcrobes best for?</title>
-      <link>/post/audience/</link>
-      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/post/audience/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -254,8 +244,7 @@ Server installation documentation</description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/home/</guid>
       <description>See here for more details on the scientific theories behind the Transcrobes project.
-Getting Started Start Here
-Supported Activities Meta-learning The development focus until now has been on making extensive content consumption tools (web, ebooks, video) available and starting to collect data. notrobes (also see below) already has some basic information on what the system knows about the learner&amp;rsquo;s vocabulary knowledge, including the number of times the word has been seen, definitions looked up, etc.</description>
+Understanding language learning You can find detailed getting started information for beginners, or for advanced Beginners+. These pages give (quite long) introductions into many aspects of language learning that you might not think of but are important if you want to learn efficiently, so when you have some spare time, you should take a few moments to read through them.</description>
     </item>
     
     <item>
@@ -359,17 +348,6 @@ That said, the inflectional characteristics of English are a new challenge for t
     </item>
     
     <item>
-      <title>Gitlab All The Things</title>
-      <link>/post/gitlab-all-the-things/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/post/gitlab-all-the-things/</guid>
-      <description>This is Part 4 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
-Check out Part 1 here, Part 2 here and Part 3 here
-Gitlab all the Things Automating container builds In the middle of writing the server install documentation, I realised that I had just been manually building and pushing the images to Gitlab&amp;rsquo;s image registry.</description>
-    </item>
-    
-    <item>
       <title>Migrating to Kubernetes</title>
       <link>/post/migrating-to-kube/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
@@ -378,17 +356,6 @@ Gitlab all the Things Automating container builds In the middle of writing the s
       <description>This is Part 3 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
 Check out Part 1 here and Part 2 here.
 Kubernetes Migration Woes nginx-ingress I was coming from a setup where I knew the component parts (Apache + mod_wsgi) pretty well. I haven&amp;rsquo;t been working on high-load web stuff for over 8 years now, and always thought that nginx was a lot of hype for not much benefit.</description>
-    </item>
-    
-    <item>
-      <title>The Gory Details</title>
-      <link>/post/microk8s-the-details/</link>
-      <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/post/microk8s-the-details/</guid>
-      <description>This is Part 2 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
-Check out Part 1 here
-Some Detailed Gripes and Gotchas Building Snaps I had seen a couple of talks on service meshes at a conference a while back but hadn&amp;rsquo;t had a play yet - microk8s ships with istio, and istio is all the rage these days (apparently), so I definitely wanted to use that in the system.</description>
     </item>
     
     <item>
@@ -546,7 +513,7 @@ Discussion of the many, many contributing factors to language learning performan
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/preferences/</guid>
       <description>The preferences page allows you to configure the system with any system-wide preferences that aren&amp;rsquo;t directly related to a given tool (e.g, Repetrobes-specific preferences are configured directly in the tool).
-Dark mode A beta version of Dark Mode is currently available. It currently has some glitches but learners need to spend LOTS of time looking at screens (or paper, but we can&amp;rsquo;t help much with that!), so it is definitely a priority moving forward.</description>
+Dark mode Dark mode is now fully supported. There is a known issue personalising text and gloss colour in boocrobes that is being worked on.</description>
     </item>
     
     <item>

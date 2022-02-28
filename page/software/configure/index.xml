@@ -90,7 +90,7 @@ When files are imported, they are parsed and analysed, and important information
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/preferences/</guid>
       <description>The preferences page allows you to configure the system with any system-wide preferences that aren&amp;rsquo;t directly related to a given tool (e.g, Repetrobes-specific preferences are configured directly in the tool).
-Dark mode A beta version of Dark Mode is currently available. It currently has some glitches but learners need to spend LOTS of time looking at screens (or paper, but we can&amp;rsquo;t help much with that!), so it is definitely a priority moving forward.</description>
+Dark mode Dark mode is now fully supported. There is a known issue personalising text and gloss colour in boocrobes that is being worked on.</description>
     </item>
     
     <item>

@@ -135,42 +135,6 @@
     </item>
     
     <item>
-      <title>CI</title>
-      <link>/tags/ci/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/tags/ci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>/tags/devops/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gitlab</title>
-      <link>/tags/gitlab/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/tags/gitlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>/tags/technical/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <author>anton@transcrob.es (Anton Melser)</author>
-      <guid>/tags/technical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Alibaba Cloud</title>
       <link>/tags/alibaba-cloud/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
@@ -194,6 +158,15 @@
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/tags/mickrok8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>/tags/technical/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/tags/technical/</guid>
       <description></description>
     </item>
     
