@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/language-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/language-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What does it mean to know a word, and how do we learn them?</title>
+      <link>/post/knowing-a-word/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/knowing-a-word/</guid>
+      <description>Probably the main indicator of progress in language learning is increasing &amp;ldquo;known vocabulary&amp;rdquo;. While that sounds pretty uncontroversial* and simple, actually deciding what &amp;ldquo;knowing a word&amp;rdquo; is is actually a subject of hot debate! Particularly when we need to be very precise about things - exactly what you need when you create software - things start to get much less clear.
+How do you know whether you know something? The answer to this question is one that has challenged philosophers and sages since time immemorial!</description>
+    </item>
+    
     <item>
       <title>Who is Transcrobes best for?</title>
       <link>/post/audience/</link>

@@ -9,6 +9,28 @@
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
     <lastBuildDate>Wed, 21 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/page/software/learn/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My Stats</title>
+      <link>/page/software/learn/stats/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/stats/</guid>
+      <description>Understanding the current state of your knowledge and how that has evolved over time is a very effective way for many learners to make the most of their learning time and (mental) effort. Transcrobes will eventually provide a very rich interface for analysing and understanding many aspects of learning, including what the most effective activities are for each individual learner.
+While we are just at the beginning, Transcrobes aims to be a quantified self project for language learning - helping you to deeply understand how you - and that means YOU and not some random, Ivory Tower abstraction - learn best.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/page/software/learn/getting-started/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/getting-started/</guid>
+      <description>Welcome! Transcrobes is an open ecosystem for learning languages, with actual learners at the centre of all research, development and services.
+It is open source, open research and open education.
+Sign up for free to be a part of Transcrobes today
+What can it do? Transcrobes provides deeply individualised comprehension and learning aids, to turn any authentic text into an optimised tool for language learning. Get help only with the stuff you need help for, with automatic glosses for unknown words, and on-demand definitions, translations, similar sentences, synonyms, and direct integration with active learning tools like spaced repetition, and much more.</description>
+    </item>
+    
+    <item>
       <title>Beginners with Transcrobes</title>
       <link>/page/software/learn/getting-started-beginner/</link>
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
@@ -52,8 +74,7 @@ If you already know around 1000+ words (700+ characters) or more (HSK 4 and abov
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/home/</guid>
       <description>See here for more details on the scientific theories behind the Transcrobes project.
-Getting Started Beginners
-Advanced Beginners+
+Getting Started Start Here
 Supported Activities Meta-learning The development focus until now has been on making extensive content consumption tools (web, ebooks, video) available and starting to collect data. notrobes (also see below) already has some basic information on what the system knows about the learner&amp;rsquo;s vocabulary knowledge, including the number of times the word has been seen, definitions looked up, etc.</description>
     </item>
     
@@ -85,6 +106,16 @@ Using Notrobes     Simply enter a word in the language you are learning into the
       <guid>/page/software/learn/repetrobes/</guid>
       <description>Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
 Work has started on a very significantly optimised, personalised, behaviour-based, AI-powered version, which will be integrated soon. This new version will take into account all the information the system has on you, not just your responses in the tool, making it a LOT more accurate and powerful.</description>
+    </item>
+    
+    <item>
+      <title>Textcrobes</title>
+      <link>/page/software/learn/textcrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/textcrobes/</guid>
+      <description>Sometimes you need to read text that is not in one of the other supported formats, like from a PDF or MS Word document. In these cases, as long as you can copy and paste the text, you can paste it into Textcrobes and get all the great tools and formatting options you have in the other reading tools.
+You can also see your progress on the vocabulary (and soon grammar) contained in the video, and get some idea how difficult it might be for you now, and how that will change in the future if you continue your great work!</description>
     </item>
     
   </channel>

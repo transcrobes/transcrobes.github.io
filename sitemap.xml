@@ -3,8 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>/tags/language-learning/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/page/software/learn/stats/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/knowing-a-word/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/word-knowledge/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/words/</loc>
+    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/page/software/learn/getting-started/</loc>
+    <lastmod>2022-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/page/software/resources/beida/</loc>
     <lastmod>2022-01-10T00:00:00+00:00</lastmod>
@@ -27,9 +51,6 @@
     <loc>/page/software/learn/getting-started-intermediate/</loc>
     <lastmod>2022-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/language-learning/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/learning/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -37,12 +58,6 @@
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/mandarin-chinese/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2021-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/audience/</loc>
@@ -121,6 +136,9 @@
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/page/supported-languages/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/page/software/learn/textcrobes/</loc>
     <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/page/software/install/clients/transcrobes/</loc>
@@ -202,6 +220,8 @@
     <loc>/page/software/configure/enrichment/</loc>
   </url><url>
     <loc>/page/meaningful-io/experiment/</loc>
+  </url><url>
+    <loc>/page/software/configure/exports/</loc>
   </url><url>
     <loc>/page/software/configure/glossing/</loc>
   </url><url>

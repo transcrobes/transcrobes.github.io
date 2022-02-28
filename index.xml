@@ -7,7 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
     <webMaster>anton@transcrob.es (Anton Melser)</webMaster>
-    <lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Stats</title>
+      <link>/page/software/learn/stats/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/stats/</guid>
+      <description>Understanding the current state of your knowledge and how that has evolved over time is a very effective way for many learners to make the most of their learning time and (mental) effort. Transcrobes will eventually provide a very rich interface for analysing and understanding many aspects of learning, including what the most effective activities are for each individual learner.
+While we are just at the beginning, Transcrobes aims to be a quantified self project for language learning - helping you to deeply understand how you - and that means YOU and not some random, Ivory Tower abstraction - learn best.</description>
+    </item>
+    
+    <item>
+      <title>What does it mean to know a word, and how do we learn them?</title>
+      <link>/post/knowing-a-word/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/knowing-a-word/</guid>
+      <description>Probably the main indicator of progress in language learning is increasing &amp;ldquo;known vocabulary&amp;rdquo;. While that sounds pretty uncontroversial* and simple, actually deciding what &amp;ldquo;knowing a word&amp;rdquo; is is actually a subject of hot debate! Particularly when we need to be very precise about things - exactly what you need when you create software - things start to get much less clear.
+How do you know whether you know something? The answer to this question is one that has challenged philosophers and sages since time immemorial!</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/page/software/learn/getting-started/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/getting-started/</guid>
+      <description>Welcome! Transcrobes is an open ecosystem for learning languages, with actual learners at the centre of all research, development and services.
+It is open source, open research and open education.
+Sign up for free to be a part of Transcrobes today
+What can it do? Transcrobes provides deeply individualised comprehension and learning aids, to turn any authentic text into an optimised tool for language learning. Get help only with the stuff you need help for, with automatic glosses for unknown words, and on-demand definitions, translations, similar sentences, synonyms, and direct integration with active learning tools like spaced repetition, and much more.</description>
+    </item>
+    
     <item>
       <title>Beijing University Chinese (Characters) for Beginners</title>
       <link>/page/software/resources/beida/</link>
@@ -171,7 +203,7 @@ Throughout the site, &amp;ldquo;Chrome (and compatible)&amp;rdquo; means Chromiu
       <guid>/page/contact/</guid>
       <description>The project currently uses Github project issues and Github project discussions as the main forms of communication.
 Inappropriate behaviour If you feel you have been the victim inappropriate behaviour or have noticed it somewhere, then please get in touch with the project team via the email: not.ok at transcrob.es.
-Maintainers You can also contact the maintainers directly if you really need to.
+Maintainers You can also contact the maintainers directly if you prefer email.
    Name Project role Contact email     Anton Melser Maintainer anton at transcrob.</description>
     </item>
     
@@ -222,8 +254,7 @@ Server installation documentation</description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/home/</guid>
       <description>See here for more details on the scientific theories behind the Transcrobes project.
-Getting Started Beginners
-Advanced Beginners+
+Getting Started Start Here
 Supported Activities Meta-learning The development focus until now has been on making extensive content consumption tools (web, ebooks, video) available and starting to collect data. notrobes (also see below) already has some basic information on what the system knows about the learner&amp;rsquo;s vocabulary knowledge, including the number of times the word has been seen, definitions looked up, etc.</description>
     </item>
     
@@ -275,6 +306,16 @@ Work has started on a very significantly optimised, personalised, behaviour-base
       <guid>/page/supported-languages/</guid>
       <description>Prerequisites In order for a language pair to be properly supported by the system, two things (currently) need to be accessible and integrated:
   A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
+    </item>
+    
+    <item>
+      <title>Textcrobes</title>
+      <link>/page/software/learn/textcrobes/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/textcrobes/</guid>
+      <description>Sometimes you need to read text that is not in one of the other supported formats, like from a PDF or MS Word document. In these cases, as long as you can copy and paste the text, you can paste it into Textcrobes and get all the great tools and formatting options you have in the other reading tools.
+You can also see your progress on the vocabulary (and soon grammar) contained in the video, and get some idea how difficult it might be for you now, and how that will change in the future if you continue your great work!</description>
     </item>
     
     <item>
@@ -387,7 +428,7 @@ Our Standards Examples of behavior that contributes to creating a positive envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available. Predictive algorithm (when the goal will be achieved based on recent progress) coming soon!</description>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
     </item>
     
     <item>
@@ -419,6 +460,15 @@ The page has information on how the system works under the hood. It is not requi
       <guid>/page/meaningful-io/experiment/</guid>
       <description>Scientific validation of Transcrobes and Meaningful IO Transcrobes is an open source project and is the main means of collecting data for the Meaningful IO academic (PhD) research project. The project is lead by PhD candidate Anton MELSER and supervised by Dr John LEE.
 In order to validate both the theory and implementation of it in code, an installation of the Transcrobes codebase is made available to experimental subjects to use without charge until at least the conclusion of the research in August 2023.</description>
+    </item>
+    
+    <item>
+      <title>Exporting user data</title>
+      <link>/page/software/configure/exports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/exports/</guid>
+      <description>You can currently export all the data that the system records and processes about your activity on the platform. These are exported in CSV format, and could be used in a spreadsheet app like Google Sheets or Microsoft Excel for making more complicated graphs than we provide today. Don&amp;rsquo;t forget to send us your suggestions if you think you have a graph that others might like, so we can implement it directly on the platform.</description>
     </item>
     
     <item>
