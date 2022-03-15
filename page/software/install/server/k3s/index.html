@@ -92,7 +92,7 @@ That said, if you don&rsquo;t have access to a Kubernetes cluster you can set up
   <meta name="twitter:image" content="/img/tc128.png" />
   <meta name="twitter:card" content="summary" />
   <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.94.0" />
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Transcrobes"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -376,13 +376,13 @@ tcr-postgres-0                                              1/1     Running   0 
 <pre tabindex="0"><code>kubectl delete pvc data-tcr-postgres-0
 </code></pre><h2 id="sidebar---kubectl-aliases">Sidebar - kubectl aliases</h2>
 <p>kubectl is an awesome tool for managing Kubernetes clusters. It allows you to do pretty much everything. But you need to have some serious json-parsing-foo in order to do many things, and the commands can be very long and difficult to grasp. You can add aliases for pretty much everything though, and the following validation and activation sections assume the following aliases.</p>
-<pre tabindex="0"><code>alias tpn.tcr='kubectl get pod -l component=transcrobes -o jsonpath=&quot;{.items[0].metadata.name}&quot;'
-alias tpn.nlp='kubectl get pod -l component=corenlp -o jsonpath=&quot;{.items[0].metadata.name}&quot;'
-alias tpn.pgs='kubectl get pod -l app=postgresql -o jsonpath=&quot;{.items[0].metadata.name}&quot;'
+<pre tabindex="0"><code>alias tpn.tcr=&#39;kubectl get pod -l component=transcrobes -o jsonpath=&#34;{.items[0].metadata.name}&#34;&#39;
+alias tpn.nlp=&#39;kubectl get pod -l component=corenlp -o jsonpath=&#34;{.items[0].metadata.name}&#34;&#39;
+alias tpn.pgs=&#39;kubectl get pod -l app=postgresql -o jsonpath=&#34;{.items[0].metadata.name}&#34;&#39;
 
-alias tip.tcr='kubectl get svc -l component=transcrobes -o jsonpath=&quot;{.items[0].spec.clusterIP}&quot;'
-alias tip.nlp='kubectl get svc -l component=corenlp -o jsonpath=&quot;{.items[0].spec.clusterIP}&quot;'
-alias tip.pgs='kubectl get svc -l app=postgresql -o jsonpath=&quot;{.items[0].spec.clusterIP}&quot;'
+alias tip.tcr=&#39;kubectl get svc -l component=transcrobes -o jsonpath=&#34;{.items[0].spec.clusterIP}&#34;&#39;
+alias tip.nlp=&#39;kubectl get svc -l component=corenlp -o jsonpath=&#34;{.items[0].spec.clusterIP}&#34;&#39;
+alias tip.pgs=&#39;kubectl get svc -l app=postgresql -o jsonpath=&#34;{.items[0].spec.clusterIP}&#34;&#39;
 </code></pre><p>These aliases consist of two parts - a prefix <code>tpn</code> for Transcrobes Pod Name or <code>tip</code> for Transcrobes (service) IP, and a suffix for each application - <code>tcr</code> for Transcrobes Core, <code>ank</code> for Ankrobes Server, <code>nlp</code> for Standford&rsquo;s CoreNLP and <code>pgs</code> for PostgreSQL.</p>
 <p>Put this in a file and source it manually</p>
 <pre tabindex="0"><code>source whereYouPutIt.sh
@@ -423,11 +423,11 @@ Running migrations:
 <p>Helm has two ways of overriding the default values, either via command line parameters or in an overrides file. In order to keep the instructions simple, we will only use the overrides file here. Check out <a href="https://helm.sh/">the Helm docs</a> for more information.</p>
 <p>Download the sample file and modify it according to your actual values</p>
 <pre tabindex="0"><code>curl https://gitlab.com/transcrobes/charts/raw/master/sample-overrides.yaml &gt; overrides.yaml
-</code></pre><pre tabindex="0"><code>## Don't uncomment the ingress lines until AFTER you have validated
+</code></pre><pre tabindex="0"><code>## Don&#39;t uncomment the ingress lines until AFTER you have validated
 ## you can get certificates from letsencrypt-staging!
 transcrobes:
   bingSubscriptionKey: yourAPIToken
-  hosts: ['transcrobes.example.com']
+  hosts: [&#39;transcrobes.example.com&#39;]
   #ingress:
   #  tls:
   #    issuer: letsencrypt-prod
@@ -438,7 +438,6 @@ transcrobes:
 #    service:
 #      nodePorts:
 #        https: yourPortNumber
-
 </code></pre><p>Do <em>NOT</em> uncomment the commented lines yet!</p>
 <p>This allows you to run the following, which you should do after replacing the values with your own</p>
 <pre tabindex="0"><code>helm upgrade releaseName transcrobes/transcrobes -f overrides.yaml
@@ -486,10 +485,10 @@ kubectl apply -f https://gitlab.com/transcrobes/charts/raw/master/transcrobes/ut
 <pre tabindex="0"><code>kubectl get pods | grep issuer
 </code></pre><p>If that command returns something, then an issuer is working. You know that cert-manager has finished when the above command returns nothing. If it can&rsquo;t succeed for any reason, it will stay working until it does. Make sure it has actually appeared and then disappeared before assuming it&rsquo;s finished! The script has pretty detailed logging so check the output of the script to be sure.</p>
 <p>Assuming cert-manager finishes successfully, you can proceed to actually get a valid, production certificate. Let&rsquo;s Encrypt has rather strict limits on its production server, so make sure you have no working issuers for the staging server before proceeding. In order to get production certificates, simply uncomment the <code>ingress</code> section in the overrides.yaml file, like the following</p>
-<pre tabindex="0"><code>## Don't uncomment the ingress lines until AFTER you have validated you can get certificates from letsencrypt-staging
+<pre tabindex="0"><code>## Don&#39;t uncomment the ingress lines until AFTER you have validated you can get certificates from letsencrypt-staging
 transcrobes:
   bingSubscriptionKey: yourAPIToken
-  hosts: ['transcrobes.example.com']
+  hosts: [&#39;transcrobes.example.com&#39;]
   ingress:
     tls:
       issuer: letsencrypt-prod

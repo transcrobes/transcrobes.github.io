@@ -395,7 +395,7 @@ Our Standards Examples of behavior that contributes to creating a positive envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   user dictionaries Dictionary management available Override system defaults with personalised meaning/translation providers   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
     </item>
     
     <item>
@@ -544,6 +544,17 @@ Supported Platforms The following table gives an indication of the level of test
       <guid>/page/software/configure/system/</guid>
       <description>.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Warning
 Whenever a new version is deployed you will need to first refresh the browser page (refresh button, F5, etc.) and then close the browser. Transcrobes makes heavy use of &amp;ldquo;service workers&amp;rdquo;, which need all browser tabs to be closed before taking effect. On Android, you may also need to clear the browser from memory, as Google is very aggressive in caching and this sometimes means it won&amp;rsquo;t perform the refresh.</description>
+    </item>
+    
+    <item>
+      <title>User Dictionaries</title>
+      <link>/page/software/configure/userdictionaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/userdictionaries/</guid>
+      <description>Personalised dictionaries may be imported and used with various parts of the system, including the comprehension aids (glosses, mouseovers, popups, etc.) and active learning tools (Repetrobes, etc.).
+The system currently supports importing dictionaries in the CSV format with a fixed format. In-place editing of dictionaries will be made available at a later date.
+Import options Column and field separators Import file structure The files imported MUST be in CSV format (and have a .</description>
     </item>
     
     <item>

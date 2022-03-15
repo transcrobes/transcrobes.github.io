@@ -7,7 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>mickrok8s - Transcrobes</title>
+  <title>User Dictionaries - Transcrobes</title>
+  <meta name="description" content="Personalised dictionaries may be imported and used with various parts of the system, including the comprehension aids (glosses, mouseovers, popups, etc.) and active learning tools (Repetrobes, etc.).
+The system currently supports importing dictionaries in the CSV format with a fixed format. In-place editing of dictionaries will be made available at a later date.
+Import options Column and field separators Import file structure The files imported MUST be in CSV format (and have a .">
   <meta name="author" content="Anton Melser"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +31,66 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "\/page\/software\/configure\/userdictionaries\/",
+          "name": "User dictionaries"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Anton Melser"
+  },
+  "headline": "User Dictionaries",
+  "description" : "Personalised dictionaries may be imported and used with various parts of the system, including the comprehension aids (glosses, mouseovers, popups, etc.) and active learning tools (Repetrobes, etc.).\nThe system currently supports importing dictionaries in the CSV format with a fixed format. In-place editing of dictionaries will be made available at a later date.\nImport options Column and field separators Import file structure The files imported MUST be in CSV format (and have a .",
+  "inLanguage" : "en",
+  "wordCount":  359 ,
+  "datePublished" : "0001-01-01T00:00:00",
+  "dateModified" : "0001-01-01T00:00:00",
+  "image" : "\/img\/tc128.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "\/page\/software\/configure\/userdictionaries\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "\/img\/tc128.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="mickrok8s" />
+<meta property="og:title" content="User Dictionaries" />
+<meta property="og:description" content="Personalised dictionaries may be imported and used with various parts of the system, including the comprehension aids (glosses, mouseovers, popups, etc.) and active learning tools (Repetrobes, etc.).
+The system currently supports importing dictionaries in the CSV format with a fixed format. In-place editing of dictionaries will be made available at a later date.
+Import options Column and field separators Import file structure The files imported MUST be in CSV format (and have a .">
 <meta property="og:image" content="/img/tc128.png" />
-<meta property="og:url" content="/tags/mickrok8s/" />
+<meta property="og:url" content="/page/software/configure/userdictionaries/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Transcrobes" />
 
-  <meta name="twitter:title" content="mickrok8s" />
+  <meta name="twitter:title" content="User Dictionaries" />
+  <meta name="twitter:description" content="Personalised dictionaries may be imported and used with various parts of the system, including the comprehension aids (glosses, mouseovers, popups, etc.) and active learning tools (Repetrobes, etc.). …">
   <meta name="twitter:image" content="/img/tc128.png" />
   <meta name="twitter:card" content="summary" />
   <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -223,9 +278,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="page-heading">
               
-                <h1>mickrok8s</h1>
+                <h1>User Dictionaries</h1>
               
               
                 <hr class="small">
@@ -241,134 +296,124 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="/post/migrating-to-kube/">
-        <h2 class="post-title">Migrating to Kubernetes</h2>
-        
-        <h3 class="post-subtitle">
-            A square peg in a roundish hole
-        </h3>
-        
-        
-        
-    </a>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Personalised dictionaries may be imported and used with various parts of the system, including the comprehension aids (glosses, mouseovers, popups, etc.) and active learning tools (Repetrobes, etc.).</p>
+<p>The system currently supports importing dictionaries in the CSV format with a fixed format. In-place editing of dictionaries will be made available at a later date.</p>
+<h2 id="import-options">Import options</h2>
+<img src="/img/dictionaries/dict1.png"/>
+<h3 id="column-and-field-separators">Column and field separators</h3>
+<h2 id="import-file-structure">Import file structure</h2>
+<p>The files imported MUST be in CSV format (and have a .csv extension) and have the following structure:</p>
+<h3 id="example-lines">Example lines</h3>
+<pre><code>好,,hao3,good/well/proper/good to/easy to/very/so
+ 好,,hao4,to be fond of/to have a tendency to/to be prone to
+ 好不,,hao3 bu4,not at all .../how very ...
+ 好不好,,hao3 bu5 hao3,(coll.) all right?/OK?
+</code></pre>
+<h3 id="columns">Columns</h3>
+<table>
+<thead>
+<tr>
+<th>Word (obligatory)</th>
+<th>POS (optional)</th>
+<th>Sound (optional)</th>
+<th>Meanings (obligatory)</th>
+</tr>
+</thead>
+</table>
+<ul>
+<li>The optional fields must still be present, in the sense that the file MUST have at least 4 columns for every line</li>
+</ul>
+<h3 id="column-details">Column details</h3>
+<table>
+<thead>
+<tr>
+<th>Field/Column</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Word (obligatory)</td>
+<td>The exact word string</td>
+</tr>
+<tr>
+<td>POS (optional)</td>
+<td>Part of speech, considered as &ldquo;OTHER&rdquo; if missing</td>
+</tr>
+<tr>
+<td>Sound (optional)</td>
+<td>Sound in pinyin format (both number &ldquo;hao3&rdquo; and accented &ldquo;hǎo&rdquo; formats accepted)</td>
+</tr>
+<tr>
+<td>Meanings (obligatory)</td>
+<td>One or more English (L1) translations for the word</td>
+</tr>
+</tbody>
+</table>
+<h2 id="basic-part-of-speech-types">Basic Part of Speech types</h2>
+<p>The basic part-of-speech types used in the system are the following:</p>
+<ul>
+<li>NOUN: &ldquo;Noun&rdquo;</li>
+<li>VERB: &ldquo;Verb&rdquo;</li>
+<li>ADJ: &ldquo;Adjective&rdquo;</li>
+<li>ADV: &ldquo;Adverb&rdquo;</li>
+<li>PREP: &ldquo;Preposition&rdquo;</li>
+<li>PRON: &ldquo;Pronoun&rdquo;</li>
+<li>CONJ: &ldquo;Conjunction&rdquo;</li>
+<li>DET: &ldquo;Determiner&rdquo;</li>
+<li>MODAL: &ldquo;Modal&rdquo;</li>
+<li>OTHER: &ldquo;Other&rdquo;</li>
+</ul>
+<h2 id="extended-part-of-speech-types">Extended Part of Speech types</h2>
+<p>The system uses the <a href="https://catalog.ldc.upenn.edu/LDC2013T21">Chinese parts-of-speech tag set developed by the University of Pennsylvania</a> internally for several advanced functions, and you may also use these to help the system to find the best match when looking for glosses for unknown words.</p>
+<ul>
+<li>AD: &ldquo;Adverb&rdquo;</li>
+<li>AS: &ldquo;Aspect Marker&rdquo;</li>
+<li>BA: &ldquo;BA-construction&rdquo;</li>
+<li>CC: &ldquo;Coordinating conjunction&rdquo;</li>
+<li>CD: &ldquo;Cardinal number&rdquo;</li>
+<li>CS: &ldquo;Subordinating conjunction&rdquo;</li>
+<li>DEC: &ldquo;DE-relative clause&rdquo;</li>
+<li>DEG: &ldquo;DE-associative&rdquo;</li>
+<li>DER: &ldquo;DE-V-de-R&rdquo;</li>
+<li>DEV: &ldquo;DE-before verb&rdquo;</li>
+<li>DT: &ldquo;Determiner&rdquo;</li>
+<li>ETC: &lsquo;&ldquo;etc&rdquo; marker&rsquo;</li>
+<li>FW: &ldquo;Foreign word&rdquo;</li>
+<li>IJ: &ldquo;Interjection&rdquo;</li>
+<li>JJ: &ldquo;Adjective&rdquo;</li>
+<li>LB: &lsquo;Long &ldquo;BEI&rdquo;&rsquo;</li>
+<li>LC: &ldquo;Localizer&rdquo;</li>
+<li>M: &ldquo;Measure word&rdquo;</li>
+<li>MSP: &ldquo;Other particle&rdquo;</li>
+<li>NN: &ldquo;Common noun&rdquo;</li>
+<li>NR: &ldquo;Proper noun&rdquo;</li>
+<li>NT: &ldquo;Temporal noun&rdquo;</li>
+<li>OD: &ldquo;Ordinal number&rdquo;</li>
+<li>ON: &ldquo;Onomatopoeia&rdquo;</li>
+<li>P: &lsquo;Preposition (excl &ldquo;and&rdquo;)&rsquo;</li>
+<li>PN: &ldquo;Pronoun&rdquo;</li>
+<li>PU: &ldquo;Punctuation&rdquo;</li>
+<li>SB: &lsquo;Short &ldquo;BEI&rdquo;&rsquo;</li>
+<li>SP: &ldquo;Phrase-final particle&rdquo;</li>
+<li>VA: &ldquo;Predicative adjective&rdquo;</li>
+<li>VC: &ldquo;Copula verb&rdquo;,</li>
+<li>VE: &ldquo;YOU as main verb&rdquo;</li>
+<li>VV: &ldquo;Other verb&rdquo;</li>
+<li>URL: &ldquo;URL&rdquo;,</li>
+</ul>
 
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2019-02-17
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;9&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1790&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
-    
-  
-  
-</span>
+      </article>
 
+      
 
-    </p>
-    <div class="post-entry">
-        
-        This is Part 3 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
-Check out Part 1 here and Part 2 here.
-Kubernetes Migration Woes nginx-ingress I was coming from a setup where I knew the component parts (Apache + mod_wsgi) pretty well. I haven&rsquo;t been working on high-load web stuff for over 8 years now, and always thought that nginx was a lot of hype for not much benefit.
-        <a href="/post/migrating-to-kube/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="//tags/technical/">technical</a>&nbsp;
-        
-        <a href="//tags/mickrok8s/">mickrok8s</a>&nbsp;
-        
-        <a href="//tags/kubernetes/">Kubernetes</a>&nbsp;
-        
-        <a href="//tags/alibaba-cloud/">Alibaba Cloud</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="/post/single-user-prod-microk8s/">
-        <h2 class="post-title">Single-User Production on Microk8s</h2>
-        
-        <h3 class="post-subtitle">
-            Never Say Never
-        </h3>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on 2019-02-05
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;9&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;1723&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Anton Melser
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        This is Part 1 of a mini-series of my experiences getting Transcrobes migrated from separate server apps on a 4gig Alibaba Cloud VM to microk8s on the same VM, and automating (almost) everything with Gitlab CI.
-Introduction Microk8s is a kube-in-a-box distribution sponsored by Ubuntu, and in this blog post I recount my experiences getting my own personal Transcrobes installation migrated to a Kubernetes Helm chart and running on it on a 4GB VM on Alibaba Cloud in China.
-        <a href="/post/single-user-prod-microk8s/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-        <a href="//tags/technical/">technical</a>&nbsp;
-        
-        <a href="//tags/mickrok8s/">mickrok8s</a>&nbsp;
-        
-        <a href="//tags/kubernetes/">Kubernetes</a>&nbsp;
-        
-        <a href="//tags/alibaba-cloud/">Alibaba Cloud</a>&nbsp;
-        
-    </div>
-    
-
-</article>
-          
-        </div>
-        
-      </div>
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
