@@ -15,7 +15,7 @@
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/in-search-of-science/</guid>
       <description>All models are wrong, but some are useful (after George E. P. Box)
- The longer I live, the more I realise that there must be two kinds of &amp;ldquo;science&amp;rdquo;. One with a capital - Science - and one without - science. Alas, it appears that academics, scholars and commentators throughout the Western world are yet to discover this, and we very predominantly see talk about &amp;ldquo;science&amp;rdquo; with a lowercase &amp;ldquo;s&amp;rdquo;, at least in most types of popular and political discourse (institutional/government), when really they mean &amp;ldquo;Science&amp;rdquo;.</description>
+ There seem to be two kinds of &amp;ldquo;science&amp;rdquo;. One with a capital - Science - and one without - science. Alas, it appears that academics and commentators throughout the Western world are yet to discover this. We very predominantly hear them talk about &amp;ldquo;science&amp;rdquo; with a lowercase &amp;ldquo;s&amp;rdquo; - at least in most types of popular and political discourse - when really they mean &amp;ldquo;Science&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -126,6 +126,15 @@ Introduction Microk8s is a kube-in-a-box distribution sponsored by Ubuntu, and i
       <description>This blog post announces the official open-sourcing of the (brand new) Transcrobes project. Code is available for all components on Gitlab.
 Some ideas were originally posted to Blogger before the code was open-sourced. Future blogposts on the project by the maintainers should happen directly on https://transcrob.es.
 Transcrobes proposes a new paradigm for language learning, one that finally puts each individual language learner at the centre of everything. Content-based instruction, extensive reading and other modern approaches have been pushing in this direction for several decades, Transcrobes is an open source project that takes this approach to the logical conclusion.</description>
+    </item>
+    
+    <item>
+      <title>The Language Conspiracy</title>
+      <link>/post/superpowers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/superpowers/</guid>
+      <description>Roy Harris talks about a &amp;ldquo;Language Myth&amp;rdquo; (Harris, 19when describing modern (particularly Western) view on &amp;ldquo;language&amp;rdquo;. But maybe a better way to think about it is as a &amp;ldquo;Language Conspiracy&amp;rdquo;. Conspiracies are absolutely fascinating phenomena in that something that might very well be seen by one group as a perfectly normal set of activities and states of affairs are seen by others as dastardly actions most foul, devised by a cabal of nefarious masterminds in the birthing of their ungodly designs.</description>
     </item>
     
   </channel>

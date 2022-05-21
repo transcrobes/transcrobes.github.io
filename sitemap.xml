@@ -216,6 +216,8 @@
   </url><url>
     <loc>/page/software/install/server/k3s/</loc>
   </url><url>
+    <loc>/tags/language/</loc>
+  </url><url>
     <loc>/page/software/configure/listrobes/</loc>
   </url><url>
     <loc>/page/meaningful-io/</loc>
@@ -232,7 +234,11 @@
   </url><url>
     <loc>/page/software/install/server/server-privacy/</loc>
   </url><url>
+    <loc>/tags/sign-making/</loc>
+  </url><url>
     <loc>/page/software/configure/system/</loc>
+  </url><url>
+    <loc>/post/superpowers/</loc>
   </url><url>
     <loc>/page/software/configure/userdictionaries/</loc>
   </url><url>

@@ -170,5 +170,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>language</title>
+      <link>/tags/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sign making</title>
+      <link>/tags/sign-making/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/tags/sign-making/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sign making on Transcrobes</title>
+    <link>/tags/sign-making/</link>
+    <description>Recent content in sign making on Transcrobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>anton@transcrob.es (Anton Melser)</managingEditor>
+    <webMaster>anton@transcrob.es (Anton Melser)</webMaster><atom:link href="/tags/sign-making/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Language Conspiracy</title>
+      <link>/post/superpowers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/post/superpowers/</guid>
+      <description>Roy Harris talks about a &amp;ldquo;Language Myth&amp;rdquo; (Harris, 19when describing modern (particularly Western) view on &amp;ldquo;language&amp;rdquo;. But maybe a better way to think about it is as a &amp;ldquo;Language Conspiracy&amp;rdquo;. Conspiracies are absolutely fascinating phenomena in that something that might very well be seen by one group as a perfectly normal set of activities and states of affairs are seen by others as dastardly actions most foul, devised by a cabal of nefarious masterminds in the birthing of their ungodly designs.</description>
+    </item>
+    
+  </channel>
+</rss>
