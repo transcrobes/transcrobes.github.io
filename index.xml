@@ -419,6 +419,17 @@ Enriching is a complex process that makes sure all of the content has been prope
     </item>
     
     <item>
+      <title>Dashboard</title>
+      <link>/page/software/learn/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/dashboard/</guid>
+      <description>The Dashboard gives you an entry point to all the application functions and a high level view of some progress indicators.
+The &amp;ldquo;Goals Progress&amp;rdquo; widget gives a quick idea of how you are doing with all your Goals in one place.
+Later on you will be able to personalise what information you put on the Dashboard but for the moment we are repeating the &amp;ldquo;Known Words and Characters&amp;rdquo; graph you can also find on the Stats page</description>
+    </item>
+    
+    <item>
       <title>Enrichment</title>
       <link>/page/software/configure/enrichment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
