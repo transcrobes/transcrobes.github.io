@@ -242,9 +242,10 @@ How do I install Transcrobes?</description>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/install/home/</guid>
-      <description>Transcrobes has both server components and client components. As the audiences for each family of components is different, documentation has been separated into two sections:
-Client installation documentation
-Server installation documentation</description>
+      <description>Sign up for free to learn using Transcrobes today
+Transcrobes has both server components and client components. As the audiences for each family of components is different, documentation has been separated into two sections:
+For normal learners Install the learning tools documentation
+For system admins and open source enthusiasts Server installation documentation</description>
     </item>
     
     <item>
@@ -323,7 +324,7 @@ You can also see your progress on the vocabulary (and soon grammar) contained in
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/install/clients/transcrobes/</guid>
-      <description>Before you begin The Transcrobes website (and Brocrobes) both use the latest web browser standard functionalities to provide for a rich, offline-capable learning and content experience. That means that even though it is entirely browser-based, you can still use most of the functionality offline, like reading ebooks, watching movies or practising vocabulary. In order to support that, Transcrobes needs to download and prepare quite a bit of data, so before you get started you will need to do that.</description>
+      <description>Before you begin After clicking on Initialise, the system will install the data and then take you to the dashboard</description>
     </item>
     
     <item>
@@ -405,7 +406,7 @@ Our Standards Examples of behavior that contributes to creating a positive envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   user dictionaries Dictionary management available Override system defaults with personalised meaning/translation providers   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
+      <description>Common data and configuration tasks    Name Task Type Status Comments     reader settings Reader config available Personlise the reading aids   imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   user dictionaries Dictionary management available Override system defaults with personalised meaning/translation providers   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
     </item>
     
     <item>
@@ -465,7 +466,8 @@ In order to validate both the theory and implementation of it in code, an instal
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/glossing/</guid>
-      <description>Because all learners have different language backgrounds, glossing with another language may not be the best way for you to understand and learn, so a few other options are currently provided. This is one of the active research aspects of the platform - what are the best glossing techniques for learners, if they have a choice between several? How does it affect comprehension? How does it affect enjoyment? How does it affect learning?</description>
+      <description>You can configure these options wherever that makes sense on the content screens.
+Because all learners have different language backgrounds, glossing with another language may not be the best way for you to understand and learn, so a few other options are currently provided. This is one of the active research aspects of the platform - what are the best glossing techniques for learners, if they have a choice between several?</description>
     </item>
     
     <item>
@@ -536,6 +538,17 @@ Discussion of the many, many contributing factors to language learning performan
       <guid>/page/software/configure/preferences/</guid>
       <description>The preferences page allows you to configure the system with any system-wide preferences that aren&amp;rsquo;t directly related to a given tool (e.g, Repetrobes-specific preferences are configured directly in the tool).
 Dark mode Dark mode is now fully supported. There is a known issue personalising text and gloss colour in boocrobes that is being worked on.</description>
+    </item>
+    
+    <item>
+      <title>Reader Settings</title>
+      <link>/page/software/configure/reader-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/configure/reader-settings/</guid>
+      <description>Each interface allows you to configure the reading aids (including for subtitles) in a fairly standard way, with additions whether that makes sense.
+Each content screen has a button to take you to the specific configuration for it. Have a play and find what works for you best!
+Main font configuration Here you can choose to override the default fonts in the interfaces where that makes sense, like boocrobes and moocrobes.</description>
     </item>
     
     <item>
