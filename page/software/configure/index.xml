@@ -101,7 +101,7 @@ Dark mode Dark mode is now fully supported. There is a known issue personalising
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/reader-settings/</guid>
-      <description>Each interface allows you to configure the reading aids (including for subtitles) in a fairly standard way, with additions whether that makes sense.
+      <description>Each interface allows you to configure the reading aids (including for subtitles) in a fairly standard way, with some additions where that makes sense.
 Each content screen has a button to take you to the specific configuration for it. Have a play and find what works for you best!
 Main font configuration Here you can choose to override the default fonts in the interfaces where that makes sense, like boocrobes and moocrobes.</description>
     </item>
