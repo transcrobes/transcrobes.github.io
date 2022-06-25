@@ -19,6 +19,15 @@
     </item>
     
     <item>
+      <title>Content Stats</title>
+      <link>/page/software/learn/content-stats/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <author>anton@transcrob.es (Anton Melser)</author>
+      <guid>/page/software/learn/content-stats/</guid>
+      <description>TODO</description>
+    </item>
+    
+    <item>
       <title>My Stats</title>
       <link>/page/software/learn/stats/</link>
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
@@ -486,8 +495,7 @@ Because all learners have different language backgrounds, glossing with another 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/imports/</guid>
-      <description>Lists of vocabulary and content can be imported into Transcrobes.
-When files are imported, they are parsed and analysed, and important information is stored about them. These analyses can then be used for creating word lists. Word lists are the basis for several Transcrobes features, including vocabulary revision and setting goals, with more to come soon. Depending on the file type, imports of the appropriate type will appear as ebooks or media/video (for subtitles).</description>
+      <description>Supported formats    Name Use case Details Supported Extensions     CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv   TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt   SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .</description>
     </item>
     
     <item>
