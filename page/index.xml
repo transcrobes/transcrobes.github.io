@@ -76,7 +76,7 @@ How does it work? The system knows what you know, so can give you just the right
       <description>The project currently uses Github project issues and Github project discussions as the main forms of communication.
 Inappropriate behaviour If you feel you have been the victim inappropriate behaviour or have noticed it somewhere, then please get in touch with the project team via the email: not.ok at transcrob.es.
 Maintainers You can also contact the maintainers directly if you prefer email.
-   Name Project role Contact email     Anton Melser Maintainer anton at transcrob.</description>
+Name Project role Contact email Anton Melser Maintainer anton at transcrob.</description>
     </item>
     
     <item>
@@ -116,7 +116,7 @@ How do I install Transcrobes?</description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/privacy/</guid>
       <description>Privacy pages The Transcrobes project contains several sub-projects. Some of these sub-projects have distinct privacy implications and issues, so require specific information. This page provides links to each of the separate privacy pages to allow users/learners to quickly get answers to their privacy-related questions.
-Application-specific privacy pages  Brocrobes Transcrobes server  </description>
+Application-specific privacy pages Brocrobes Transcrobes server </description>
     </item>
     
     <item>
@@ -126,7 +126,7 @@ Application-specific privacy pages  Brocrobes Transcrobes server  </description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/supported-languages/</guid>
       <description>Prerequisites In order for a language pair to be properly supported by the system, two things (currently) need to be accessible and integrated:
-  A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
+A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
     </item>
     
     <item>

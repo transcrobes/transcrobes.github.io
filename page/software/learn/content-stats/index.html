@@ -8,7 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Content Stats - Transcrobes</title>
-  <meta name="description" content="TODO">
+  <meta name="description" content="In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page
+Or on Brocrobes, that appears when you Transcrobe a webpage
+Colours The system colour-codes the expected difficulty level, depending on the percentage of known words and the sentence length. We&rsquo;re working on more advanced and even more personalised options at the moment.">
   <meta name="author" content="Anton Melser"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,9 +59,9 @@
     "name" : "Anton Melser"
   },
   "headline": "Content Stats",
-  "description" : "TODO",
+  "description" : "In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page\nOr on Brocrobes, that appears when you Transcrobe a webpage\nColours The system colour-codes the expected difficulty level, depending on the percentage of known words and the sentence length. We\u0026rsquo;re working on more advanced and even more personalised options at the moment.",
   "inLanguage" : "en",
-  "wordCount":  1 ,
+  "wordCount":  307 ,
   "datePublished" : "2022-02-21T00:00:00",
   "dateModified" : "2022-02-21T00:00:00",
   "image" : "\/img\/tc128.png",
@@ -79,18 +81,21 @@
 </script>
 
 <meta property="og:title" content="Content Stats" />
-<meta property="og:description" content="TODO">
+<meta property="og:description" content="In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page
+Or on Brocrobes, that appears when you Transcrobe a webpage
+Colours The system colour-codes the expected difficulty level, depending on the percentage of known words and the sentence length. We&rsquo;re working on more advanced and even more personalised options at the moment.">
 <meta property="og:image" content="/img/tc128.png" />
 <meta property="og:url" content="/page/software/learn/content-stats/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Transcrobes" />
 
   <meta name="twitter:title" content="Content Stats" />
-  <meta name="twitter:description" content="TODO">
+  <meta name="twitter:description" content="In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page
+Or on Brocrobes, that appears when you …">
   <meta name="twitter:image" content="/img/tc128.png" />
   <meta name="twitter:card" content="summary" />
   <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.96.0" />
+  <meta name="generator" content="Hugo 0.101.0" />
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Transcrobes"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -296,7 +301,44 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>TODO</p>
+        <p>In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page</p>
+<img src="/img/content-stats/small-box1.png"/>
+<p>Or on Brocrobes, that appears when you Transcrobe a webpage</p>
+<img src="/img/content-stats/small-box0.png"/>
+<h3 id="colours">Colours</h3>
+<p>The system colour-codes the expected difficulty level, depending on the percentage of known words and the sentence length. We&rsquo;re working on more advanced and even more personalised options at the moment.</p>
+<table>
+<thead>
+<tr>
+<th>Colour</th>
+<th>Difficulty level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span style="background-color:#4caf50;color:white;padding:0.2em;border-radius:10px">88:78:90:81:15</span></td>
+<td>Straightforward</td>
+</tr>
+<tr>
+<td><span style="background-color:#03a9f4;color:white;padding:0.2em;border-radius:10px">79:48:80:51:25</span></td>
+<td>Moderate</td>
+</tr>
+<tr>
+<td><span style="background-color:#ff9800;color:white;padding:0.2em;border-radius:10px">49:28:50:21:42</span></td>
+<td>Challenging</td>
+</tr>
+</tbody>
+</table>
+<p>The Brocrobes example above shows the following data: <span style="background-color:rgb(2, 136, 209);color:white;padding:0.2em;border-radius:10px">79:48:80:51:15</span>, for which you have an explanation if you click anywhere on the button to the left of the <img style="display:inline;" src="/img/brocrobes/stats3.png" />.</p>
+<img style="max-width:50%" src="/img/content-stats/box0.png"/>
+<p>The numbers correspond to the <strong>Ratio</strong> column and should be fairly self-explanatory, except maybe the difference between &ldquo;types&rdquo; and &ldquo;tokens&rdquo;.</p>
+<h3 id="types-and-tokens">Types and Tokens</h3>
+<p>Let&rsquo;s look at an example in English: The cat sat on the mat.</p>
+<p>So how many words are in that sentence? 6? or only 5? Because the word &ldquo;the&rdquo; appears twice, both answers are correct! In fact, in that sentence there are <strong>6 tokens</strong> and <strong>5 types</strong>.</p>
+<p>We can think of types as only counting unique words and tokens as counting all words individually. Exactly the same principle applies for characters, there are 17 tokens but only 9 types (excluding punctuation), though obviously that is much more interesting to know about for Chinese than English!</p>
+<p>Both of these percentages can give you information about how easy reading a given text might be.</p>
+<h3 id="sentence-length">Sentence length</h3>
+<p>The average number of words in a sentence is also quite useful for predicting how difficult a text might be but you should always remember that there are many, many other factors (interest, topic familiarity, tiredness,&hellip;) that can affect reading comprehension, so don&rsquo;t worry if the system shows you not knowing a very high percent. The more you read, the more you learn!</p>
 
       </article>
 

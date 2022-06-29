@@ -14,7 +14,9 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/content-stats/</guid>
-      <description>TODO</description>
+      <description>In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page
+Or on Brocrobes, that appears when you Transcrobe a webpage
+Colours The system colour-codes the expected difficulty level, depending on the percentage of known words and the sentence length. We&amp;rsquo;re working on more advanced and even more personalised options at the moment.</description>
     </item>
     
     <item>
@@ -84,7 +86,7 @@ You can access the video content from the Contents menu</description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/notrobes/</guid>
       <description>Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
-Using Notrobes     Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
+Using Notrobes Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
     </item>
     
     <item>

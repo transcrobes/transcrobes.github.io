@@ -15,7 +15,7 @@
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/in-search-of-science/</guid>
       <description>All models are wrong, but some are useful (after George E. P. Box)
- There seem to be two kinds of &amp;ldquo;science&amp;rdquo;. One with a capital - Science - and one without - science. Alas, it appears that academics and commentators throughout the Western world are yet to discover this. We very predominantly hear them talk about &amp;ldquo;science&amp;rdquo; with a lowercase &amp;ldquo;s&amp;rdquo; - at least in most types of popular and political discourse - when really they mean &amp;ldquo;Science&amp;rdquo;.</description>
+There seem to be two kinds of &amp;ldquo;science&amp;rdquo;. One with a capital - Science - and one without - science. Alas, it appears that academics and commentators throughout the Western world are yet to discover this. We very predominantly hear them talk about &amp;ldquo;science&amp;rdquo; with a lowercase &amp;ldquo;s&amp;rdquo; - at least in most types of popular and political discourse - when really they mean &amp;ldquo;Science&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -24,7 +24,9 @@
       <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/content-stats/</guid>
-      <description>TODO</description>
+      <description>In various places in the application that analyse and enrich content you can find little coloured boxes that appear, like you can see on the Content list page
+Or on Brocrobes, that appears when you Transcrobe a webpage
+Colours The system colour-codes the expected difficulty level, depending on the percentage of known words and the sentence length. We&amp;rsquo;re working on more advanced and even more personalised options at the moment.</description>
     </item>
     
     <item>
@@ -105,7 +107,7 @@ Some of the resources provided by the course won&amp;rsquo;t be necessary for yo
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/getting-started-beginner/</guid>
-      <description>tl;dr  Do an (online or offline) introductory course to get started with learning grammar and basic vocabulary. Use the Transcrobes vocabulary learning and revision tools to super-charge your learning, and then use it to start consuming real content as soon as you feel you can.  Introduction Transcrobes already has a lot of advanced functionality, but here is some introductory advice on how to start using it for beginners to Chinese.</description>
+      <description>tl;dr Do an (online or offline) introductory course to get started with learning grammar and basic vocabulary. Use the Transcrobes vocabulary learning and revision tools to super-charge your learning, and then use it to start consuming real content as soon as you feel you can. Introduction Transcrobes already has a lot of advanced functionality, but here is some introductory advice on how to start using it for beginners to Chinese. A lot of Transcrobes functionality is currently focussed on developing written skills (reading, writing, vocabularly), so if you are a heritage learner with a large spoken vocabulary but only recognise a few characters, you should also start here (but you&amp;rsquo;ll likely progress VERY fast!</description>
     </item>
     
     <item>
@@ -114,7 +116,7 @@ Some of the resources provided by the course won&amp;rsquo;t be necessary for yo
       <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/post/getting-started-intermediate/</guid>
-      <description>tl;dr Bootstrap  If you already use an application, then export the vocab you already know and import that as a list to Transcrobes. Importing let&amp;rsquo;s you bootstrap your account so the system learns what you know. If your current/previous application doesn&amp;rsquo;t allow that, or you are just getting started learning with software, then head to the Listrobes input tool and spend as much time as you can be bothered telling the system what words you already know.</description>
+      <description>tl;dr Bootstrap If you already use an application, then export the vocab you already know and import that as a list to Transcrobes. Importing let&amp;rsquo;s you bootstrap your account so the system learns what you know. If your current/previous application doesn&amp;rsquo;t allow that, or you are just getting started learning with software, then head to the Listrobes input tool and spend as much time as you can be bothered telling the system what words you already know.</description>
     </item>
     
     <item>
@@ -213,7 +215,7 @@ Throughout the site, &amp;ldquo;Chrome (and compatible)&amp;rdquo; means Chromiu
       <description>The project currently uses Github project issues and Github project discussions as the main forms of communication.
 Inappropriate behaviour If you feel you have been the victim inappropriate behaviour or have noticed it somewhere, then please get in touch with the project team via the email: not.ok at transcrob.es.
 Maintainers You can also contact the maintainers directly if you prefer email.
-   Name Project role Contact email     Anton Melser Maintainer anton at transcrob.</description>
+Name Project role Contact email Anton Melser Maintainer anton at transcrob.</description>
     </item>
     
     <item>
@@ -285,7 +287,7 @@ You can access the video content from the Contents menu</description>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/notrobes/</guid>
       <description>Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
-Using Notrobes     Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
+Using Notrobes Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
     </item>
     
     <item>
@@ -295,7 +297,7 @@ Using Notrobes     Simply enter a word in the language you are learning into the
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/privacy/</guid>
       <description>Privacy pages The Transcrobes project contains several sub-projects. Some of these sub-projects have distinct privacy implications and issues, so require specific information. This page provides links to each of the separate privacy pages to allow users/learners to quickly get answers to their privacy-related questions.
-Application-specific privacy pages  Brocrobes Transcrobes server  </description>
+Application-specific privacy pages Brocrobes Transcrobes server </description>
     </item>
     
     <item>
@@ -315,7 +317,7 @@ Work has started on a very significantly optimised, personalised, behaviour-base
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/supported-languages/</guid>
       <description>Prerequisites In order for a language pair to be properly supported by the system, two things (currently) need to be accessible and integrated:
-  A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
+A parts-of-speech parser needs to exist for the learning language. The system (currently) uses the open source Stanford CoreNLP, which (currently) supports English, Chinese, French, German, Spanish and Arabic. Adding support for those learning languages is thus relatively trivial, and probably covers 70-80% of the second languages that people commonly learn.</description>
     </item>
     
     <item>
@@ -416,7 +418,7 @@ Our Standards Examples of behavior that contributes to creating a positive envir
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/home/</guid>
-      <description>Common data and configuration tasks    Name Task Type Status Comments     reader settings Reader config available Personlise the reading aids   imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon)   user dictionaries Dictionary management available Override system defaults with personalised meaning/translation providers   vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know   exports Data export available Word-level and daily activity exports (more soon)   word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon   goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
+      <description>Common data and configuration tasks Name Task Type Status Comments reader settings Reader config available Personlise the reading aids imports Data/Content import available Supported formats: TXT, CSV, epub (v3), SRT, VTT (more soon) user dictionaries Dictionary management available Override system defaults with personalised meaning/translation providers vocabulary bootstrap Known vocabulary input available Quickly teach the system what you know exports Data export available Word-level and daily activity exports (more soon) word lists Define meaningful vocabulary/grammar sets Vocabulary available Grammar lists available soon goals Define personal goals Basic availability Goals based on single lists and basic progress information available.</description>
     </item>
     
     <item>
@@ -447,8 +449,9 @@ Later on you will be able to personalise what information you put on the Dashboa
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/enrichment/</guid>
       <description>A primary goal of the system is to &amp;ldquo;increase the bandwidth to the brain&amp;rdquo; - giving you exactly the extra information you need to be able to understand and also to learn most efficiently.
-.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Tip
-The page has information on how the system works under the hood. It is not required if you just want to use the system.</description>
+Tip
+The page has information on how the system works under the hood. It is not required if you just want to use the system.
+The system is able to give detailed, personalised help for each word (and soon grammatical patterns too) because of two things.</description>
     </item>
     
     <item>
@@ -495,7 +498,7 @@ Because all learners have different language backgrounds, glossing with another 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/imports/</guid>
-      <description>Supported formats    Name Use case Details Supported Extensions     CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv   TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt   SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .</description>
+      <description>Supported formats Name Use case Details Supported Extensions CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .vtt EBOOK Reading Chinese language books International standard format for eBooks .</description>
     </item>
     
     <item>
@@ -535,8 +538,8 @@ Discussion of the many, many contributing factors to language learning performan
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/meaningful-io/intro/</guid>
-      <description>The Meaningful IO (Input/Output) Theory of L2 Acquisition  The necessary and sufficient condition for language acquisition is &amp;ldquo;Meaningful Input&amp;rdquo;. Given sufficient Meaningful Input and appropriate communicative contexts, a learner will start producing &amp;ldquo;Meaningful Output&amp;rdquo;, providing evidence that language acquisition has taken place.
-  Meaningful Input (MI) is defined as input that is comprehensible enough for the learner to partake in an activity that has real utility for the individual.</description>
+      <description>The Meaningful IO (Input/Output) Theory of L2 Acquisition The necessary and sufficient condition for language acquisition is &amp;ldquo;Meaningful Input&amp;rdquo;. Given sufficient Meaningful Input and appropriate communicative contexts, a learner will start producing &amp;ldquo;Meaningful Output&amp;rdquo;, providing evidence that language acquisition has taken place.
+Meaningful Input (MI) is defined as input that is comprehensible enough for the learner to partake in an activity that has real utility for the individual. &amp;ldquo;Real utility&amp;rdquo; is defined in terms of psychological and emotional identity imperatives - psychologically and/or emotionally meaningful - that includes both those things that the individual wants to do (enjoys doing, desires, etc.</description>
     </item>
     
     <item>
@@ -585,7 +588,7 @@ Supported Platforms The following table gives an indication of the level of test
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/system/</guid>
-      <description>.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Warning
+      <description>Warning
 Whenever a new version is deployed you will need to first refresh the browser page (refresh button, F5, etc.) and then close the browser. Transcrobes makes heavy use of &amp;ldquo;service workers&amp;rdquo;, which need all browser tabs to be closed before taking effect. On Android, you may also need to clear the browser from memory, as Google is very aggressive in caching and this sometimes means it won&amp;rsquo;t perform the refresh.</description>
     </item>
     
