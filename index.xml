@@ -154,7 +154,7 @@ How does it work? The system knows what you know, so can give you just the right
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/boocrobes/</guid>
-      <description>Boocrobes Boocrobes allows you to read ebooks in the EPUB format using personalised comprehension aids, including when you are offline. The module is a (very slightly) adapted version of the amazing open source javascript &amp;ldquo;Readium V2&amp;rdquo; R2D2BC reader developed by Aferdita Muriqi, with the addition of the special Transcrobes sauce that connects you to the model the system has of your language knowledge. The integration is not yet perfect, so you may need to refresh the page occasionally if the formatting does something strange.</description>
+      <description>Discover how to use Boocrobes on Boocrobes allows you to read ebooks in the EPUB format using personalised comprehension aids, including when you are offline. The module is a (very slightly) adapted version of the amazing open source javascript &amp;ldquo;Readium V2&amp;rdquo; R2D2BC reader developed by Aferdita Muriqi, with the addition of the special Transcrobes sauce that connects you to the model the system has of your language knowledge. The integration is not yet perfect, so you may need to refresh the page occasionally if the formatting does something strange.</description>
     </item>
     
     <item>
@@ -163,7 +163,7 @@ How does it work? The system knows what you know, so can give you just the right
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/brocrobes/</guid>
-      <description>Brocrobes is a browser extension that allows you to enrich any webpage with the your own, personalised help. When you click on the extension button, the extension will look for all text in the language you are learning on the page, and send that to the server. The server will then get context-based definitions for all the words, and translations for all the sentences, and send that back to the browser.</description>
+      <description>Discover how to use Brocrobes on Brocrobes is a browser extension that allows you to enrich any webpage with the your own, personalised help. When you click on the extension button, the extension will look for all text in the language you are learning on the page, and send that to the server. The server will then get context-based definitions for all the words, and translations for all the sentences, and send that back to the browser.</description>
     </item>
     
     <item>
@@ -276,8 +276,7 @@ Understanding language learning You can find detailed getting started informatio
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/moocrobes/</guid>
-      <description>Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.
-You can access the video content from the Contents menu</description>
+      <description>Discover how to use Moocrobes on Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.</description>
     </item>
     
     <item>
@@ -286,7 +285,7 @@ You can access the video content from the Contents menu</description>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/notrobes/</guid>
-      <description>Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
+      <description>Discover how to use Notrobes on Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
 Using Notrobes Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
     </item>
     
@@ -306,7 +305,7 @@ Application-specific privacy pages Brocrobes Transcrobes server </description>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/repetrobes/</guid>
-      <description>Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
+      <description>Discover how to use Repetrobes on Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
 Work has started on a very significantly optimised, personalised, behaviour-based, AI-powered version, which will be integrated soon. This new version will take into account all the information the system has on you, not just your responses in the tool, making it a LOT more accurate and powerful.</description>
     </item>
     
@@ -326,7 +325,7 @@ A parts-of-speech parser needs to exist for the learning language. The system (c
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/textcrobes/</guid>
-      <description>Sometimes you need to read text that is not in one of the other supported formats, like from a PDF or MS Word document. In these cases, as long as you can copy and paste the text, you can paste it into Textcrobes and get all the great tools and formatting options you have in the other reading tools.
+      <description>Discover how to use Textcrobes on Sometimes you need to read text that is not in one of the other supported formats, like from a PDF or MS Word document. In these cases, as long as you can copy and paste the text, you can paste it into Textcrobes and get all the great tools and formatting options you have in the other reading tools.
 You can also see your progress on the vocabulary (and soon grammar) contained in the video, and get some idea how difficult it might be for you now, and how that will change in the future if you continue your great work!</description>
     </item>
     
@@ -498,7 +497,7 @@ Because all learners have different language backgrounds, glossing with another 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/imports/</guid>
-      <description>Supported formats Name Use case Details Supported Extensions CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .vtt EBOOK Reading Chinese language books International standard format for eBooks .</description>
+      <description>Discover how to use Imports on Supported formats Name Use case Details Supported Extensions CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .vtt EBOOK Reading Chinese language books International standard format for eBooks .</description>
     </item>
     
     <item>
@@ -517,8 +516,8 @@ That said, if you don&amp;rsquo;t have access to a Kubernetes cluster you can se
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/listrobes/</guid>
-      <description>Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
-By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &amp;ldquo;Open Subtitles ZH&amp;rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!</description>
+      <description>Discover how to use Listrobes on Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
+By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &amp;ldquo;Open Subtitles ZH&amp;rdquo; (SUBTLEX-CH) list.</description>
     </item>
     
     <item>
@@ -629,7 +628,7 @@ Please refer to the setup documentation for each client application for details 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/wordlists/</guid>
-      <description>Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.</description>
+      <description>Discover how to use Wordlists on Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.</description>
     </item>
     
   </channel>

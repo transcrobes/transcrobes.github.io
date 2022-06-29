@@ -47,7 +47,7 @@ What can it do? Transcrobes provides deeply individualised comprehension and lea
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/boocrobes/</guid>
-      <description>Boocrobes Boocrobes allows you to read ebooks in the EPUB format using personalised comprehension aids, including when you are offline. The module is a (very slightly) adapted version of the amazing open source javascript &amp;ldquo;Readium V2&amp;rdquo; R2D2BC reader developed by Aferdita Muriqi, with the addition of the special Transcrobes sauce that connects you to the model the system has of your language knowledge. The integration is not yet perfect, so you may need to refresh the page occasionally if the formatting does something strange.</description>
+      <description>Discover how to use Boocrobes on Boocrobes allows you to read ebooks in the EPUB format using personalised comprehension aids, including when you are offline. The module is a (very slightly) adapted version of the amazing open source javascript &amp;ldquo;Readium V2&amp;rdquo; R2D2BC reader developed by Aferdita Muriqi, with the addition of the special Transcrobes sauce that connects you to the model the system has of your language knowledge. The integration is not yet perfect, so you may need to refresh the page occasionally if the formatting does something strange.</description>
     </item>
     
     <item>
@@ -56,7 +56,7 @@ What can it do? Transcrobes provides deeply individualised comprehension and lea
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/brocrobes/</guid>
-      <description>Brocrobes is a browser extension that allows you to enrich any webpage with the your own, personalised help. When you click on the extension button, the extension will look for all text in the language you are learning on the page, and send that to the server. The server will then get context-based definitions for all the words, and translations for all the sentences, and send that back to the browser.</description>
+      <description>Discover how to use Brocrobes on Brocrobes is a browser extension that allows you to enrich any webpage with the your own, personalised help. When you click on the extension button, the extension will look for all text in the language you are learning on the page, and send that to the server. The server will then get context-based definitions for all the words, and translations for all the sentences, and send that back to the browser.</description>
     </item>
     
     <item>
@@ -75,8 +75,7 @@ Understanding language learning You can find detailed getting started informatio
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/moocrobes/</guid>
-      <description>Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.
-You can access the video content from the Contents menu</description>
+      <description>Discover how to use Moocrobes on Authentic video, particularly supported by subtitles, can be a highly effective language learning tool. Normal players, however, are not optimised for language learning, and subtitles are either in the language of the video or the native language of the viewer. Also, very few platforms enrich subtitles with hypertext features (clickable definitions, etc.) and no other platforms gloss only the words that the learner doesn&amp;rsquo;t know.</description>
     </item>
     
     <item>
@@ -85,7 +84,7 @@ You can access the video content from the Contents menu</description>
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/notrobes/</guid>
-      <description>Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
+      <description>Discover how to use Notrobes on Notrobes allows you to search for words (individual characters that are not words and radicals coming soon), and gives you significant amounts of information about those words, including your interaction with them.
 Using Notrobes Simply enter a word in the language you are learning into the word entry textbox and the system will go off and get tons of information about the word and the component parts of the word.</description>
     </item>
     
@@ -95,7 +94,7 @@ Using Notrobes Simply enter a word in the language you are learning into the wor
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/repetrobes/</guid>
-      <description>Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
+      <description>Discover how to use Repetrobes on Repetrobes is a digital flashcard (spaced repetition system), originally inspired by Anki, and also (currently) using a modified version of the SuperMemo 2 algorithm.
 Work has started on a very significantly optimised, personalised, behaviour-based, AI-powered version, which will be integrated soon. This new version will take into account all the information the system has on you, not just your responses in the tool, making it a LOT more accurate and powerful.</description>
     </item>
     
@@ -105,7 +104,7 @@ Work has started on a very significantly optimised, personalised, behaviour-base
       <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/learn/textcrobes/</guid>
-      <description>Sometimes you need to read text that is not in one of the other supported formats, like from a PDF or MS Word document. In these cases, as long as you can copy and paste the text, you can paste it into Textcrobes and get all the great tools and formatting options you have in the other reading tools.
+      <description>Discover how to use Textcrobes on Sometimes you need to read text that is not in one of the other supported formats, like from a PDF or MS Word document. In these cases, as long as you can copy and paste the text, you can paste it into Textcrobes and get all the great tools and formatting options you have in the other reading tools.
 You can also see your progress on the vocabulary (and soon grammar) contained in the video, and get some idea how difficult it might be for you now, and how that will change in the future if you continue your great work!</description>
     </item>
     

@@ -72,7 +72,7 @@ Because all learners have different language backgrounds, glossing with another 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/imports/</guid>
-      <description>Supported formats Name Use case Details Supported Extensions CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .vtt EBOOK Reading Chinese language books International standard format for eBooks .</description>
+      <description>Discover how to use Imports on Supported formats Name Use case Details Supported Extensions CSV Word lists for monitoring exam progress or training the system on what you know Comma separated plain text files .csv TEXT Copy/paste from an unsupported format (like Word or PDF) Content files in plain text .txt SUBS Watch Chinese language video Find subtitles on sites like opensubtitles.org and import .srt, .vtt EBOOK Reading Chinese language books International standard format for eBooks .</description>
     </item>
     
     <item>
@@ -81,8 +81,8 @@ Because all learners have different language backgrounds, glossing with another 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/listrobes/</guid>
-      <description>Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
-By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &amp;ldquo;Open Subtitles ZH&amp;rdquo; (SUBTLEX-CH) list. This list is based on word frequencies in subtitles, which they argue is the closest to real spoken language (better than other lists anyway!</description>
+      <description>Discover how to use Listrobes on Listrobes is an input interface that allows you to indicate how well you know words very quickly. It can be used with or without the imports system to very quickly train the system, meaning onboarding can be very quick.
+By default the system presents you with a list of the most common words, most common first, according to the University of Ghent &amp;ldquo;Open Subtitles ZH&amp;rdquo; (SUBTLEX-CH) list.</description>
     </item>
     
     <item>
@@ -133,7 +133,7 @@ Import options Column and field separators Import file structure The files impor
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>anton@transcrob.es (Anton Melser)</author>
       <guid>/page/software/configure/wordlists/</guid>
-      <description>Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.</description>
+      <description>Discover how to use Wordlists on Wordlists are created by importing and analysing texts, then directing the system to create a list from the imported data. Texts can be simple lists of words (CSV or TXT are currently supported, more soon), or actual content (currently EPUB ebooks and SRT/VTT subtitles formats are supported, more soon). That makes it easy to both study lists like you might get for an exam, or a chapter in a textbook, but also content.</description>
     </item>
     
   </channel>
